@@ -1,6 +1,6 @@
 	db DEX_CHEEP ; pokedex id
 
-	db  45,  65,  40,  60,  40
+	db  55,  65,  50,  60,  50
 	;   hp  atk  def  spd  spc
 
 	db WATER, WATER ; type

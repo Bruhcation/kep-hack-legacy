@@ -1,6 +1,6 @@
 	db DEX_BUU ; pokedex id
 
-	db  65,  93,  57,  95,  85
+	db  65, 113,  57,  95,  85
 	;   hp  atk  def  spd  spc
 
 	db ICE, ICE ; type

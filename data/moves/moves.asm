@@ -54,7 +54,7 @@ Moves:
 	move TWINEEDLE,    TWINEEDLE_EFFECT,            40, BUG,          100, 20
 	move PIN_MISSILE,  TWO_TO_FIVE_ATTACKS_EFFECT,  20, BUG,          100, 30
 	move LEER,         DEFENSE_DOWN1_EFFECT,         0, BIRD,         100, 30
-	move BITE,         FLINCH_SIDE_EFFECT1,         60, NORMAL,       100, 25
+	move BITE,         FLINCH_SIDE_EFFECT1,         60, DARK,         100, 25
 	move GROWL,        ATTACK_DOWN1_EFFECT,          0, BIRD,         100, 40
 	move ROAR,         SWITCH_AND_TELEPORT_EFFECT,   0, BIRD,         100, 20
 	move SING,         SLEEP_EFFECT,                 0, BIRD,          55, 15
@@ -176,7 +176,7 @@ Moves:
 	move SLASH,        NO_ADDITIONAL_EFFECT,        70, NORMAL,       100, 20
 	move SUBSTITUTE,   SUBSTITUTE_EFFECT,            0, BIRD,         100, 10
 	move FAIRY_WIND,   NO_ADDITIONAL_EFFECT,        40, FAIRY,        100, 30
-	move DRAININGKISS, DRAIN_HP_EFFECT,             65, FAIRY,        100, 10
+	move DRAININGKISS, DRAIN_HP_EFFECT,             65, FAIRY,        100, 15
 	move METAL_SOUND,  SPECIAL_DOWN2_EFFECT,         0, STEEL,         95, 40
 	move MAGNET_BOMB,  SWIFT_EFFECT,                60, STEEL,        100, 20
 	move IRON_DEFENSE, DEFENSE_UP2_EFFECT,           0, STEEL,        100, 15
@@ -191,8 +191,8 @@ Moves:
 	move MIRROR_SHOT,  ACCURACY_DOWN1_EFFECT, 		65, STEEL,		   85, 10
 	move SMART_STRIKE, SWIFT_EFFECT,                70, STEEL,        100, 10
 	move FAKE_TEARS,   SPECIAL_DOWN2_EFFECT,		 0, DARK,		  100, 20
-	move FALSE_SURRENDER, SWIFT_EFFECT,             80, DARK,         100, 10 ; figure out the actual name another time
-	move KOWTOW_CLEAVE,   SWIFT_EFFECT,             85, DARK,         100, 10
+	move FALSE_SURRENDER, SWIFT_EFFECT,             80, DARK,         100, 15 ; figure out the actual name another time
+	move KOWTOW_CLEAVE,   SWIFT_EFFECT,             85, DARK,         100, 15
 	move DISARMING_VOICE, SWIFT_EFFECT,             40, FAIRY,        100, 15
 	move NASTY_PLOT,      SPECIAL_UP2_EFFECT,        0, DARK,         100, 10
 	move UPPERCUT,     FLINCH_SIDE_EFFECT2,         55, FIGHTING,      95, 15

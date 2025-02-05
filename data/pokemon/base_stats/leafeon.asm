@@ -1,6 +1,6 @@
 	db DEX_LEAFEON ; pokedex id
 
-	db  65, 110, 130,  95,  65
+	db  65,  65, 130,  95, 110
 	;   hp  atk  def  spd  spc
 
 	db GRASS, GRASS ; type

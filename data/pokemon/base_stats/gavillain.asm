@@ -1,6 +1,6 @@
 	db DEX_GAVILLAIN ; pokedex id
 
-	db  80,  80,  75,  95,  90
+	db  80,  90,  75,  95,  90
 	;   hp  atk  def  spd  spc
 
 	db DRAGON, ELECTRIC ; type

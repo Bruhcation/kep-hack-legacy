@@ -1,6 +1,6 @@
 	db DEX_SLOWKING_G ; pokedex id
 
-	db  95,  65,  80,  30, 110
+	db  95,  85,  80,  30, 110
 	;   hp  atk  def  spd  spc
 
 	db POISON, PSYCHIC_TYPE ; type
