@@ -195,6 +195,7 @@ INCLUDE "engine/battle/move_effects/reflect_light_screen.asm"
 SECTION "Pokemon Data", ROMX
 
 INCLUDE "engine/pokemon/evos_moves.asm"
+INCLUDE "data/pokemon/base_stats.asm"
 
 SECTION "Battle Core", ROMX
 
@@ -324,7 +325,6 @@ SECTION "In-Game Trade Zone", ROMX
 
 INCLUDE "engine/events/in_game_trades.asm"
 INCLUDE "engine/events/pokecenter_chansey.asm"
-INCLUDE "data/pokemon/base_stats.asm"
 
 SECTION "Itemfinder 1", ROMX
 
