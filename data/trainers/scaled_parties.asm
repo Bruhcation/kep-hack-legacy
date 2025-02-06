@@ -82,10 +82,10 @@ GiovanniData:
 ; Rocket Hideout B4F
 	db $FF, 28, BEEDRILL, 30, RHYHORN, 30, KANGASKHAN, 32, PERSIAN, 0
 ; Silph Co. 11F - did you know this team was weaker than the rival in vanilla level-wise?
-	db $FF, 38, BEEDRILL, 39, RHYDON, 38, KANGASKHAN, 40, NIDOKING, 40, NIDOQUEEN, 42, PERSIAN, 0
+	db $FF, 45, BEEDRILL, 44, RHYDON, 44, KANGASKHAN, 45, NIDOKING, 45, NIDOQUEEN, 47, PERSIAN, 0
 
 LeaderGiovanniData:
-	db $FF, 47, TRAMPEL, 46, DUGTRIO, 46, GUARDIA, 48, NIDOQUEEN, 48, NIDOKING, 50, RHYPERIOR, 0
+	db $FF, 53, TRAMPEL, 53, DUGTRIO, 54, GUARDIA, 55, NIDOQUEEN, 55, NIDOKING, 56, RHYPERIOR, 0
 	
 ChiefData:
 ; Silph Gauntlet 7F
