@@ -19,7 +19,7 @@
 	     COUNTER,      SEISMIC_TOSS, RAGE,         THUNDERBOLT,  THUNDER,      \
 	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         SELFDESTRUCT, \
 	     FIRE_BLAST,   SWIFT,        REST,         THUNDER_WAVE, EXPLOSION,    \
-           TRI_ATTACK,   SUBSTITUTE,   STRENGTH,     FLASH
+         TRI_ATTACK,   SUBSTITUTE,   STRENGTH,     FLASH,        FLAMETHROWER
 	; end
 
 	db BANK(OmegadgePicFront)

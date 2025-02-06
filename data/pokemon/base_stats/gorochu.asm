@@ -19,7 +19,7 @@
 	     COUNTER,      SEISMIC_TOSS, RAGE,         THUNDERBOLT,  THUNDER,      \
 	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         SWIFT,        \
 	     SKULL_BASH,   REST,         THUNDER_WAVE, SUBSTITUTE,   FLY,          \
-	     SURF,         FLASH
+	     SURF,         FLASH,        STRENGTH
 	; end
 
 	db BANK(GorochuPicFront)

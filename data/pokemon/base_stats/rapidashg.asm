@@ -1,6 +1,6 @@
 	db DEX_RAPIDASH_G ; pokedex id
 
-	db  65,  80,  70, 105, 100
+	db  65,  80,  70, 115, 100
 	;   hp  atk  def  spd  spc
 
 	db PSYCHIC_TYPE, FAIRY ; type

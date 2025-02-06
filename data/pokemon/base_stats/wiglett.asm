@@ -1,6 +1,6 @@
 	db DEX_WIGLETT ; pokedex id
 
-	db  10,  55,  25,  95,  55
+	db  10,  55,  25,  95,  70
 	;   hp  atk  def  spd  spc
 
 	db WATER, WATER ; type

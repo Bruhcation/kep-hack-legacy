@@ -19,7 +19,7 @@
 	     RAGE,         THUNDERBOLT,  THUNDER,      EARTHQUAKE,   FISSURE,      \
 	     PSYCHIC_M,    TELEPORT,     MIMIC,        DOUBLE_TEAM,  BIDE,         \
 	     METRONOME,    FIRE_BLAST,   SKULL_BASH,   REST,         PSYWAVE,	   \      
-		 ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
+		 ROCK_SLIDE,   SUBSTITUTE,   STRENGTH,     FLAMETHROWER
 	; end
 
 	db BANK(MagmortarPicFront)

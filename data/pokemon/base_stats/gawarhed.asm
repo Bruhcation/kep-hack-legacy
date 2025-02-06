@@ -19,7 +19,7 @@
 		 COUNTER,      SEISMIC_TOSS, RAGE,         DRAGON_RAGE,  THUNDERBOLT,  \
 		 THUNDER,      EARTHQUAKE,   FISSURE,      DIG,			 MIMIC,        \
 		 DOUBLE_TEAM,  BIDE,         FIRE_BLAST,   SKULL_BASH,   REST,         \
-		 ROCK_SLIDE,   SUBSTITUTE,   SURF,         STRENGTH
+		 ROCK_SLIDE,   SUBSTITUTE,   SURF,         STRENGTH,     CUT
 	; end
 
 	db BANK(GawarhedPicFront)
