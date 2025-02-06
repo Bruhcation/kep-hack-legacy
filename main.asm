@@ -194,7 +194,6 @@ INCLUDE "engine/battle/move_effects/reflect_light_screen.asm"
 
 SECTION "Pokemon Data", ROMX
 
-INCLUDE "data/pokemon/base_stats.asm"
 INCLUDE "engine/pokemon/evos_moves.asm"
 
 SECTION "Battle Core", ROMX
@@ -215,7 +214,6 @@ INCLUDE "gfx/trade.asm"
 SECTION "Pokédex Rating", ROMX
 
 INCLUDE "engine/events/pokedex_rating.asm"
-
 
 SECTION "Hidden Objects Core", ROMX
 
@@ -307,7 +305,6 @@ SECTION "Battle Engine 11", ROMX
 
 INCLUDE "engine/battle/decrement_pp.asm"
 
-
 SECTION "bank1C", ROMX
 
 INCLUDE "engine/movie/splash.asm"
@@ -327,6 +324,7 @@ SECTION "In-Game Trade Zone", ROMX
 
 INCLUDE "engine/events/in_game_trades.asm"
 INCLUDE "engine/events/pokecenter_chansey.asm"
+INCLUDE "data/pokemon/base_stats.asm"
 
 SECTION "Itemfinder 1", ROMX
 

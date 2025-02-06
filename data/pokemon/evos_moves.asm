@@ -1771,6 +1771,7 @@ EeveeEvosMoves:
 	db 8, SAND_ATTACK
 	db 9, BITE
 	db 10, QUICK_ATTACK
+	db 12, SWIFT
 	db 14, GROWL
 	db 17, DOUBLE_KICK
 	db 22, HEADBUTT
@@ -3153,7 +3154,7 @@ UmbreonEvosMoves:
 	db 0
 ; Learnset
 	db 8, SAND_ATTACK
-	db 16, BRUTAL_SWING
+	db 16, HEADBUTT
 	db 23, QUICK_ATTACK
 	db 26, BITE
 	db 30, FEINT_ATTACK
