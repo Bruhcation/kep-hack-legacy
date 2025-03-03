@@ -1,14 +1,3 @@
-; See constants/pokemon_data_constants.asm
-; The max number of evolutions per monster is MAX_EVOLUTIONS
-
-; Template proceeding;
-;NamehereEvosMoves:
-; Evolutions
-;	db EV_LEVEL, LEVELHERE, POKEMON
-;	db 0
-; Learnset
-;	db LEVEL, MOVENAME
-;	db 0
 
 EvosMovesPointerTable:
 	table_width 2, EvosMovesPointerTable
@@ -1504,7 +1493,7 @@ PikachuEvosMoves:
 
 RaichuEvosMoves:
 ; Evolutions
-	db EV_TRADE, 1, GOROCHU ; It matches the old rumour and everyone will try it, don't bother doing Thunder Stone 2...
+	db EV_TRADE, 1, GOROCHU 
 	db 0
 ; Learnset
 	db 6, QUICK_ATTACK
@@ -3700,7 +3689,7 @@ ArcanineHEvosMoves:
 	db 0
 ; Learnset
 	db 10, RAGE
-	db 18, EMBER ; no growlithe-hisui
+	db 18, EMBER 
 	db 23, LEER
 	db 26, ROCK_THROW
 	db 30, TAKE_DOWN
@@ -3710,7 +3699,7 @@ ArcanineHEvosMoves:
 	db 45, DOUBLE_EDGE
 	db 0
 	
-ElectrodeHEvosMoves: ; voltorb-hisui learnset which is also trode's anyway
+ElectrodeHEvosMoves: 
 ; Evolutions
 	db 0
 ; Learnset
@@ -3776,7 +3765,7 @@ SandslashAEvosMoves:
 	db 45, BLIZZARD
 	db 0
 	
-NinetalesAEvosMoves: ; vulpix-alola learnset, same principle for others
+NinetalesAEvosMoves: 
 ; Evolutions
 	db 0
 ; Learnset
@@ -3997,7 +3986,7 @@ GorillaimoEvosMoves:
 ; Learnset
 	db 7, ROAR
 	db 15, BITE
-	db 22, THUNDERPUNCH ; In King Kong vs. Godzilla (1962), King Kong has an affinity for using electricity. He's not only immune to electricity, but is also powered up by it, so Gorillaimo would be given Lightning Rod/Motor Drive as an ability if it were brought into a later generation.
+	db 22, THUNDERPUNCH 
 	db 29, SEISMIC_TOSS
 	db 32, SUBMISSION
 	db 35, BODY_SLAM
