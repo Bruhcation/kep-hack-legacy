@@ -330,7 +330,7 @@ SpearowEvosMoves:
 	db EV_LEVEL, 20, FEAROW
 	db 0
 ; Learnset
-	db 5, RAGE ; Prototype - it's balanced cus spearow has the defence of a wet napkin
+	db 5, RAGE 
 	db 7, LEER
 	db 10, FURY_ATTACK
 	db 14, FOCUS_ENERGY
@@ -755,7 +755,7 @@ GrowlitheEvosMoves:
 	db 30, TAKE_DOWN
 	db 35, FLAMETHROWER
 	db 36, AGILITY
-	db 44, DOUBLE_EDGE ; Prototype
+	db 44, DOUBLE_EDGE 
 	db 0
 
 OnixEvosMoves:
@@ -772,7 +772,7 @@ OnixEvosMoves:
 	db 37, ROCK_SLIDE
 	db 43, EARTHQUAKE
 	db 48, BIND
-	db 50, FISSURE ; Prototype
+	db 50, FISSURE
 	db 0
 
 FearowEvosMoves:
@@ -882,8 +882,8 @@ MachokeEvosMoves:
 	db 33, BODY_SLAM
 	db 37, COUNTER
 	db 41, KARATE_CHOP
-	db 45, MEGA_PUNCH ; Prototype
-	db 50, MEGA_KICK ; Prototype
+	db 45, MEGA_PUNCH
+	db 50, MEGA_KICK 
 	db 0
 
 MrMimeEvosMoves:
@@ -939,7 +939,7 @@ ArbokEvosMoves:
 	db 30, SCREECH
 	db 35, SLUDGE
 	db 38, WRAP
-	db 54, TOXIC ; Prototype
+	db 54, TOXIC 
 	db 0
 
 ParasectEvosMoves:
@@ -955,7 +955,7 @@ ParasectEvosMoves:
 	db 30, SLASH
 	db 36, GROWTH
 	db 40, TWINEEDLE
-	db 45, SWORDS_DANCE ; Prototype
+	db 45, SWORDS_DANCE
 	db 0
 
 PsyduckEvosMoves:
@@ -1732,7 +1732,7 @@ JigglypuffEvosMoves:
 ; Learnset
 	db 3, POUND
 	db 5, DEFENSE_CURL
-	db 12, COUNTER ; Prototype - Pound made L1 because lol imagine using puff otherwise
+	db 12, COUNTER 
 	db 14, DISABLE
 	db 16, DOUBLESLAP
 	db 24, REST
@@ -1840,8 +1840,8 @@ MachopEvosMoves:
 	db 33, TAKE_DOWN
 	db 37, COUNTER
 	db 45, KARATE_CHOP
-	db 53, MEGA_PUNCH ; Prototype
-	db 60, MEGA_KICK ; Prototype
+	db 53, MEGA_PUNCH 
+	db 60, MEGA_KICK 
 	db 0
 
 ZubatEvosMoves:
@@ -1871,7 +1871,7 @@ EkansEvosMoves:
 	db 25, GLARE
 	db 30, SCREECH
 	db 35, SLUDGE
-	db 40, TOXIC ; Prototype
+	db 40, TOXIC 
 	db 47, WRAP
 	db 0
 
@@ -1954,8 +1954,8 @@ BeedrillEvosMoves:
 	db 30, SLUDGE
 	db 35, SWORDS_DANCE
 	db 40, AGILITY
-	db 45, TAKE_DOWN ; Prototype
-	db 50, TOXIC ; Prototype
+	db 45, TAKE_DOWN 
+	db 50, TOXIC 
 	db 0
 
 LuxwanEvosMoves:
@@ -2103,9 +2103,9 @@ ButterfreeEvosMoves:
 	db 24, PSYBEAM
 	db 28, WHIRLWIND
 	db 32, PSYCHIC_M
-	db 40, MEGA_DRAIN ; Prototype
-	db 45, TAKE_DOWN ; Prototype
-	db 50, HYPER_BEAM ; Prototype
+	db 40, MEGA_DRAIN
+	db 45, TAKE_DOWN 
+	db 50, HYPER_BEAM 
 	db 0
 
 MachampEvosMoves:
@@ -2119,8 +2119,8 @@ MachampEvosMoves:
 	db 33, TAKE_DOWN
 	db 37, COUNTER
 	db 45, KARATE_CHOP
-	db 50, MEGA_PUNCH ; Prototype
-	db 55, MEGA_KICK ; Prototype
+	db 50, MEGA_PUNCH 
+	db 55, MEGA_KICK 
 	db 0
 
 WeirduckEvosMoves:
@@ -2474,11 +2474,11 @@ BulbasaurEvosMoves:
 	db 14, LEECH_SEED
 	db 19, POISONPOWDER
 	db 25, RAZOR_LEAF
-	db 28, TAKE_DOWN ; Prototype
+	db 28, TAKE_DOWN 
 	db 32, BODY_SLAM
 	db 35, GROWTH
 	db 37, SLEEP_POWDER
-	db 39, MEGA_DRAIN ; Prototype 
+	db 39, MEGA_DRAIN 
 	db 42, BODY_SLAM
 	db 44, PETAL_DANCE
 	db 48, DOUBLE_EDGE
@@ -2494,11 +2494,11 @@ VenusaurEvosMoves:
 	db 14, LEECH_SEED
 	db 19, POISONPOWDER
 	db 25, RAZOR_LEAF
-	db 28, TAKE_DOWN ; Prototype
+	db 28, TAKE_DOWN 
 	db 32, BODY_SLAM
 	db 35, GROWTH
 	db 37, SLEEP_POWDER
-	db 39, MEGA_DRAIN ; Prototype 
+	db 39, MEGA_DRAIN 
 	db 42, BODY_SLAM
 	db 44, PETAL_DANCE
 	db 48, DOUBLE_EDGE
@@ -2534,8 +2534,8 @@ OrfryEvosMoves:
 	db 17, WATERFALL
 	db 24, FURY_ATTACK
 	db 33, DRILL_PECK
-	db 37, DOUBLE_EDGE ; Prototype
-	db 40, SWORDS_DANCE ; Tradeback move
+	db 37, DOUBLE_EDGE 
+	db 40, SWORDS_DANCE 
 	db 43, HORN_DRILL
 	db 48, AGILITY
 	db 0
@@ -2551,8 +2551,8 @@ GoldeenEvosMoves:
 	db 17, WATERFALL
 	db 24, FURY_ATTACK
 	db 33, DRILL_PECK
-	db 37, DOUBLE_EDGE ; Prototype
-	db 40, SWORDS_DANCE ; Tradeback move
+	db 37, DOUBLE_EDGE 
+	db 40, SWORDS_DANCE 
 	db 43, HORN_DRILL
 	db 48, AGILITY
 	db 0
@@ -2567,8 +2567,8 @@ SeakingEvosMoves:
 	db 17, WATERFALL
 	db 24, FURY_ATTACK
 	db 33, DRILL_PECK
-	db 37, DOUBLE_EDGE ; Prototype
-	db 40, SWORDS_DANCE ; Tradeback move
+	db 37, DOUBLE_EDGE 
+	db 40, SWORDS_DANCE 
 	db 43, HORN_DRILL
 	db 48, AGILITY
 	db 0
@@ -2731,7 +2731,7 @@ NidorinaEvosMoves:
 	db 32, SLUDGE
 	db 36, FURY_SWIPES
 	db 40, EARTHQUAKE
-	db 45, TAKE_DOWN ; Prototype
+	db 45, TAKE_DOWN 
 	db 0
 
 GeodudeEvosMoves:
@@ -3281,7 +3281,7 @@ SteelixEvosMoves:
 	db 38, IRON_HEAD
 	db 43, EARTHQUAKE
 	db 48, BIND
-	db 50, FISSURE ; Prototype
+	db 50, FISSURE 
 	db 0
 
 BlisseyEvosMoves:

@@ -105,7 +105,6 @@ INCLUDE "engine/overworld/emotion_bubbles.asm"
 INCLUDE "engine/events/evolve_trade.asm"
 INCLUDE "engine/battle/move_effects/substitute.asm"
 INCLUDE "engine/menus/pc.asm"
-INCLUDE "engine/pokemon/remove_mon.asm"
 
 SECTION "Play Time", ROMX
 
@@ -361,6 +360,7 @@ INCLUDE "engine/overworld/elevator.asm"
 INCLUDE "engine/menus/item_descriptions.asm"
 INCLUDE "engine/items/tm_prices.asm"
 INCLUDE "engine/overworld/ferry_script.asm"
+INCLUDE "engine/pokemon/remove_mon.asm"
 
 _PartyMenuBattleTentText::
 	text "Select which"
