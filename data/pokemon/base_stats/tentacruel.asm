@@ -16,7 +16,7 @@
  	tmhm SWORDS_DANCE, TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
 	     WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   RAGE,         \
 	     MEGA_DRAIN,   MIMIC,        DOUBLE_TEAM,  REFLECT,                \
-	     SKULL_BASH,   REST,         SUBSTITUTE,   CUT,          SURF
+	         REST,         SUBSTITUTE,   CUT,          SURF
  
 	db BANK(TentacruelPicFront)
 	assert BANK(TentacruelPicFront) == BANK(TentacruelPicBack)

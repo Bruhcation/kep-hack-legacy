@@ -16,7 +16,7 @@
  	tmhm SWORDS_DANCE,	TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
 	     WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   RAGE,         \
 	     THUNDERBOLT,  THUNDER,      DIG,          MIMIC,        DOUBLE_TEAM,  \
-	               SWIFT,        SKULL_BASH,   REST,         SUBSTITUTE
+	               SWIFT,            REST,         SUBSTITUTE
  
 	db BANK(RaticateAPicFront)
 	assert BANK(RaticateAPicFront) == BANK(RaticateAPicBack)

@@ -15,7 +15,7 @@
 
  	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   \
 	     RAGE,         THUNDERBOLT,  THUNDER,      MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,                SWIFT,        SKULL_BASH,   REST,         \
+	     REFLECT,                SWIFT,            REST,         \
 	     THUNDER_WAVE, SUBSTITUTE,   FLASH
  
 	db BANK(JolteonPicFront)

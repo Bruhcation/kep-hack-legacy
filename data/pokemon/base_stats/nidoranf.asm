@@ -15,7 +15,7 @@
 
  	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BLIZZARD,     \
 	     RAGE,         THUNDERBOLT,  THUNDER,      MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,                SKULL_BASH,   REST,         SUBSTITUTE
+	     REFLECT,                    REST,         SUBSTITUTE
  
 	db BANK(NidoranFPicFront)
 	assert BANK(NidoranFPicFront) == BANK(NidoranFPicBack)

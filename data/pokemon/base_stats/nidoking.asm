@@ -18,7 +18,7 @@
 	     BLIZZARD,     HYPER_BEAM,   PAY_DAY,      SUBMISSION,   COUNTER,      \
 	     SEISMIC_TOSS, RAGE,         THUNDERBOLT,  THUNDER,      EARTHQUAKE,   \
 	     FISSURE,      MIMIC,        DOUBLE_TEAM,  REFLECT,                \
-	     FIRE_BLAST,   SKULL_BASH,   REST,         ROCK_SLIDE,   SUBSTITUTE,   \
+	     FIRE_BLAST,       REST,         ROCK_SLIDE,   SUBSTITUTE,   \
 	     SURF,         STRENGTH
  
 	db BANK(NidokingPicFront)

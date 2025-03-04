@@ -15,7 +15,7 @@
 
  	tmhm TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    \
 	     ICE_BEAM,     BLIZZARD,     RAGE,         MIMIC,        DOUBLE_TEAM,  \
-	               SWIFT,        SKULL_BASH,   REST,         SUBSTITUTE,   \
+	               SWIFT,            REST,         SUBSTITUTE,   \
 	     SURF
  
 	db BANK(HorseaPicFront)

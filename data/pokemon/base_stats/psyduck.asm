@@ -17,7 +17,7 @@
 	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
 	     PAY_DAY,      SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         \
 	     DIG,          MIMIC,        DOUBLE_TEAM,            SWIFT,        \
-	     SKULL_BASH,   REST, PSYCHIC_M, PSYWAVE,  SUBSTITUTE,  SURF, STRENGTH
+	         REST, PSYCHIC_M, PSYWAVE,  SUBSTITUTE,  SURF, STRENGTH
  
 	db BANK(PsyduckPicFront)
 	assert BANK(PsyduckPicFront) == BANK(PsyduckPicBack)

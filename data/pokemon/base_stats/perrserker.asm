@@ -16,7 +16,7 @@
  	tmhm SWORDS_DANCE, TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     BUBBLEBEAM,   WATER_GUN,    HYPER_BEAM,   PAY_DAY,      RAGE,         \
 	     THUNDERBOLT,  THUNDER,      DIG,          MIMIC,                  \
-	     SWIFT,        SKULL_BASH,   REST,         SUBSTITUTE,   CUT
+	     SWIFT,            REST,         SUBSTITUTE,   CUT
  
 	db BANK(PerrserkerPicFront)
 	assert BANK(PerrserkerPicFront) == BANK(PerrserkerPicBack)

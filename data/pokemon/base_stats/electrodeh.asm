@@ -16,7 +16,7 @@
  	tmhm TOXIC,        TAKE_DOWN,    HYPER_BEAM,   RAGE,         MEGA_DRAIN,   \
 	     SOLARBEAM,	   THUNDERBOLT,  THUNDER,      TELEPORT,     MIMIC,        \
 	     DOUBLE_TEAM,  REFLECT,                SELFDESTRUCT, SWIFT,        \
-	     SKULL_BASH,   REST,         THUNDER_WAVE, EXPLOSION,    SUBSTITUTE,   \
+	         REST,         THUNDER_WAVE, EXPLOSION,    SUBSTITUTE,   \
 		 FLASH
  
 	db BANK(ElectrodeHPicFront)

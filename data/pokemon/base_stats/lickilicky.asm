@@ -18,7 +18,7 @@
 	     BLIZZARD,     HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
 	     RAGE,         THUNDERBOLT,  THUNDER,      EARTHQUAKE,   FISSURE,      \
 	     MIMIC,        DOUBLE_TEAM,            SELFDESTRUCT, FIRE_BLAST,   \
-	     SKULL_BASH,   REST,         EXPLOSION,    SUBSTITUTE,   CUT,          \
+	         REST,         EXPLOSION,    SUBSTITUTE,   CUT,          \
 	     SURF,         STRENGTH
  
 	db BANK(LickilickyPicFront)

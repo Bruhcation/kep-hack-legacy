@@ -15,7 +15,7 @@
 
  	tmhm SWORDS_DANCE, TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     HYPER_BEAM,   RAGE,         MEGA_DRAIN,   SOLARBEAM,    MIMIC,        \
-	     DOUBLE_TEAM,            SKULL_BASH,   REST,         SUBSTITUTE,   \
+	     DOUBLE_TEAM,                REST,         SUBSTITUTE,   \
 	     CUT
  
 	db BANK(TangelaPicFront)

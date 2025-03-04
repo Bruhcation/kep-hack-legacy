@@ -15,7 +15,7 @@
 
  	tmhm SWORDS_DANCE, TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     HYPER_BEAM,   RAGE,         MEGA_DRAIN,   SOLARBEAM,    DIG,          \
-	     MIMIC,        DOUBLE_TEAM,  REFLECT,                SKULL_BASH,   \
+	     MIMIC,        DOUBLE_TEAM,  REFLECT,                    \
 	     REST,         SUBSTITUTE,   CUT
  
 	db BANK(ParasectPicFront)

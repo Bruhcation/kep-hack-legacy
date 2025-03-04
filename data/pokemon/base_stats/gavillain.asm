@@ -17,7 +17,7 @@
 	     WATER_GUN,    HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
 	     RAGE,         DRAGON_RAGE,  THUNDERBOLT,  THUNDER,      EARTHQUAKE,   \
 	     FISSURE,      DIG,          MIMIC,        DOUBLE_TEAM,            \
-	     FIRE_BLAST,   SWIFT,        SKULL_BASH,   REST,         ROCK_SLIDE,   \
+	     FIRE_BLAST,   SWIFT,            REST,         ROCK_SLIDE,   \
 	     SUBSTITUTE,   CUT,          FLASH
  
 	db BANK(GavillainPicFront)

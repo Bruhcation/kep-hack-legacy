@@ -17,7 +17,7 @@
 	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
 	     HYPER_BEAM,   PAY_DAY,      SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
 	     RAGE,         DIG,          MIMIC,        DOUBLE_TEAM,            \
-	     SWIFT,        SKULL_BASH,   REST,         SUBSTITUTE,   SURF,         \
+	     SWIFT,            REST,         SUBSTITUTE,   SURF,         \
 	     STRENGTH, PSYCHIC_M, PSYWAVE
  
 	db BANK(GolduckPicFront)

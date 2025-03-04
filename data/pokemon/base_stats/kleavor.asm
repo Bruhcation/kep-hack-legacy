@@ -15,7 +15,7 @@
 
  	tmhm SWORDS_DANCE, TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   \
 	     RAGE,         MIMIC,        DOUBLE_TEAM,            SWIFT,        \
-	     SKULL_BASH,   REST,         ROCK_SLIDE,   SUBSTITUTE,   CUT
+	         REST,         ROCK_SLIDE,   SUBSTITUTE,   CUT
  
 	db BANK(KleavorPicFront)
 	assert BANK(KleavorPicFront) == BANK(KleavorPicBack)

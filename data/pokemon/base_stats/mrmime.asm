@@ -17,7 +17,7 @@
 	     DOUBLE_EDGE,  HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
 	     RAGE,         SOLARBEAM,    THUNDERBOLT,  THUNDER,      PSYCHIC_M,    \
 	     TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,                \
-	     METRONOME,    SKULL_BASH,   REST,         THUNDER_WAVE, PSYWAVE,      \
+	     METRONOME,        REST,         THUNDER_WAVE, PSYWAVE,      \
 	     SUBSTITUTE,   FLASH
  
 	db BANK(MrMimePicFront)

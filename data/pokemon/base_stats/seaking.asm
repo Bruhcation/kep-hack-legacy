@@ -15,7 +15,7 @@
 
  	tmhm TOXIC,        HORN_DRILL,   TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
 	     WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   RAGE,         \
-	     MIMIC,        DOUBLE_TEAM,            SWIFT,        SKULL_BASH,   \
+	     MIMIC,        DOUBLE_TEAM,            SWIFT,            \
 	     REST,         SUBSTITUTE,   SURF,   SWORDS_DANCE
  
 	db BANK(SeakingPicFront)

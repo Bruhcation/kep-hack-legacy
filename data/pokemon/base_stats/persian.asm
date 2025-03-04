@@ -16,7 +16,7 @@
  	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
 	     WATER_GUN,    HYPER_BEAM,   PAY_DAY,      RAGE,         THUNDERBOLT,  \
 	     THUNDER,      MIMIC,        DOUBLE_TEAM,            SWIFT,        \
-	     SKULL_BASH,   REST,         SUBSTITUTE,   CUT
+	         REST,         SUBSTITUTE,   CUT
  
 	db BANK(PersianPicFront)
 	assert BANK(PersianPicFront) == BANK(PersianPicBack)

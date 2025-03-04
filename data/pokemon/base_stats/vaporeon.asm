@@ -16,7 +16,7 @@
  	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
 	     WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   RAGE,         \
 	     MIMIC,        DOUBLE_TEAM,  REFLECT,                SWIFT,        \
-	     SKULL_BASH,   REST,         SUBSTITUTE,   SURF
+	         REST,         SUBSTITUTE,   SURF
  
 	db BANK(VaporeonPicFront)
 	assert BANK(VaporeonPicFront) == BANK(VaporeonPicBack)

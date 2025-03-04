@@ -17,7 +17,7 @@
 	     BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \
 	     SUBMISSION,   COUNTER,      RAGE,         THUNDERBOLT,  THUNDER,      \
 	     EARTHQUAKE,   FISSURE,      MIMIC,        DOUBLE_TEAM,            \
-		 FIRE_BLAST,   SKULL_BASH,   REST,         SUBSTITUTE,   SURF,         \
+		 FIRE_BLAST,       REST,         SUBSTITUTE,   SURF,         \
 	     STRENGTH,     FLAMETHROWER
  
 	db BANK(TaurosPAPicFront)

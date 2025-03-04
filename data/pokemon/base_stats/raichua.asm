@@ -17,7 +17,7 @@
 	     DOUBLE_EDGE,  HYPER_BEAM,   PAY_DAY,      SUBMISSION,   SEISMIC_TOSS, \
 	     RAGE,         THUNDERBOLT,  THUNDER,      PSYCHIC_M,    TELEPORT,     \
 	     MIMIC,        DOUBLE_TEAM,  REFLECT,                SWIFT,        \
-	     SKULL_BASH,   REST,         THUNDER_WAVE, PSYWAVE,	     SUBSTITUTE,   \
+	         REST,         THUNDER_WAVE, PSYWAVE,	     SUBSTITUTE,   \
 	     FLY,          SURF,         FLASH 	   
  
 	db BANK(RaichuAPicFront)

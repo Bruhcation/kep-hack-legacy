@@ -15,7 +15,7 @@
 
  	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  ICE_BEAM,     \
 	     BLIZZARD,     HYPER_BEAM,   RAGE,         DIG,          MIMIC,        \
-	     DOUBLE_TEAM,  REFLECT,                SWIFT,        SKULL_BASH,   \
+	     DOUBLE_TEAM,  REFLECT,                SWIFT,            \
 	     REST,         SUBSTITUTE
  
 	db BANK(NinetalesAPicFront)

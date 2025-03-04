@@ -16,7 +16,7 @@
  	tmhm SWORDS_DANCE, TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   \
 	     RAGE,         MEGA_DRAIN,   SOLARBEAM,	   EARTHQUAKE,   FISSURE,      \
 	     DIG,          MIMIC,        DOUBLE_TEAM,  REFLECT,                \
-	     SKULL_BASH,   REST,         SUBSTITUTE,   CUT
+	         REST,         SUBSTITUTE,   CUT
  
 	db BANK(ToedscruelPicFront)
 	assert BANK(ToedscruelPicFront) == BANK(ToedscruelPicBack)

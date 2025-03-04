@@ -15,7 +15,7 @@
 
  	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   \
 	     RAGE,         THUNDERBOLT,  THUNDER,      EARTHQUAKE,   FISSURE,      \
-	     MIMIC,        DOUBLE_TEAM,            SWIFT,        SKULL_BASH,   \
+	     MIMIC,        DOUBLE_TEAM,            SWIFT,            \
 	     REST,         THUNDER_WAVE, SUBSTITUTE,   FLASH,        CUT
  
 	db BANK(GorotoraPicFront)

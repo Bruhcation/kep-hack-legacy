@@ -16,7 +16,7 @@
  	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
 	     WATER_GUN,    BLIZZARD,     RAGE,         THUNDERBOLT,  THUNDER,      \
 	     DIG,          MIMIC,        DOUBLE_TEAM,            SWIFT,        \
-	     SKULL_BASH,   REST,         SUBSTITUTE
+	         REST,         SUBSTITUTE
  
 	db BANK(RattataPicFront)
 	assert BANK(RattataPicFront) == BANK(RattataPicBack)

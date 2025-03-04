@@ -16,7 +16,7 @@
  	tmhm SWORDS_DANCE, TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   SUBMISSION,   SEISMIC_TOSS, \
 	     RAGE,         EARTHQUAKE,   FISSURE,      DIG,          MIMIC,        \
-	     DOUBLE_TEAM,            SWIFT,        SKULL_BASH,   REST,         \
+	     DOUBLE_TEAM,            SWIFT,            REST,         \
 	     ROCK_SLIDE,   SUBSTITUTE,   CUT,          STRENGTH
  
 	db BANK(SandslashAPicFront)

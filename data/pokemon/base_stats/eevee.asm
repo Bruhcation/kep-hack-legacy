@@ -15,7 +15,7 @@
 
  	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  RAGE,         \
 	     DIG,          MIMIC,   DOUBLE_TEAM,  REFLECT,      BIDE,              \
-	     SWIFT,        SKULL_BASH,   REST,         SUBSTITUTE
+	     SWIFT,            REST,         SUBSTITUTE
  
 	db BANK(EeveePicFront)
 	assert BANK(EeveePicFront) == BANK(EeveePicBack)

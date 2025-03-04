@@ -17,7 +17,7 @@
 	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
 	     SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         EARTHQUAKE,   \
 	     FISSURE,      DIG,          MIMIC,        DOUBLE_TEAM,            \
-	     FIRE_BLAST,   SKULL_BASH,   REST, SUBSTITUTE,   CUT,  STRENGTH,	   \
+	     FIRE_BLAST,       REST, SUBSTITUTE,   CUT,  STRENGTH,	   \
 		 SWORDS_DANCE
  
 	db BANK(CubonePicFront)

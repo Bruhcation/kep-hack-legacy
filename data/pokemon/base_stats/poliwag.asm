@@ -15,7 +15,7 @@
 
  	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
 	     WATER_GUN,    ICE_BEAM,     BLIZZARD,     RAGE,         PSYCHIC_M,    \
-	     MIMIC,        DOUBLE_TEAM,            SKULL_BASH,   REST,         \
+	     MIMIC,        DOUBLE_TEAM,                REST,         \
 	     PSYWAVE,      SUBSTITUTE,   SURF,   DREAM_EATER
  
 	db BANK(PoliwagPicFront)

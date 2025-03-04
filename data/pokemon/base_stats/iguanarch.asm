@@ -16,7 +16,7 @@
  	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
 	     WATER_GUN,    HYPER_BEAM,          DRAGON_RAGE,  THUNDERBOLT,  \
 	     THUNDER,      DIG,          MIMIC,        DOUBLE_TEAM,  BIDE,         \
-	     SWIFT,        SKULL_BASH,   REST,         ROCK_SLIDE,   SUBSTITUTE,   \
+	     SWIFT,            REST,         ROCK_SLIDE,   SUBSTITUTE,   \
 	     CUT,          SURF,         STRENGTH
  
 	db BANK(IguanarchPicFront)

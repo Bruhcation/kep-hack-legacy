@@ -15,7 +15,7 @@
 
  	tmhm FLAMETHROWER, TOXIC, BODY_SLAM, TAKE_DOWN, DOUBLE_EDGE,  HYPER_BEAM,   \
 	     RAGE,         MIMIC,        DOUBLE_TEAM,  REFLECT,                \
-	     FIRE_BLAST,   SWIFT,        SKULL_BASH,   REST,         SUBSTITUTE
+	     FIRE_BLAST,   SWIFT,            REST,         SUBSTITUTE
  
 	db BANK(FlareonPicFront)
 	assert BANK(FlareonPicFront) == BANK(FlareonPicBack)

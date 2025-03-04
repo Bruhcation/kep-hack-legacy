@@ -15,7 +15,7 @@
 
  	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   \
 	     RAGE,         MIMIC,        DOUBLE_TEAM,  REFLECT,                \
-	     SWIFT,        SKULL_BASH,   REST,         SUBSTITUTE,   PSYCHIC_M
+	     SWIFT,            REST,         SUBSTITUTE,   PSYCHIC_M
  
 	db BANK(SylveonPicFront)
 	assert BANK(SylveonPicFront) == BANK(SylveonPicBack)

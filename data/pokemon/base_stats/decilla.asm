@@ -16,7 +16,7 @@
  	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         \
 	     DRAGON_RAGE,  EARTHQUAKE,   FISSURE,      DIG,          MIMIC,        \
-	     DOUBLE_TEAM,            SKULL_BASH,   REST,         ROCK_SLIDE,   \
+	     DOUBLE_TEAM,                REST,         ROCK_SLIDE,   \
 	     SUBSTITUTE,   CUT
  
 	db BANK(DecillaPicFront)

@@ -15,7 +15,7 @@
 
  	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  ICE_BEAM,     \
 	     BLIZZARD,     HYPER_BEAM,   RAGE,         MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,                SWIFT,        SKULL_BASH,   REST,         \   
+	     REFLECT,                SWIFT,            REST,         \   
 	     SUBSTITUTE
  
 	db BANK(GlaceonPicFront)

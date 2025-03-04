@@ -15,7 +15,7 @@
 
  	tmhm TOXIC,        HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     PAY_DAY,      \
-	     RAGE,         MIMIC,        DOUBLE_TEAM,            SKULL_BASH,   \
+	     RAGE,         MIMIC,        DOUBLE_TEAM,                \
 	     REST,         SUBSTITUTE,   SURF,         STRENGTH
  
 	db BANK(SeelPicFront)

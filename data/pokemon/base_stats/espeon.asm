@@ -15,7 +15,7 @@
 
  	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   \
 	     RAGE,         PSYCHIC_M,    TELEPORT,     MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,                SWIFT,        SKULL_BASH,   DREAM_EATER,  \
+	     REFLECT,                SWIFT,            DREAM_EATER,  \
 	     REST,         PSYWAVE,      SUBSTITUTE
  
 	db BANK(EspeonPicFront)

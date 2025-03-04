@@ -18,7 +18,7 @@
 	     BLIZZARD,     HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
 	     RAGE,         THUNDERBOLT,  THUNDER,      EARTHQUAKE,   FISSURE,      \
 	     MIMIC,        DOUBLE_TEAM,            FIRE_BLAST,   SWIFT,        \
-	     SKULL_BASH,   REST,         ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
+	         REST,         ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
  
 	db BANK(TrampelPicFront)
 	assert BANK(TrampelPicFront) == BANK(TrampelPicBack)

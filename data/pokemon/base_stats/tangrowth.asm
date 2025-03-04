@@ -16,7 +16,7 @@
  	tmhm MEGA_PUNCH,   SWORDS_DANCE, TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
 	     RAGE,         MEGA_DRAIN,   SOLARBEAM,    EARTHQUAKE,   FISSURE,      \
-	     MIMIC,        DOUBLE_TEAM,            SKULL_BASH,   REST,         \
+	     MIMIC,        DOUBLE_TEAM,                REST,         \
 	     ROCK_SLIDE,   SUBSTITUTE,   CUT
  
 	db BANK(TangrowthPicFront)

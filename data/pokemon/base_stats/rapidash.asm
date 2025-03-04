@@ -15,7 +15,7 @@
 
  	tmhm TOXIC,        HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     HYPER_BEAM,   PAY_DAY,      RAGE,         MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,                FIRE_BLAST,   SWIFT,        SKULL_BASH,   \
+	     REFLECT,                FIRE_BLAST,   SWIFT,            \
 	     REST,         SUBSTITUTE
  
 	db BANK(RapidashPicFront)

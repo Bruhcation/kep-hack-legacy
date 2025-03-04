@@ -16,7 +16,7 @@
  	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
 	     RAGE,         EARTHQUAKE,   FISSURE,      DIG,          MIMIC,        \
-	     DOUBLE_TEAM,            METRONOME,    FIRE_BLAST,   SKULL_BASH,   \
+	     DOUBLE_TEAM,            METRONOME,    FIRE_BLAST,       \
 	     REST,         ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
  
 	db BANK(MachampPicFront)

@@ -15,7 +15,7 @@
 
  	tmhm TOXIC, FLAMETHROWER, BODY_SLAM, TAKE_DOWN, DOUBLE_EDGE,  RAGE,        \
 	     DIG,          MIMIC,        DOUBLE_TEAM,  REFLECT,                \
-	     FIRE_BLAST,   SWIFT,        SKULL_BASH,   REST,         SUBSTITUTE
+	     FIRE_BLAST,   SWIFT,            REST,         SUBSTITUTE
  
 	db BANK(VulpixPicFront)
 	assert BANK(VulpixPicFront) == BANK(VulpixPicBack)

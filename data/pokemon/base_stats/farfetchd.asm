@@ -15,7 +15,7 @@
 
  	tmhm RAZOR_WIND,   SWORDS_DANCE, TOXIC,        BODY_SLAM,    \
 	     TAKE_DOWN,    DOUBLE_EDGE,  RAGE,         MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,                SWIFT,        SKULL_BASH,   REST,         \
+	     REFLECT,                SWIFT,            REST,         \
 	     SUBSTITUTE,   CUT,          FLY
  
 	db BANK(FarfetchdPicFront)
