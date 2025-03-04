@@ -1,24 +1,22 @@
-	db DEX_OMANYTE ; pokedex id
+	db DEX_OMANYTE  
 
 	db  35,  40, 100,  35,  90
-	;   hp  atk  def  spd  spc
+ 
 
-	db ROCK, WATER ; type
-	db 45 ; catch rate
-	db 120 ; base exp
+	db ROCK, WATER  
+	db 45  
+	db 120  
 
-	INCBIN "gfx/pokemon/front/omanyte.pic", 0, 1 ; sprite dimensions
+	INCBIN "gfx/pokemon/front/omanyte.pic", 0, 1  
 	dw OmanytePicFront, OmanytePicBack
 
-	db WATER_GUN, WITHDRAW, NO_MOVE, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db WATER_GUN, WITHDRAW, NO_MOVE, NO_MOVE  
+	db GROWTH_MEDIUM_FAST  
 
-	; tm/hm learnset
-	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
+ 	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
 	     WATER_GUN,    ICE_BEAM,     BLIZZARD,     RAGE,         MIMIC,        \
 	     DOUBLE_TEAM,  REFLECT,      BIDE,         REST,         SUBSTITUTE,   \
 	     SURF,   ROCK_SLIDE
-	; end
-
+ 
 	db BANK(OmanytePicFront)
 	assert BANK(OmanytePicFront) == BANK(OmanytePicBack)

@@ -1,24 +1,22 @@
-	db DEX_MELMETAL ; pokedex id
+	db DEX_MELMETAL  
 
 	db 135, 143, 143,  34,  65
-	;   hp  atk  def  spd  spc
+ 
 
-	db STEEL, STEEL ; type
-	db 3 ; catch rate
-	db 243 ; base exp
+	db STEEL, STEEL  
+	db 3  
+	db 243  
 
-	INCBIN "gfx/pokemon/front/melmetal.pic", 0, 1 ; sprite dimensions
+	INCBIN "gfx/pokemon/front/melmetal.pic", 0, 1  
 	dw MelmetalPicFront, MelmetalPicBack
 
-	db THUNDERSHOCK, HARDEN, TAIL_WHIP, HEADBUTT ; level 1 learnset
-	db GROWTH_SLOW ; growth rate
+	db THUNDERSHOCK, HARDEN, TAIL_WHIP, HEADBUTT  
+	db GROWTH_SLOW  
 
-	; tm/hm learnset
-	tmhm MEGA_PUNCH,   MEGA_KICK, 	 TOXIC, 	   BODY_SLAM, 	 ICE_BEAM,     \
+ 	tmhm MEGA_PUNCH,   MEGA_KICK, 	 TOXIC, 	   BODY_SLAM, 	 ICE_BEAM,     \
 		 HYPER_BEAM,   SUBMISSION,   RAGE,  	   SOLARBEAM,    THUNDERBOLT,  \
 		 THUNDER,      EARTHQUAKE,   FISSURE, 	   MIMIC,        DOUBLE_TEAM,  \
 		 BIDE,		   REST,         THUNDER_WAVE, ROCK_SLIDE,   SUBSTITUTE
-	; end
-
+ 
 	db BANK(MelmetalPicFront)
 	assert BANK(MelmetalPicFront) == BANK(MelmetalPicBack)

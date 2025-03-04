@@ -1,22 +1,20 @@
-	db DEX_MELTAN ; pokedex id
+	db DEX_MELTAN  
 
 	db  46,  65,  55,  34, 35
-	;   hp  atk  def  spd  spc
+ 
 
-	db STEEL, STEEL ; type
-	db 45 ; catch rate
-	db 131 ; base exp
+	db STEEL, STEEL  
+	db 45  
+	db 131  
 
-	INCBIN "gfx/pokemon/front/meltan.pic", 0, 1 ; sprite dimensions
+	INCBIN "gfx/pokemon/front/meltan.pic", 0, 1  
 	dw MeltanPicFront, MeltanPicBack
 
-	db THUNDERSHOCK, HARDEN, NO_MOVE, NO_MOVE ; level 1 learnset
-	db GROWTH_SLOW ; growth rate
+	db THUNDERSHOCK, HARDEN, NO_MOVE, NO_MOVE  
+	db GROWTH_SLOW  
 
-	; tm/hm learnset
-	tmhm TOXIC, 	   RAGE, 	     MIMIC, 	   DOUBLE_TEAM,  BIDE,		   \
+ 	tmhm TOXIC, 	   RAGE, 	     MIMIC, 	   DOUBLE_TEAM,  BIDE,		   \
 		 REST,         THUNDER_WAVE, SUBSTITUTE 
-	; end
-
+ 
 	db BANK(MeltanPicFront)
 	assert BANK(MeltanPicFront) == BANK(MeltanPicBack)

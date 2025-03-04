@@ -1,25 +1,23 @@
-	db DEX_RAMOOSE ; pokedex id
+	db DEX_RAMOOSE  
 
 	db  85, 110,  85,  60,  90
-	;   hp  atk  def  spd  spc
+ 
 
-	db NORMAL, GRASS ; type
-	db 45 ; catch rate
-	db 165 ; base exp
+	db NORMAL, GRASS  
+	db 45  
+	db 165  
 
-	INCBIN "gfx/pokemon/front/ramoose.pic", 0, 1 ; sprite dimensions
+	INCBIN "gfx/pokemon/front/ramoose.pic", 0, 1  
 	dw RamoosePicFront, RamoosePicBack
 
-	db TACKLE, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
-	db GROWTH_SLOW ; growth rate
+	db TACKLE, NO_MOVE, NO_MOVE, NO_MOVE  
+	db GROWTH_SLOW  
 
-	; tm/hm learnset
-	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   \
+ 	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   \
 	     RAGE,         MEGA_DRAIN,   SOLARBEAM,    THUNDERBOLT,  THUNDER,      \
 	     PSYCHIC_M,    TELEPORT,     MIMIC,        DOUBLE_TEAM,  BIDE,         \
 	     REST,         THUNDER_WAVE, PSYWAVE,      SUBSTITUTE,   STRENGTH,     \
 	     FLASH
-	; end
-
+ 
 	db BANK(RamoosePicFront)
 	assert BANK(RamoosePicFront) == BANK(RamoosePicBack)

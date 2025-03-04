@@ -1,24 +1,22 @@
-	db DEX_ESPEON ; pokedex id
+	db DEX_ESPEON  
 
 	db  65,  65,  60, 110, 130
-	;   hp  atk  def  spd  spc
+ 
 
-	db PSYCHIC_TYPE, PSYCHIC_TYPE ; type
-	db 45 ; catch rate
-	db 196 ; base exp
+	db PSYCHIC_TYPE, PSYCHIC_TYPE  
+	db 45  
+	db 196  
 
-	INCBIN "gfx/pokemon/front/espeon.pic", 0, 1 ; sprite dimensions
+	INCBIN "gfx/pokemon/front/espeon.pic", 0, 1  
 	dw EspeonPicFront, EspeonPicBack
 
-	db TACKLE, SAND_ATTACK, QUICK_ATTACK, CONFUSION ; level 1 learnset
-	db GROWTH_MEDIUM_SLOW ; growth rate
+	db TACKLE, SAND_ATTACK, QUICK_ATTACK, CONFUSION  
+	db GROWTH_MEDIUM_SLOW  
 
-	; tm/hm learnset
-	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   \
+ 	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   \
 	     RAGE,         PSYCHIC_M,    TELEPORT,     MIMIC,        DOUBLE_TEAM,  \
 	     REFLECT,      BIDE,         SWIFT,        SKULL_BASH,   DREAM_EATER,  \
 	     REST,         PSYWAVE,      SUBSTITUTE
-	; end
-
+ 
 	db BANK(EspeonPicFront)
 	assert BANK(EspeonPicFront) == BANK(EspeonPicBack)

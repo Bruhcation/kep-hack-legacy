@@ -1,25 +1,23 @@
-	db DEX_WARTORTLE ; pokedex id
+	db DEX_WARTORTLE  
 
 	db  59,  63,  80,  58,  65
-	;   hp  atk  def  spd  spc
+ 
 
-	db WATER, WATER ; type
-	db 45 ; catch rate
-	db 143 ; base exp
+	db WATER, WATER  
+	db 45  
+	db 143  
 
-	INCBIN "gfx/pokemon/front/wartortle.pic", 0, 1 ; sprite dimensions
+	INCBIN "gfx/pokemon/front/wartortle.pic", 0, 1  
 	dw WartortlePicFront, WartortlePicBack
 
-	db TACKLE, TAIL_WHIP, BUBBLE, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_SLOW ; growth rate
+	db TACKLE, TAIL_WHIP, BUBBLE, NO_MOVE  
+	db GROWTH_MEDIUM_SLOW  
 
-	; tm/hm learnset
-	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
+ 	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
 	     SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         DIG,          \
 	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         SKULL_BASH,   \
 	     REST,         SUBSTITUTE,   SURF,         STRENGTH
-	; end
-
+ 
 	db BANK(WartortlePicFront)
 	assert BANK(WartortlePicFront) == BANK(WartortlePicBack)

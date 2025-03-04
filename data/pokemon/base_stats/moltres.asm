@@ -1,24 +1,22 @@
-	db DEX_MOLTRES ; pokedex id
+	db DEX_MOLTRES  
 
 	db  90, 100,  90,  90, 125
-	;   hp  atk  def  spd  spc
+ 
 
-	db FIRE, FLYING ; type
-	db 3 ; catch rate
-	db 217 ; base exp
+	db FIRE, FLYING  
+	db 3  
+	db 217  
 
-	INCBIN "gfx/pokemon/front/moltres.pic", 0, 1 ; sprite dimensions
+	INCBIN "gfx/pokemon/front/moltres.pic", 0, 1  
 	dw MoltresPicFront, MoltresPicBack
 
-	db PECK, FIRE_SPIN, LEER, NO_MOVE ; level 1 learnset
-	db GROWTH_SLOW ; growth rate
+	db PECK, FIRE_SPIN, LEER, NO_MOVE  
+	db GROWTH_SLOW  
 
-	; tm/hm learnset
-	tmhm RAZOR_WIND,   TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
+ 	tmhm RAZOR_WIND,   TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
 	     HYPER_BEAM,   RAGE,         MIMIC,        DOUBLE_TEAM,  REFLECT,      \
 	     BIDE,         FIRE_BLAST,   SWIFT,        SKY_ATTACK,   REST,         \
 	     SUBSTITUTE,   FLY
-	; end
-
+ 
 	db BANK(MoltresPicFront)
 	assert BANK(MoltresPicFront) == BANK(MoltresPicBack)

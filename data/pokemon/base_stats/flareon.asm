@@ -1,23 +1,21 @@
-	db DEX_FLAREON ; pokedex id
+	db DEX_FLAREON  
 
 	db  65, 110,  60,  65, 130
-	;   hp  atk  def  spd  spc
+ 
 
-	db FIRE, FIRE ; type
-	db 45 ; catch rate
-	db 198 ; base exp
+	db FIRE, FIRE  
+	db 45  
+	db 198  
 
-	INCBIN "gfx/pokemon/front/flareon.pic", 0, 1 ; sprite dimensions
+	INCBIN "gfx/pokemon/front/flareon.pic", 0, 1  
 	dw FlareonPicFront, FlareonPicBack
 
-	db TACKLE, SAND_ATTACK, QUICK_ATTACK, EMBER ; level 1 learnset
-	db GROWTH_MEDIUM_SLOW ; growth rate
+	db TACKLE, SAND_ATTACK, QUICK_ATTACK, EMBER  
+	db GROWTH_MEDIUM_SLOW  
 
-	; tm/hm learnset
-	tmhm FLAMETHROWER, TOXIC, BODY_SLAM, TAKE_DOWN, DOUBLE_EDGE,  HYPER_BEAM,   \
+ 	tmhm FLAMETHROWER, TOXIC, BODY_SLAM, TAKE_DOWN, DOUBLE_EDGE,  HYPER_BEAM,   \
 	     RAGE,         MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
 	     FIRE_BLAST,   SWIFT,        SKULL_BASH,   REST,         SUBSTITUTE
-	; end
-
+ 
 	db BANK(FlareonPicFront)
 	assert BANK(FlareonPicFront) == BANK(FlareonPicBack)

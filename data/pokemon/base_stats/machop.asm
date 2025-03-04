@@ -1,25 +1,23 @@
-	db DEX_MACHOP ; pokedex id
+	db DEX_MACHOP  
 
 	db  70,  80,  50,  35,  35
-	;   hp  atk  def  spd  spc
+ 
 
-	db FIGHTING, FIGHTING ; type
-	db 180 ; catch rate
-	db 88 ; base exp
+	db FIGHTING, FIGHTING  
+	db 180  
+	db 88  
 
-	INCBIN "gfx/pokemon/front/machop.pic", 0, 1 ; sprite dimensions
+	INCBIN "gfx/pokemon/front/machop.pic", 0, 1  
 	dw MachopPicFront, MachopPicBack
 
-	db KARATE_CHOP, UPPERCUT, NO_MOVE, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_SLOW ; growth rate
+	db KARATE_CHOP, UPPERCUT, NO_MOVE, NO_MOVE  
+	db GROWTH_MEDIUM_SLOW  
 
-	; tm/hm learnset
-	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
+ 	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         \
 	     EARTHQUAKE,   FISSURE,      DIG,          MIMIC,        DOUBLE_TEAM,  \
 	     BIDE,         METRONOME,    FIRE_BLAST,   SKULL_BASH,   REST,         \
 	     ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
-	; end
-
+ 
 	db BANK(MachopPicFront)
 	assert BANK(MachopPicFront) == BANK(MachopPicBack)

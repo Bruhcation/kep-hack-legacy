@@ -1,25 +1,23 @@
-	db DEX_MUK_A ; pokedex id
+	db DEX_MUK_A  
 
 	db 105, 105,  75,  50,  85
-	;   hp  atk  def  spd  spc
+ 
 
-	db POISON, DARK ; type
-	db 75 ; catch rate
-	db 157 ; base exp
+	db POISON, DARK  
+	db 75  
+	db 157  
 
-	INCBIN "gfx/pokemon/front/muka.pic", 0, 1 ; sprite dimensions
+	INCBIN "gfx/pokemon/front/muka.pic", 0, 1  
 	dw MukAPicFront, MukAPicBack
 
-	db POUND, DISABLE, POISON_GAS, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db POUND, DISABLE, POISON_GAS, NO_MOVE  
+	db GROWTH_MEDIUM_FAST  
 
-	; tm/hm learnset
-	tmhm FLAMETHROWER, TOXIC, BODY_SLAM,   HYPER_BEAM,   RAGE,   MEGA_DRAIN,   \
+ 	tmhm FLAMETHROWER, TOXIC, BODY_SLAM,   HYPER_BEAM,   RAGE,   MEGA_DRAIN,   \
 	     THUNDERBOLT,  THUNDER,      MIMIC,        DOUBLE_TEAM,  BIDE,         \
 	     SELFDESTRUCT, FIRE_BLAST,   REST,         EXPLOSION,    SUBSTITUTE,   \
 	     DIG
-	; end
-
+ 
 	db BANK(MukAPicFront)
 	assert BANK(MukAPicFront) == BANK(MukAPicBack)
 	

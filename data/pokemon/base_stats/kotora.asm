@@ -1,24 +1,22 @@
-	db DEX_KOTORA ; pokedex id
+	db DEX_KOTORA  
 
 	db  50,  65,  45,  40,  55
-	;   hp  atk  def  spd  spc
+ 
 
-	db ELECTRIC, ELECTRIC ; type
-	db 180 ; catch rate
-	db 88 ; base exp
+	db ELECTRIC, ELECTRIC  
+	db 180  
+	db 88  
 
-	INCBIN "gfx/pokemon/front/kotora.pic", 0, 1 ; sprite dimensions
+	INCBIN "gfx/pokemon/front/kotora.pic", 0, 1  
 	dw KotoraPicFront, KotoraPicBack
 
-	db THUNDERSHOCK, TACKLE, NO_MOVE, NO_MOVE ; level 1 learnset
-	db GROWTH_SLOW ; growth rate
+	db THUNDERSHOCK, TACKLE, NO_MOVE, NO_MOVE  
+	db GROWTH_SLOW  
 
-	; tm/hm learnset
-	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  RAGE,         \
+ 	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  RAGE,         \
 	     THUNDERBOLT,  THUNDER,      MIMIC,        DOUBLE_TEAM,  BIDE,         \
 	     SWIFT,        SKULL_BASH,   REST,         THUNDER_WAVE, SUBSTITUTE,   \
 		 FLASH,        CUT
-	; end
-
+ 
 	db BANK(KotoraPicFront)
 	assert BANK(KotoraPicFront) == BANK(KotoraPicBack)

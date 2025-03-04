@@ -1,21 +1,19 @@
-	db DEX_DITTO ; pokedex id
+	db DEX_DITTO  
 
 	db  48,  48,  48,  48,  48
-	;   hp  atk  def  spd  spc
+ 
 
-	db NORMAL, NORMAL ; type
-	db 35 ; catch rate
-	db 61 ; base exp
+	db NORMAL, NORMAL  
+	db 35  
+	db 61  
 
-	INCBIN "gfx/pokemon/front/ditto.pic", 0, 1 ; sprite dimensions
+	INCBIN "gfx/pokemon/front/ditto.pic", 0, 1  
 	dw DittoPicFront, DittoPicBack
 
-	db TRANSFORM, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db TRANSFORM, NO_MOVE, NO_MOVE, NO_MOVE  
+	db GROWTH_MEDIUM_FAST  
 
-	; tm/hm learnset
-	tmhm
-	; end
-
+ 	tmhm
+ 
 	db BANK(DittoPicFront)
 	assert BANK(DittoPicFront) == BANK(DittoPicBack)

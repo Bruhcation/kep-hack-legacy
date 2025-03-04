@@ -1,21 +1,19 @@
-	db DEX_KAKUNA ; pokedex id
+	db DEX_KAKUNA  
 
 	db  45,  25,  50,  35,  25
-	;   hp  atk  def  spd  spc
+ 
 
-	db BUG, POISON ; type
-	db 120 ; catch rate
-	db 71 ; base exp
+	db BUG, POISON  
+	db 120  
+	db 71  
 
-	INCBIN "gfx/pokemon/front/kakuna.pic", 0, 1 ; sprite dimensions
+	INCBIN "gfx/pokemon/front/kakuna.pic", 0, 1  
 	dw KakunaPicFront, KakunaPicBack
 
-	db POISON_STING, STRING_SHOT, HARDEN, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db POISON_STING, STRING_SHOT, HARDEN, NO_MOVE  
+	db GROWTH_MEDIUM_FAST  
 
-	; tm/hm learnset
-	tmhm
-	; end
-
+ 	tmhm
+ 
 	db BANK(KakunaPicFront)
 	assert BANK(KakunaPicFront) == BANK(KakunaPicBack)

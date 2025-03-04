@@ -1,24 +1,22 @@
-	db DEX_BELLOSSOM ; pokedex id
+	db DEX_BELLOSSOM  
 
 	db  75,  80,  95,  50, 100
-	;   hp  atk  def  spd  spc
+ 
 
-	db GRASS, GRASS ; type
-	db 45 ; catch rate
-	db 184 ; base exp
+	db GRASS, GRASS  
+	db 45  
+	db 184  
 
-	INCBIN "gfx/pokemon/front/bellossom.pic", 0, 1 ; sprite dimensions
+	INCBIN "gfx/pokemon/front/bellossom.pic", 0, 1  
 	dw BellossomPicFront, BellossomPicBack
 
-	db STUN_SPORE, SLEEP_POWDER, ABSORB, PETAL_DANCE ; level 1 learnset
-	db GROWTH_MEDIUM_SLOW ; growth rate
+	db STUN_SPORE, SLEEP_POWDER, ABSORB, PETAL_DANCE  
+	db GROWTH_MEDIUM_SLOW  
 
-	; tm/hm learnset
-	tmhm SWORDS_DANCE, TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+ 	tmhm SWORDS_DANCE, TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     HYPER_BEAM,   RAGE,         MEGA_DRAIN,   SOLARBEAM,    MIMIC,        \
 	     DOUBLE_TEAM,  REFLECT,      BIDE,         REST,         SUBSTITUTE,   \
 	     CUT,          PSYCHIC_M,
-	; end
-
+ 
 	db BANK(BellossomPicFront)
 	assert BANK(BellossomPicFront) == BANK(BellossomPicBack)

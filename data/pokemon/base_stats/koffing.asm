@@ -1,23 +1,21 @@
-	db DEX_KOFFING ; pokedex id
+	db DEX_KOFFING  
 
 	db  40,  65,  95,  35,  60
-	;   hp  atk  def  spd  spc
+ 
 
-	db POISON, POISON ; type
-	db 190 ; catch rate
-	db 114 ; base exp
+	db POISON, POISON  
+	db 190  
+	db 114  
 
-	INCBIN "gfx/pokemon/front/koffing.pic", 0, 1 ; sprite dimensions
+	INCBIN "gfx/pokemon/front/koffing.pic", 0, 1  
 	dw KoffingPicFront, KoffingPicBack
 
-	db TACKLE, SMOG, NO_MOVE, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db TACKLE, SMOG, NO_MOVE, NO_MOVE  
+	db GROWTH_MEDIUM_FAST  
 
-	; tm/hm learnset
-	tmhm FLAMETHROWER, TOXIC,  RAGE,  THUNDERBOLT,  THUNDER,     MIMIC,        \
+ 	tmhm FLAMETHROWER, TOXIC,  RAGE,  THUNDERBOLT,  THUNDER,     MIMIC,        \
 	     DOUBLE_TEAM,  BIDE,         SELFDESTRUCT, FIRE_BLAST,   REST,         \
 	     EXPLOSION,    SUBSTITUTE
-	; end
-
+ 
 	db BANK(KoffingPicFront)
 	assert BANK(KoffingPicFront) == BANK(KoffingPicBack)

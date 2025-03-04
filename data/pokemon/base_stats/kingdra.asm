@@ -1,24 +1,22 @@
-	db DEX_KINGDRA ; pokedex id
+	db DEX_KINGDRA  
 
 	db  75,  95,  95,  85,  95
-	;   hp  atk  def  spd  spc
+ 
 
-	db WATER, DRAGON ; type
-	db 45 ; catch rate
-	db 207 ; base exp
+	db WATER, DRAGON  
+	db 45  
+	db 207  
 
-	INCBIN "gfx/pokemon/front/kingdra.pic", 0, 1 ; sprite dimensions
+	INCBIN "gfx/pokemon/front/kingdra.pic", 0, 1  
 	dw KingdraPicFront, KingdraPicBack
 
-	db BUBBLE, SMOKESCREEN, LEER, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db BUBBLE, SMOKESCREEN, LEER, NO_MOVE  
+	db GROWTH_MEDIUM_FAST  
 
-	; tm/hm learnset
-	tmhm TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    \
+ 	tmhm TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    \
 	     ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   RAGE,         DRAGON_RAGE,  \
 	     MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        SKULL_BASH,   \
 	     REST,         SUBSTITUTE,   SURF
-	; end
-
+ 
 	db BANK(KingdraPicFront)
 	assert BANK(KingdraPicFront) == BANK(KingdraPicBack)

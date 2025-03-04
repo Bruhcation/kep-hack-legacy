@@ -1,21 +1,19 @@
-	db DEX_WEEDLE ; pokedex id
+	db DEX_WEEDLE  
 
 	db  40,  35,  30,  50,  20
-	;   hp  atk  def  spd  spc
+ 
 
-	db BUG, POISON ; type
-	db 255 ; catch rate
-	db 52 ; base exp
+	db BUG, POISON  
+	db 255  
+	db 52  
 
-	INCBIN "gfx/pokemon/front/weedle.pic", 0, 1 ; sprite dimensions
+	INCBIN "gfx/pokemon/front/weedle.pic", 0, 1  
 	dw WeedlePicFront, WeedlePicBack
 
-	db POISON_STING, STRING_SHOT, NO_MOVE, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db POISON_STING, STRING_SHOT, NO_MOVE, NO_MOVE  
+	db GROWTH_MEDIUM_FAST  
 
-	; tm/hm learnset
-	tmhm
-	; end
-
+ 	tmhm
+ 
 	db BANK(WeedlePicFront)
 	assert BANK(WeedlePicFront) == BANK(WeedlePicBack)

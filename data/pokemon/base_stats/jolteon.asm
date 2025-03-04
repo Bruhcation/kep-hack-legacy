@@ -1,24 +1,22 @@
-	db DEX_JOLTEON ; pokedex id
+	db DEX_JOLTEON  
 
 	db  65,  65,  60, 130, 110
-	;   hp  atk  def  spd  spc
+ 
 
-	db ELECTRIC, ELECTRIC ; type
-	db 45 ; catch rate
-	db 197 ; base exp
+	db ELECTRIC, ELECTRIC  
+	db 45  
+	db 197  
 
-	INCBIN "gfx/pokemon/front/jolteon.pic", 0, 1 ; sprite dimensions
+	INCBIN "gfx/pokemon/front/jolteon.pic", 0, 1  
 	dw JolteonPicFront, JolteonPicBack
 
-	db TACKLE, SAND_ATTACK, QUICK_ATTACK, THUNDERSHOCK ; level 1 learnset
-	db GROWTH_MEDIUM_SLOW ; growth rate
+	db TACKLE, SAND_ATTACK, QUICK_ATTACK, THUNDERSHOCK  
+	db GROWTH_MEDIUM_SLOW  
 
-	; tm/hm learnset
-	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   \
+ 	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   \
 	     RAGE,         THUNDERBOLT,  THUNDER,      MIMIC,        DOUBLE_TEAM,  \
 	     REFLECT,      BIDE,         SWIFT,        SKULL_BASH,   REST,         \
 	     THUNDER_WAVE, SUBSTITUTE,   FLASH
-	; end
-
+ 
 	db BANK(JolteonPicFront)
 	assert BANK(JolteonPicFront) == BANK(JolteonPicBack)

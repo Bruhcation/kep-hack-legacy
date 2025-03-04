@@ -1,26 +1,24 @@
-	db DEX_CROAKOZUNA ; pokedex id
+	db DEX_CROAKOZUNA  
 
 	db 134,  80,  70,  60,  80
-	;   hp  atk  def  spd  spc
+ 
 
-	db WATER, DARK ; type
-	db 75 ; catch rate
-	db 174 ; base exp
+	db WATER, DARK  
+	db 75  
+	db 174  
 
-	INCBIN "gfx/pokemon/front/croakozuna.pic", 0, 1 ; sprite dimensions
+	INCBIN "gfx/pokemon/front/croakozuna.pic", 0, 1  
 	dw CroakozunaPicFront, CroakozunaPicBack
 
-	db DOUBLE_TEAM, DOUBLESLAP, BUBBLE, MEDITATE ; level 1 learnset
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db DOUBLE_TEAM, DOUBLESLAP, BUBBLE, MEDITATE  
+	db GROWTH_MEDIUM_FAST  
 
-	; tm/hm learnset
-	tmhm MEGA_PUNCH,   RAZOR_WIND,   SWORDS_DANCE, TOXIC,        \
+ 	tmhm MEGA_PUNCH,   RAZOR_WIND,   SWORDS_DANCE, TOXIC,        \
 	     BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    \
 	     HYPER_BEAM,   PAY_DAY,      SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
 	     RAGE,         DIG,          TELEPORT,     MIMIC,        DOUBLE_TEAM,  \
 	     REFLECT,      BIDE,         METRONOME,    SWIFT,        REST,         \
 	     PSYWAVE,      SUBSTITUTE,   CUT,          SURF,         FLASH
-	; end
-
+ 
 	db BANK(CroakozunaPicFront)
 	assert BANK(CroakozunaPicFront) == BANK(CroakozunaPicBack)

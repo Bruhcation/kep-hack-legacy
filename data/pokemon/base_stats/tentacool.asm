@@ -1,24 +1,22 @@
-	db DEX_TENTACOOL ; pokedex id
+	db DEX_TENTACOOL  
 
 	db  40,  40,  35,  70, 100
-	;   hp  atk  def  spd  spc
+ 
 
-	db WATER, POISON ; type
-	db 190 ; catch rate
-	db 105 ; base exp
+	db WATER, POISON  
+	db 190  
+	db 105  
 
-	INCBIN "gfx/pokemon/front/tentacool.pic", 0, 1 ; sprite dimensions
+	INCBIN "gfx/pokemon/front/tentacool.pic", 0, 1  
 	dw TentacoolPicFront, TentacoolPicBack
 
-	db ACID, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
-	db GROWTH_SLOW ; growth rate
+	db ACID, NO_MOVE, NO_MOVE, NO_MOVE  
+	db GROWTH_SLOW  
 
-	; tm/hm learnset
-	tmhm SWORDS_DANCE, TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
+ 	tmhm SWORDS_DANCE, TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
 	     WATER_GUN,    ICE_BEAM,     BLIZZARD,     RAGE,         MEGA_DRAIN,   \
 	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         SKULL_BASH,   \
 	     REST,         SUBSTITUTE,   CUT,          SURF
-	; end
-
+ 
 	db BANK(TentacoolPicFront)
 	assert BANK(TentacoolPicFront) == BANK(TentacoolPicBack)

@@ -1,21 +1,19 @@
-	db DEX_MIMMEO ; pokedex id
+	db DEX_MIMMEO  
 
 	db 100,  55,  50,  150,  50
-	;   hp  atk  def  spd  spc
+ 
 
-	db STEEL, STEEL ; type
-	db 35 ; catch rate
-	db 161 ; base exp
+	db STEEL, STEEL  
+	db 35  
+	db 161  
 
-	INCBIN "gfx/pokemon/front/mimmeo.pic", 0, 1 ; sprite dimensions
+	INCBIN "gfx/pokemon/front/mimmeo.pic", 0, 1  
 	dw MimmeoPicFront, MimmeoPicBack
 
-	db TRANSFORM, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db TRANSFORM, NO_MOVE, NO_MOVE, NO_MOVE  
+	db GROWTH_MEDIUM_FAST  
 
-	; tm/hm learnset
-	tmhm
-	; end
-
+ 	tmhm
+ 
 	db BANK(MimmeoPicFront)
 	assert BANK(MimmeoPicFront) == BANK(MimmeoPicBack)

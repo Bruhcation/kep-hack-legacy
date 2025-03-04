@@ -1,25 +1,23 @@
-	db DEX_ARCANINE_H ; pokedex id
+	db DEX_ARCANINE_H  
 
 	db  95, 115,  80,  90,  80
-	;   hp  atk  def  spd  spc
+ 
 
-	db FIRE, ROCK ; type
-	db 75 ; catch rate
-	db 213 ; base exp
+	db FIRE, ROCK  
+	db 75  
+	db 213  
 
-	INCBIN "gfx/pokemon/front/arcanineh.pic", 0, 1 ; sprite dimensions
+	INCBIN "gfx/pokemon/front/arcanineh.pic", 0, 1  
 	dw ArcanineHPicFront, ArcanineHPicBack
 
-	db BITE, ROAR, ROCK_THROW, NO_MOVE ; level 1 learnset, has rock throw for kicks
-	db GROWTH_SLOW ; growth rate
+	db BITE, ROAR, ROCK_THROW, NO_MOVE
+	db GROWTH_SLOW  
 
-	; tm/hm learnset
-	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   \
+ 	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   \
 	     RAGE,         DRAGON_RAGE,  EARTHQUAKE,   FISSURE,      DIG,          \
 	     TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
 	     FIRE_BLAST,   SWIFT,        SKULL_BASH,   REST,         ROCK_SLIDE,   \
 	     SUBSTITUTE,   FLAMETHROWER
-	; end
-
+ 
 	db BANK(ArcanineHPicFront)
 	assert BANK(ArcanineHPicFront) == BANK(ArcanineHPicBack)

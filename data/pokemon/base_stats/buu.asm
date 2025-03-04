@@ -1,25 +1,23 @@
-	db DEX_BUU ; pokedex id
+	db DEX_BUU  
 
 	db  65, 113,  57,  95,  85
-	;   hp  atk  def  spd  spc
+ 
 
-	db ICE, ICE ; type
-	db 45 ; catch rate
-	db 167 ; base exp
+	db ICE, ICE  
+	db 45  
+	db 167  
 
-	INCBIN "gfx/pokemon/front/buu.pic", 0, 1 ; sprite dimensions
+	INCBIN "gfx/pokemon/front/buu.pic", 0, 1  
 	dw BuuPicFront, BuuPicBack
 
-	db POWDER_SNOW, LEER, NO_MOVE, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db POWDER_SNOW, LEER, NO_MOVE, NO_MOVE  
+	db GROWTH_MEDIUM_FAST  
 
-	; tm/hm learnset
-	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
+ 	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   SUBMISSION,   \
 	     COUNTER,      SEISMIC_TOSS, RAGE,         PSYCHIC_M,    TELEPORT,     \
 	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    \
 	     SKULL_BASH,   REST,         PSYWAVE,      SUBSTITUTE,   STRENGTH
-	; end
-
+ 
 	db BANK(BuuPicFront)
 	assert BANK(BuuPicFront) == BANK(BuuPicBack)

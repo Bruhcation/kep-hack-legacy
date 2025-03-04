@@ -1,27 +1,25 @@
-	db DEX_SCREAM_TAIL ; pokedex id
+	db DEX_SCREAM_TAIL  
 
 	db 115,  65,  99, 111, 115
-	;   hp  atk  def  spd  spc
+ 
 
-	db FAIRY, PSYCHIC_TYPE ; type
-	db 50 ; catch rate
-	db 210 ; base exp
+	db FAIRY, PSYCHIC_TYPE  
+	db 50  
+	db 210  
 
-	INCBIN "gfx/pokemon/front/screamtail.pic", 0, 1 ; sprite dimensions
+	INCBIN "gfx/pokemon/front/screamtail.pic", 0, 1  
 	dw ScreamTailPicFront, ScreamTailPicBack
 
-	db SING, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
-	db GROWTH_SLIGHTLY_FAST ; growth rate - reusing unused exp group, seems funny
+	db SING, NO_MOVE, NO_MOVE, NO_MOVE  
+	db GROWTH_SLIGHTLY_FAST   
 
-	; tm/hm learnset
-	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
+ 	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
 	     HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         \
 	     SOLARBEAM,    THUNDERBOLT,  THUNDER,      PSYCHIC_M,    TELEPORT,     \
 	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         FIRE_BLAST,   \
 	     SKULL_BASH,   REST,         THUNDER_WAVE, PSYWAVE,      TRI_ATTACK,   \
 	     SUBSTITUTE,   STRENGTH,     FLASH
-	; end
-
+ 
 	db BANK(ScreamTailPicFront)
 	assert BANK(ScreamTailPicFront) == BANK(ScreamTailPicBack)

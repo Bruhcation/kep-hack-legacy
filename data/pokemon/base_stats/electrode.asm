@@ -1,24 +1,22 @@
-	db DEX_ELECTRODE ; pokedex id
+	db DEX_ELECTRODE  
 
 	db  60,  50,  70, 140,  80
-	;   hp  atk  def  spd  spc
+ 
 
-	db ELECTRIC, ELECTRIC ; type
-	db 60 ; catch rate
-	db 150 ; base exp
+	db ELECTRIC, ELECTRIC  
+	db 60  
+	db 150  
 
-	INCBIN "gfx/pokemon/front/electrode.pic", 0, 1 ; sprite dimensions
+	INCBIN "gfx/pokemon/front/electrode.pic", 0, 1  
 	dw ElectrodePicFront, ElectrodePicBack
 
-	db TACKLE, SCREECH, SONICBOOM, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db TACKLE, SCREECH, SONICBOOM, NO_MOVE  
+	db GROWTH_MEDIUM_FAST  
 
-	; tm/hm learnset
-	tmhm TOXIC,        TAKE_DOWN,    HYPER_BEAM,   RAGE,         THUNDERBOLT,  \
+ 	tmhm TOXIC,        TAKE_DOWN,    HYPER_BEAM,   RAGE,         THUNDERBOLT,  \
 	     THUNDER,      TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      \
 	     BIDE,         SELFDESTRUCT, SWIFT,        SKULL_BASH,   REST,         \
 	     THUNDER_WAVE, EXPLOSION,    SUBSTITUTE,   FLASH
-	; end
-
+ 
 	db BANK(ElectrodePicFront)
 	assert BANK(ElectrodePicFront) == BANK(ElectrodePicBack)

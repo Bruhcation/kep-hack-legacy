@@ -1,24 +1,22 @@
-	db DEX_ONIX ; pokedex id
+	db DEX_ONIX  
 
 	db  65,  75, 160,  75,  65
-	;   hp  atk  def  spd  spc
+ 
 
-	db ROCK, GROUND ; type
-	db 45 ; catch rate
-	db 108 ; base exp
+	db ROCK, GROUND  
+	db 45  
+	db 108  
 
-	INCBIN "gfx/pokemon/front/onix.pic", 0, 1 ; sprite dimensions
+	INCBIN "gfx/pokemon/front/onix.pic", 0, 1  
 	dw OnixPicFront, OnixPicBack
 
-	db TACKLE, SCREECH, NO_MOVE, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db TACKLE, SCREECH, NO_MOVE, NO_MOVE  
+	db GROWTH_MEDIUM_FAST  
 
-	; tm/hm learnset
-	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  RAGE,         \
+ 	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  RAGE,         \
 	     EARTHQUAKE,   FISSURE,      DIG,          MIMIC,        DOUBLE_TEAM,  \
 	     BIDE,         SELFDESTRUCT, SKULL_BASH,   REST,         EXPLOSION,    \
 	     ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
-	; end
-
+ 
 	db BANK(OnixPicFront)
 	assert BANK(OnixPicFront) == BANK(OnixPicBack)

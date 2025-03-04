@@ -1,25 +1,23 @@
-	db DEX_DRAGONAIR ; pokedex id
+	db DEX_DRAGONAIR  
 
 	db  61,  84,  65,  70,  70
-	;   hp  atk  def  spd  spc
+ 
 
-	db DRAGON, DRAGON ; type
-	db 27 ; catch rate
-	db 144 ; base exp
+	db DRAGON, DRAGON  
+	db 27  
+	db 144  
 
-	INCBIN "gfx/pokemon/front/dragonair.pic", 0, 1 ; sprite dimensions
+	INCBIN "gfx/pokemon/front/dragonair.pic", 0, 1  
 	dw DragonairPicFront, DragonairPicBack
 
-	db WRAP, LEER, THUNDER_WAVE, TAKE_DOWN ; level 1 learnset
-	db GROWTH_SLOW ; growth rate
+	db WRAP, LEER, THUNDER_WAVE, TAKE_DOWN  
+	db GROWTH_SLOW  
 
-	; tm/hm learnset
-	tmhm TOXIC,  FLAMETHROWER, HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,  DOUBLE_EDGE,  \
+ 	tmhm TOXIC,  FLAMETHROWER, HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,  DOUBLE_EDGE,  \
 	     BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     RAGE,         \
 	     DRAGON_RAGE,  THUNDERBOLT,  THUNDER,      MIMIC,        DOUBLE_TEAM,  \
 	     REFLECT,      BIDE,         FIRE_BLAST,   SWIFT,        SKULL_BASH,   \
 	     REST,         THUNDER_WAVE, SUBSTITUTE,   SURF
-	; end
-
+ 
 	db BANK(DragonairPicFront)
 	assert BANK(DragonairPicFront) == BANK(DragonairPicBack)

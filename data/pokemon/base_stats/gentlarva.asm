@@ -1,21 +1,19 @@
-	db DEX_GENTLARVA ; pokedex id
+	db DEX_GENTLARVA  
 
 	db  40,  35,  30,  45,  25
-	;   hp  atk  def  spd  spc
+ 
 
-	db BUG, BUG ; type
-	db 255 ; catch rate
-	db 54 ; base exp
+	db BUG, BUG  
+	db 255  
+	db 54  
 
-	INCBIN "gfx/pokemon/front/gentlarva.pic", 0, 1 ; sprite dimensions
+	INCBIN "gfx/pokemon/front/gentlarva.pic", 0, 1  
 	dw GentlarvaPicFront, GentlarvaPicBack
 
-	db LEECH_LIFE, STRING_SHOT, NO_MOVE, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db LEECH_LIFE, STRING_SHOT, NO_MOVE, NO_MOVE  
+	db GROWTH_MEDIUM_FAST  
 
-	; tm/hm learnset
-	tmhm
-	; end
-
+ 	tmhm
+ 
 	db BANK(GentlarvaPicFront)
 	assert BANK(GentlarvaPicFront) == BANK(GentlarvaPicBack)

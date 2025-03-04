@@ -1,26 +1,24 @@
-	db DEX_BALUMBA ; pokedex id
+	db DEX_BALUMBA  
 
 	db  90,  50,  30, 125, 100
-	;   hp  atk  def  spd  spc
+ 
 
-	db FAIRY, FLYING ; type
-	db 45 ; catch rate
-	db 137 ; base exp
+	db FAIRY, FLYING  
+	db 45  
+	db 137  
 
-	INCBIN "gfx/pokemon/front/balumba.pic", 0, 1 ; sprite dimensions
+	INCBIN "gfx/pokemon/front/balumba.pic", 0, 1  
 	dw BalumbaPicFront, BalumbaPicBack
 
-	db FAIRY_WIND, GROWL, DRAININGKISS, NO_MOVE ; level 1 learnset
-	db GROWTH_FAST ; growth rate
+	db FAIRY_WIND, GROWL, DRAININGKISS, NO_MOVE  
+	db GROWTH_FAST  
 
-	; tm/hm learnset
-	tmhm RAZOR_WIND,   TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
+ 	tmhm RAZOR_WIND,   TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
 	     HYPER_BEAM,   RAGE,         THUNDERBOLT,  THUNDER,      PSYCHIC_M,    \
 	     TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
 	     SELFDESTRUCT, SWIFT,        SKULL_BASH,   DREAM_EATER,  REST,         \
 	     PSYWAVE,      EXPLOSION,    TRI_ATTACK,   SUBSTITUTE,   FLY,          \
 	     FLASH
-	; end
-
+ 
 	db BANK(BalumbaPicFront)
 	assert BANK(BalumbaPicFront) == BANK(BalumbaPicBack)

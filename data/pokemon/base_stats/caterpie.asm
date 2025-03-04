@@ -1,21 +1,19 @@
-	db DEX_CATERPIE ; pokedex id
+	db DEX_CATERPIE  
 
 	db  45,  30,  35,  45,  20
-	;   hp  atk  def  spd  spc
+ 
 
-	db BUG, BUG ; type
-	db 255 ; catch rate
-	db 53 ; base exp
+	db BUG, BUG  
+	db 255  
+	db 53  
 
-	INCBIN "gfx/pokemon/front/caterpie.pic", 0, 1 ; sprite dimensions
+	INCBIN "gfx/pokemon/front/caterpie.pic", 0, 1  
 	dw CaterpiePicFront, CaterpiePicBack
 
-	db TACKLE, STRING_SHOT, NO_MOVE, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db TACKLE, STRING_SHOT, NO_MOVE, NO_MOVE  
+	db GROWTH_MEDIUM_FAST  
 
-	; tm/hm learnset
-	tmhm CUT      
-	; end
-
+ 	tmhm CUT      
+ 
 	db BANK(CaterpiePicFront)
 	assert BANK(CaterpiePicFront) == BANK(CaterpiePicBack)

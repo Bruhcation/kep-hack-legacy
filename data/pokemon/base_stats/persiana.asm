@@ -1,24 +1,22 @@
-	db DEX_PERSIAN_A ; pokedex id
+	db DEX_PERSIAN_A  
 
 	db  65,  60,  60, 115,  75
-	;   hp  atk  def  spd  spc
+ 
 
-	db DARK, DARK ; type
-	db 90 ; catch rate
-	db 148 ; base exp
+	db DARK, DARK  
+	db 90  
+	db 148  
 
-	INCBIN "gfx/pokemon/front/persiana.pic", 0, 1 ; sprite dimensions
+	INCBIN "gfx/pokemon/front/persiana.pic", 0, 1  
 	dw PersianAPicFront, PersianAPicBack
 
-	db SCRATCH, GROWL, BITE, SCREECH ; level 1 learnset
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db SCRATCH, GROWL, BITE, SCREECH  
+	db GROWTH_MEDIUM_FAST  
 
-	; tm/hm learnset
-	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
+ 	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
 	     WATER_GUN,    HYPER_BEAM,   PAY_DAY,      RAGE,         THUNDERBOLT,  \
 	     THUNDER,      MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        \
 	     SKULL_BASH,   REST,         SUBSTITUTE,   CUT
-	; end
-
+ 
 	db BANK(PersianAPicFront)
 	assert BANK(PersianAPicFront) == BANK(PersianAPicBack)

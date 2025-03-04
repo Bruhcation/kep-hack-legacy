@@ -1,26 +1,24 @@
-	db DEX_DRAGONITE ; pokedex id
+	db DEX_DRAGONITE  
 
 	db  91, 124,  95,  80, 110
-	;   hp  atk  def  spd  spc
+ 
 
-	db DRAGON, FLYING ; type
-	db 9 ; catch rate
-	db 218 ; base exp
+	db DRAGON, FLYING  
+	db 9  
+	db 218  
 
-	INCBIN "gfx/pokemon/front/dragonite.pic", 0, 1 ; sprite dimensions
+	INCBIN "gfx/pokemon/front/dragonite.pic", 0, 1  
 	dw DragonitePicFront, DragonitePicBack
 
-	db WRAP, LEER, THUNDER_WAVE, AGILITY ; level 1 learnset
-	db GROWTH_SLOW ; growth rate
+	db WRAP, LEER, THUNDER_WAVE, AGILITY  
+	db GROWTH_SLOW  
 
-	; tm/hm learnset
-	tmhm RAZOR_WIND,  FLAMETHROWER,  TOXIC,    HORN_DRILL,   BODY_SLAM,  TAKE_DOWN,    \
+ 	tmhm RAZOR_WIND,  FLAMETHROWER,  TOXIC,    HORN_DRILL,   BODY_SLAM,  TAKE_DOWN,    \
 	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
 	     HYPER_BEAM,   RAGE,         DRAGON_RAGE,  THUNDERBOLT,  THUNDER,      \
 	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         FIRE_BLAST,   \
 	     SWIFT,        SKULL_BASH,   REST,         THUNDER_WAVE, SUBSTITUTE,   \
 	     SURF,         STRENGTH, 	 FLY,          SKY_ATTACK
-	; end
-
+ 
 	db BANK(DragonitePicFront)
 	assert BANK(DragonitePicFront) == BANK(DragonitePicBack)

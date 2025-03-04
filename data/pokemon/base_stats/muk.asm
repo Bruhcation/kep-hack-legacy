@@ -1,24 +1,22 @@
-	db DEX_MUK ; pokedex id
+	db DEX_MUK  
 
 	db 105, 105,  75,  50,  85
-	;   hp  atk  def  spd  spc
+ 
 
-	db POISON, POISON ; type
-	db 75 ; catch rate
-	db 157 ; base exp
+	db POISON, POISON  
+	db 75  
+	db 157  
 
-	INCBIN "gfx/pokemon/front/muk.pic", 0, 1 ; sprite dimensions
+	INCBIN "gfx/pokemon/front/muk.pic", 0, 1  
 	dw MukPicFront, MukPicBack
 
-	db POUND, DISABLE, POISON_GAS, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db POUND, DISABLE, POISON_GAS, NO_MOVE  
+	db GROWTH_MEDIUM_FAST  
 
-	; tm/hm learnset
-	tmhm FLAMETHROWER, TOXIC, BODY_SLAM,   HYPER_BEAM,   RAGE,   MEGA_DRAIN,   \
+ 	tmhm FLAMETHROWER, TOXIC, BODY_SLAM,   HYPER_BEAM,   RAGE,   MEGA_DRAIN,   \
 	     THUNDERBOLT,  THUNDER,      MIMIC,        DOUBLE_TEAM,  BIDE,         \
 	     SELFDESTRUCT, FIRE_BLAST,   REST,         EXPLOSION,    SUBSTITUTE,   \
 	     DIG
-	; end
-
+ 
 	db BANK(MukPicFront)
 	assert BANK(MukPicFront) == BANK(MukPicBack)

@@ -1,25 +1,23 @@
-	db DEX_GYARADOS ; pokedex id
+	db DEX_GYARADOS  
 
 	db  95, 125,  79,  81, 100
-	;   hp  atk  def  spd  spc
+ 
 
-	db WATER, FLYING ; type
-	db 45 ; catch rate
-	db 214 ; base exp
+	db WATER, FLYING  
+	db 45  
+	db 214  
 
-	INCBIN "gfx/pokemon/front/gyarados.pic", 0, 1 ; sprite dimensions
+	INCBIN "gfx/pokemon/front/gyarados.pic", 0, 1  
 	dw GyaradosPicFront, GyaradosPicBack
 
-	db TACKLE, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
-	db GROWTH_SLOW ; growth rate
+	db TACKLE, NO_MOVE, NO_MOVE, NO_MOVE  
+	db GROWTH_SLOW  
 
-	; tm/hm learnset
-	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
+ 	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
 	     WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   RAGE,         \
 	     DRAGON_RAGE,  THUNDERBOLT,  THUNDER,      MIMIC,        DOUBLE_TEAM,  \
 	     REFLECT,      BIDE,         FIRE_BLAST,   SKULL_BASH,   REST,         \
 	     SUBSTITUTE,   FLY,			 SURF,         STRENGTH,     FLAMETHROWER
-	; end
-
+ 
 	db BANK(GyaradosPicFront)
 	assert BANK(GyaradosPicFront) == BANK(GyaradosPicBack)

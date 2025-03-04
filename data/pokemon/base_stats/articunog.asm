@@ -1,24 +1,22 @@
-	db DEX_ARTICUNO_G ; pokedex id
+	db DEX_ARTICUNO_G  
 
 	db  90,  85,  85,  95, 125
-	;   hp  atk  def  spd  spc
+ 
 
-	db PSYCHIC_TYPE, FLYING ; type
-	db 3 ; catch rate
-	db 215 ; base exp
+	db PSYCHIC_TYPE, FLYING  
+	db 3  
+	db 215  
 
-	INCBIN "gfx/pokemon/front/articunog.pic", 0, 1 ; sprite dimensions
+	INCBIN "gfx/pokemon/front/articunog.pic", 0, 1  
 	dw ArticunoGPicFront, ArticunoGPicBack
 
-	db GUST, CONFUSION, NO_MOVE, NO_MOVE ; level 1 learnset
-	db GROWTH_SLOW ; growth rate
+	db GUST, CONFUSION, NO_MOVE, NO_MOVE  
+	db GROWTH_SLOW  
 
-	; tm/hm learnset
-	tmhm RAZOR_WIND,   TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
+ 	tmhm RAZOR_WIND,   TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
 	     HYPER_BEAM,   RAGE,         PSYCHIC_M,    TELEPORT,     MIMIC,        \
 	     DOUBLE_TEAM,  REFLECT,      BIDE,         SWIFT,        SKY_ATTACK,   \
 	     REST,         PSYWAVE,      SUBSTITUTE,   FLY
-	; end
-
+ 
 	db BANK(ArticunoGPicFront)
 	assert BANK(ArticunoGPicFront) == BANK(ArticunoGPicBack)

@@ -1,24 +1,22 @@
-	db DEX_SEADRA ; pokedex id
+	db DEX_SEADRA  
 
 	db  55,  65,  95,  85,  95
-	;   hp  atk  def  spd  spc
+ 
 
-	db WATER, WATER ; type
-	db 75 ; catch rate
-	db 155 ; base exp
+	db WATER, WATER  
+	db 75  
+	db 155  
 
-	INCBIN "gfx/pokemon/front/seadra.pic", 0, 1 ; sprite dimensions
+	INCBIN "gfx/pokemon/front/seadra.pic", 0, 1  
 	dw SeadraPicFront, SeadraPicBack
 
-	db BUBBLE, SMOKESCREEN, NO_MOVE, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db BUBBLE, SMOKESCREEN, NO_MOVE, NO_MOVE  
+	db GROWTH_MEDIUM_FAST  
 
-	; tm/hm learnset
-	tmhm TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    \
+ 	tmhm TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    \
 	     ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   RAGE,         MIMIC,        \
 	     DOUBLE_TEAM,  BIDE,         SWIFT,        SKULL_BASH,   REST,         \
 	     SUBSTITUTE,   SURF
-	; end
-
+ 
 	db BANK(SeadraPicFront)
 	assert BANK(SeadraPicFront) == BANK(SeadraPicBack)

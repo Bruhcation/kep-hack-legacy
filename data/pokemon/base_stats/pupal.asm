@@ -1,21 +1,19 @@
-	db DEX_PUPAL ; pokedex id
+	db DEX_PUPAL  
 
 	db  45,  20,  50,  40,  30
-	;   hp  atk  def  spd  spc
+ 
 
-	db BUG, BUG ; type
-	db 120 ; catch rate
-	db 73 ; base exp
+	db BUG, BUG  
+	db 120  
+	db 73  
 
-	INCBIN "gfx/pokemon/front/pupal.pic", 0, 1 ; sprite dimensions
+	INCBIN "gfx/pokemon/front/pupal.pic", 0, 1  
 	dw PupalPicFront, PupalPicBack
 
-	db HARDEN, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db HARDEN, NO_MOVE, NO_MOVE, NO_MOVE  
+	db GROWTH_MEDIUM_FAST  
 
-	; tm/hm learnset
-	tmhm
-	; end
-
+ 	tmhm
+ 
 	db BANK(PupalPicFront)
 	assert BANK(PupalPicFront) == BANK(PupalPicBack)

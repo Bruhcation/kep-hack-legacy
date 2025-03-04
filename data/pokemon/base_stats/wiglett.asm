@@ -1,24 +1,22 @@
-	db DEX_WIGLETT ; pokedex id
+	db DEX_WIGLETT  
 
 	db  10,  55,  25,  95,  70
-	;   hp  atk  def  spd  spc
+ 
 
-	db WATER, WATER ; type
-	db 255 ; catch rate
-	db 81 ; base exp
+	db WATER, WATER  
+	db 255  
+	db 81  
 
-	INCBIN "gfx/pokemon/front/wiglett.pic", 0, 1 ; sprite dimensions
+	INCBIN "gfx/pokemon/front/wiglett.pic", 0, 1  
 	dw WiglettPicFront, WiglettPicBack
 
-	db WATER_GUN, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db WATER_GUN, NO_MOVE, NO_MOVE, NO_MOVE  
+	db GROWTH_MEDIUM_FAST  
 
-	; tm/hm learnset
-	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
+ 	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
 	     WATER_GUN,    ICE_BEAM,     BLIZZARD,     RAGE,         EARTHQUAKE,   \
 	     FISSURE,      DIG,          MIMIC,        DOUBLE_TEAM,  BIDE,         \
 	     REST,         SUBSTITUTE,   CUT,          SURF
-	; end
-
+ 
 	db BANK(WiglettPicFront)
 	assert BANK(WiglettPicFront) == BANK(WiglettPicBack)

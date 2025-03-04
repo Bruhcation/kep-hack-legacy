@@ -1,25 +1,23 @@
-	db DEX_DRATINI ; pokedex id
+	db DEX_DRATINI  
 
 	db  41,  64,  45,  50,  50
-	;   hp  atk  def  spd  spc
+ 
 
-	db DRAGON, DRAGON ; type
-	db 45 ; catch rate
-	db 67 ; base exp
+	db DRAGON, DRAGON  
+	db 45  
+	db 67  
 
-	INCBIN "gfx/pokemon/front/dratini.pic", 0, 1 ; sprite dimensions
+	INCBIN "gfx/pokemon/front/dratini.pic", 0, 1  
 	dw DratiniPicFront, DratiniPicBack
 
-	db WRAP, LEER, TAKE_DOWN, NO_MOVE ; level 1 learnset
-	db GROWTH_SLOW ; growth rate
+	db WRAP, LEER, TAKE_DOWN, NO_MOVE  
+	db GROWTH_SLOW  
 
-	; tm/hm learnset
-	tmhm TOXIC, FLAMETHROWER, BODY_SLAM,  TAKE_DOWN,  DOUBLE_EDGE,  BUBBLEBEAM,   \
+ 	tmhm TOXIC, FLAMETHROWER, BODY_SLAM,  TAKE_DOWN,  DOUBLE_EDGE,  BUBBLEBEAM,   \
 	     WATER_GUN,    ICE_BEAM,     BLIZZARD,     RAGE,         DRAGON_RAGE,  \
 	     THUNDERBOLT,  THUNDER,      MIMIC,        DOUBLE_TEAM,  REFLECT,      \
 	     BIDE,         FIRE_BLAST,   SWIFT,        SKULL_BASH,   REST,         \
 	     THUNDER_WAVE, SUBSTITUTE,   SURF
-	; end
-
+ 
 	db BANK(DratiniPicFront)
 	assert BANK(DratiniPicFront) == BANK(DratiniPicBack)

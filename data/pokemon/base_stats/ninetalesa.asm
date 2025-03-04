@@ -1,24 +1,22 @@
-	db DEX_NINETALES_A ; pokedex id
+	db DEX_NINETALES_A  
 
 	db  73,  67,  75, 109, 100
-	;   hp  atk  def  spd  spc
+ 
 
-	db ICE, FAIRY ; type
-	db 75 ; catch rate
-	db 178 ; base exp
+	db ICE, FAIRY  
+	db 75  
+	db 178  
 
-	INCBIN "gfx/pokemon/front/ninetalesa.pic", 0, 1 ; sprite dimensions
+	INCBIN "gfx/pokemon/front/ninetalesa.pic", 0, 1  
 	dw NinetalesAPicFront, NinetalesAPicBack
 
-	db FAIRY_WIND, TAIL_WHIP, QUICK_ATTACK, POWDER_SNOW  ; level 1 learnset - used for trainers
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db FAIRY_WIND, TAIL_WHIP, QUICK_ATTACK, POWDER_SNOW   
+	db GROWTH_MEDIUM_FAST  
 
-	; tm/hm learnset
-	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  ICE_BEAM,     \
+ 	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  ICE_BEAM,     \
 	     BLIZZARD,     HYPER_BEAM,   RAGE,         DIG,          MIMIC,        \
 	     DOUBLE_TEAM,  REFLECT,      BIDE,         SWIFT,        SKULL_BASH,   \
 	     REST,         SUBSTITUTE
-	; end
-
+ 
 	db BANK(NinetalesAPicFront)
 	assert BANK(NinetalesAPicFront) == BANK(NinetalesAPicBack)

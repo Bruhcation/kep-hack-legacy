@@ -1,26 +1,24 @@
-	db DEX_GAWARHED ; pokedex id
+	db DEX_GAWARHED  
 
 	db 101, 124, 100,  30,  95
-	;   hp  atk  def  spd  spc
+ 
 
-	db ROCK, ROCK ; type
-	db 45 ; catch rate
-	db 204 ; base exp
+	db ROCK, ROCK  
+	db 45  
+	db 204  
 
-	INCBIN "gfx/pokemon/front/gawarhed.pic", 0, 1 ; sprite dimensions
+	INCBIN "gfx/pokemon/front/gawarhed.pic", 0, 1  
 	dw GawarhedPicFront, GawarhedPicBack
 
-	db SUBSTITUTE, GROWL, TACKLE, NO_MOVE ; level 1 learnset
-	db GROWTH_SLOW ; growth rate
+	db SUBSTITUTE, GROWL, TACKLE, NO_MOVE  
+	db GROWTH_SLOW  
 
-	; tm/hm learnset
-	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
+ 	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   SUBMISSION,   \
 		 COUNTER,      SEISMIC_TOSS, RAGE,         DRAGON_RAGE,  THUNDERBOLT,  \
 		 THUNDER,      EARTHQUAKE,   FISSURE,      DIG,			 MIMIC,        \
 		 DOUBLE_TEAM,  BIDE,         FIRE_BLAST,   SKULL_BASH,   REST,         \
 		 ROCK_SLIDE,   SUBSTITUTE,   SURF,         STRENGTH,     CUT
-	; end
-
+ 
 	db BANK(GawarhedPicFront)
 	assert BANK(GawarhedPicFront) == BANK(GawarhedPicBack)

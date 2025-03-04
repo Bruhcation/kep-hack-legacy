@@ -1,25 +1,23 @@
-	db DEX_PORYGONZ ; pokedex id
+	db DEX_PORYGONZ  
 
 	db  85,  80,  70,  90, 135
-	;   hp  atk  def  spd  spc
+ 
 
-	db NORMAL, NORMAL ; type
-	db 30 ; catch rate
-	db 185 ; base exp
+	db NORMAL, NORMAL  
+	db 30  
+	db 185  
 
-	INCBIN "gfx/pokemon/front/porygonz.pic", 0, 1 ; sprite dimensions
+	INCBIN "gfx/pokemon/front/porygonz.pic", 0, 1  
 	dw PorygonZPicFront, PorygonZPicBack
 
-	db TACKLE, SHARPEN, CONVERSION, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db TACKLE, SHARPEN, CONVERSION, NO_MOVE  
+	db GROWTH_MEDIUM_FAST  
 
-	; tm/hm learnset
-	tmhm TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  ICE_BEAM,     BLIZZARD,     \
+ 	tmhm TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  ICE_BEAM,     BLIZZARD,     \
 	     HYPER_BEAM,   RAGE,         THUNDERBOLT,  THUNDER,      PSYCHIC_M,    \
 	     TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
 	     SWIFT,        SKULL_BASH,   REST,         THUNDER_WAVE, PSYWAVE,      \
 	     TRI_ATTACK,   SUBSTITUTE,   FLASH
-	; end
-
+ 
 	db BANK(PorygonZPicFront)
 	assert BANK(PorygonZPicFront) == BANK(PorygonZPicBack)

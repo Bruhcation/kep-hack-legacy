@@ -1,23 +1,21 @@
-	db DEX_VENONAT ; pokedex id
+	db DEX_VENONAT  
 
 	db  60,  55,  50,  45,  40
-	;   hp  atk  def  spd  spc
+ 
 
-	db BUG, POISON ; type
-	db 190 ; catch rate
-	db 75 ; base exp
+	db BUG, POISON  
+	db 190  
+	db 75  
 
-	INCBIN "gfx/pokemon/front/venonat.pic", 0, 1 ; sprite dimensions
+	INCBIN "gfx/pokemon/front/venonat.pic", 0, 1  
 	dw VenonatPicFront, VenonatPicBack
 
-	db TACKLE, DISABLE, NO_MOVE, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db TACKLE, DISABLE, NO_MOVE, NO_MOVE  
+	db GROWTH_MEDIUM_FAST  
 
-	; tm/hm learnset
-	tmhm TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  RAGE,         MEGA_DRAIN,   \
+ 	tmhm TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  RAGE,         MEGA_DRAIN,   \
 	     SOLARBEAM,    PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  REFLECT,      \
 	     BIDE,         REST,         PSYWAVE,      SUBSTITUTE,   FLASH
-	; end
-
+ 
 	db BANK(VenonatPicFront)
 	assert BANK(VenonatPicFront) == BANK(VenonatPicBack)

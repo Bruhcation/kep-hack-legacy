@@ -1,24 +1,22 @@
-	db DEX_BELLIGNAN ; pokedex id
+	db DEX_BELLIGNAN  
 
 	db  80, 120,  65,  70,  85
-	;   hp  atk  def  spd  spc
+ 
 
-	db GRASS, POISON ; type
-	db 45 ; catch rate
-	db 191 ; base exp
+	db GRASS, POISON  
+	db 45  
+	db 191  
 
-	INCBIN "gfx/pokemon/front/bellignan.pic", 0, 1 ; sprite dimensions
+	INCBIN "gfx/pokemon/front/bellignan.pic", 0, 1  
 	dw BellignanPicFront, BellignanPicBack
 
-	db SLEEP_POWDER, RAZOR_LEAF, LOVELY_KISS, ACID ; level 1 learnset
-	db GROWTH_MEDIUM_SLOW ; growth rate
+	db SLEEP_POWDER, RAZOR_LEAF, LOVELY_KISS, ACID  
+	db GROWTH_MEDIUM_SLOW  
 
-	; tm/hm learnset
-	tmhm SWORDS_DANCE, TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+ 	tmhm SWORDS_DANCE, TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     HYPER_BEAM,   RAGE,         MEGA_DRAIN,   SOLARBEAM,    MIMIC,        \
 	     DOUBLE_TEAM,  REFLECT,      BIDE,         REST,         SUBSTITUTE,   \
 	     CUT
-	; end
-
+ 
 	db BANK(BellignanPicFront)
 	assert BANK(BellignanPicFront) == BANK(BellignanPicBack)

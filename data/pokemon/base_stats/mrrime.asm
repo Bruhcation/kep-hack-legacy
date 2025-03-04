@@ -1,26 +1,24 @@
-	db DEX_MR_RIME ; pokedex id
+	db DEX_MR_RIME  
 
 	db  80,  85,  75,  70, 110
-	;   hp  atk  def  spd  spc
+ 
 
-	db ICE, PSYCHIC_TYPE ; type
-	db 45 ; catch rate
-	db 207 ; base exp
+	db ICE, PSYCHIC_TYPE  
+	db 45  
+	db 207  
 
-	INCBIN "gfx/pokemon/front/mr.rime.pic", 0, 1 ; sprite dimensions
+	INCBIN "gfx/pokemon/front/mr.rime.pic", 0, 1  
 	dw MrRimePicFront, MrRimePicBack
 
-	db CONFUSION, BARRIER, REFLECT, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db CONFUSION, BARRIER, REFLECT, NO_MOVE  
+	db GROWTH_MEDIUM_FAST  
 
-	; tm/hm learnset
-	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
+ 	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   SUBMISSION,   \
 	     COUNTER,      SEISMIC_TOSS, RAGE,         SOLARBEAM,    THUNDERBOLT,  \
 	     THUNDER,      PSYCHIC_M,    TELEPORT,     MIMIC,        DOUBLE_TEAM,  \
 	     REFLECT,      BIDE,         METRONOME,    SKULL_BASH,   REST,         \
 	     THUNDER_WAVE, PSYWAVE,      SUBSTITUTE,   FLASH
-	; end
-
+ 
 	db BANK(MrRimePicFront)
 	assert BANK(MrRimePicFront) == BANK(MrRimePicBack)

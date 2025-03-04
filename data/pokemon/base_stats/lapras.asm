@@ -1,26 +1,24 @@
-	db DEX_LAPRAS ; pokedex id
+	db DEX_LAPRAS  
 
 	db 130,  85,  80,  60,  95
-	;   hp  atk  def  spd  spc
+ 
 
-	db WATER, ICE ; type
-	db 45 ; catch rate
-	db 219 ; base exp
+	db WATER, ICE  
+	db 45  
+	db 219  
 
-	INCBIN "gfx/pokemon/front/lapras.pic", 0, 1 ; sprite dimensions
+	INCBIN "gfx/pokemon/front/lapras.pic", 0, 1  
 	dw LaprasPicFront, LaprasPicBack
 
-	db WATER_GUN, GROWL, NO_MOVE, NO_MOVE ; level 1 learnset
-	db GROWTH_SLOW ; growth rate
+	db WATER_GUN, GROWL, NO_MOVE, NO_MOVE  
+	db GROWTH_SLOW  
 
-	; tm/hm learnset
-	tmhm TOXIC,        HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+ 	tmhm TOXIC,        HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \
 	     RAGE,         SOLARBEAM,    DRAGON_RAGE,  THUNDERBOLT,  THUNDER,      \
 	     PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
 	     SKULL_BASH,   REST,         PSYWAVE,      SUBSTITUTE,   SURF,         \
 	     STRENGTH
-	; end
-
+ 
 	db BANK(LaprasPicFront)
 	assert BANK(LaprasPicFront) == BANK(LaprasPicBack)

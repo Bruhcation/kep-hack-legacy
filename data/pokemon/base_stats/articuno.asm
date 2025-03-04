@@ -1,24 +1,22 @@
-	db DEX_ARTICUNO ; pokedex id
+	db DEX_ARTICUNO  
 
 	db  90,  85, 100,  85, 125
-	;   hp  atk  def  spd  spc
+ 
 
-	db ICE, FLYING ; type
-	db 3 ; catch rate
-	db 215 ; base exp
+	db ICE, FLYING  
+	db 3  
+	db 215  
 
-	INCBIN "gfx/pokemon/front/articuno.pic", 0, 1 ; sprite dimensions
+	INCBIN "gfx/pokemon/front/articuno.pic", 0, 1  
 	dw ArticunoPicFront, ArticunoPicBack
 
-	db PECK, ICE_BEAM, POWDER_SNOW, NO_MOVE ; level 1 learnset
-	db GROWTH_SLOW ; growth rate
+	db PECK, ICE_BEAM, POWDER_SNOW, NO_MOVE  
+	db GROWTH_SLOW  
 
-	; tm/hm learnset
-	tmhm RAZOR_WIND,   TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
+ 	tmhm RAZOR_WIND,   TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
 	     BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \
 	     RAGE,         MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
 	     SWIFT,        SKY_ATTACK,   REST,         SUBSTITUTE,   FLY
-	; end
-
+ 
 	db BANK(ArticunoPicFront)
 	assert BANK(ArticunoPicFront) == BANK(ArticunoPicBack)

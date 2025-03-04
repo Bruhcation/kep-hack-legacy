@@ -1,20 +1,19 @@
-	db DEX_MEWTWO ; pokedex id
+	db DEX_MEWTWO  
 
 	db 106, 110,  90, 130, 154
-	;   hp  atk  def  spd  spc
+ 
 
-	db PSYCHIC_TYPE, PSYCHIC_TYPE ; type
-	db 3 ; catch rate
-	db 220 ; base exp
+	db PSYCHIC_TYPE, PSYCHIC_TYPE  
+	db 3  
+	db 220  
 
-	INCBIN "gfx/pokemon/front/mewtwo.pic", 0, 1 ; sprite dimensions
+	INCBIN "gfx/pokemon/front/mewtwo.pic", 0, 1  
 	dw MewtwoPicFront, MewtwoPicBack
 
-	db CONFUSION, DISABLE, SWIFT, PSYCHIC_M ; level 1 learnset
-	db GROWTH_SLOW ; growth rate
+	db CONFUSION, DISABLE, SWIFT, PSYCHIC_M  
+	db GROWTH_SLOW  
 
-	; tm/hm learnset
-	tmhm MEGA_PUNCH, FLAMETHROWER, MEGA_KICK, TOXIC, BODY_SLAM,  TAKE_DOWN,    \
+ 	tmhm MEGA_PUNCH, FLAMETHROWER, MEGA_KICK, TOXIC, BODY_SLAM,  TAKE_DOWN,    \
 	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
 	     HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         \
 	     SOLARBEAM,    THUNDERBOLT,  THUNDER,      PSYCHIC_M,    TELEPORT,     \
@@ -22,7 +21,6 @@
 	     SELFDESTRUCT, FIRE_BLAST,   SKULL_BASH,   REST,         THUNDER_WAVE, \
 	     PSYWAVE,      TRI_ATTACK,   SUBSTITUTE,   STRENGTH,     FLASH,        \
 		 PAY_DAY
-	; end
-
+ 
 	db BANK(MewtwoPicFront)
 	assert BANK(MewtwoPicFront) == BANK(MewtwoPicBack)

@@ -1,24 +1,22 @@
-	db DEX_PINSIR ; pokedex id
+	db DEX_PINSIR  
 
 	db  65, 125, 100,  85,  55
-	;   hp  atk  def  spd  spc
+ 
 
-	db BUG, BUG ; type
-	db 45 ; catch rate
-	db 200 ; base exp
+	db BUG, BUG  
+	db 45  
+	db 200  
 
-	INCBIN "gfx/pokemon/front/pinsir.pic", 0, 1 ; sprite dimensions
+	INCBIN "gfx/pokemon/front/pinsir.pic", 0, 1  
 	dw PinsirPicFront, PinsirPicBack
 
-	db VICEGRIP, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
-	db GROWTH_SLOW ; growth rate
+	db VICEGRIP, NO_MOVE, NO_MOVE, NO_MOVE  
+	db GROWTH_SLOW  
 
-	; tm/hm learnset
-	tmhm SWORDS_DANCE, TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+ 	tmhm SWORDS_DANCE, TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     HYPER_BEAM,   SUBMISSION,   SEISMIC_TOSS, RAGE,         MIMIC,        \
 	     DOUBLE_TEAM,  BIDE,         REST,         SUBSTITUTE,   CUT,          \
 	     STRENGTH,     EARTHQUAKE,   ROCK_SLIDE
-	; end
-
+ 
 	db BANK(PinsirPicFront)
 	assert BANK(PinsirPicFront) == BANK(PinsirPicBack)
