@@ -17,7 +17,7 @@
 	     TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     \
 	     BLIZZARD,     HYPER_BEAM,   SUBMISSION,   SEISMIC_TOSS, RAGE,         \
 	     MIMIC,        DOUBLE_TEAM,  REFLECT,                    \
-	     REST,         SUBSTITUTE,   CUT,          SURF
+	     REST,         SUBSTITUTE,   CUT,    SURF, ROCK_SLIDE
  
 	db BANK(KabutopsPicFront)
 	assert BANK(KabutopsPicFront) == BANK(KabutopsPicBack)

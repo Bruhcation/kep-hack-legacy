@@ -18,9 +18,8 @@
 	     HYPER_BEAM,   PAY_DAY,      SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
 	     RAGE,         EARTHQUAKE,   FISSURE,      DIG,          PSYCHIC_M,    \
 	     TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,                \
-	     FIRE_BLAST,   SWIFT,            REST,         THUNDER_WAVE, \
+	     FIRE_BLAST,   SWIFT,            REST,         THUNDER_WAVE, FLASH,\
 	     PSYWAVE,      TRI_ATTACK,   SUBSTITUTE,   SURF,         STRENGTH,     \
-	     FLASH
- 
+	
 	db BANK(SlowkingPicFront)
 	assert BANK(SlowkingPicFront) == BANK(SlowkingPicBack)

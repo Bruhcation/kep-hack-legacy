@@ -13,9 +13,9 @@
 	db TACKLE, SAND_ATTACK, QUICK_ATTACK, EMBER  
 	db GROWTH_MEDIUM_SLOW  
 
- 	tmhm FLAMETHROWER, TOXIC, BODY_SLAM, TAKE_DOWN, DOUBLE_EDGE,  HYPER_BEAM,   \
+ 	tmhm FLAMETHROWER, TOXIC, BODY_SLAM, TAKE_DOWN, DOUBLE_EDGE,  \
 	     RAGE,         MIMIC,        DOUBLE_TEAM,  REFLECT,                \
-	     FIRE_BLAST,   SWIFT,            REST,         SUBSTITUTE
+	     FIRE_BLAST,   SWIFT,            REST,    SUBSTITUTE, HYPER_BEAM
  
 	db BANK(FlareonPicFront)
 	assert BANK(FlareonPicFront) == BANK(FlareonPicBack)

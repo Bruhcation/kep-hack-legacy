@@ -1,3 +1,14 @@
+; See constants/pokemon_data_constants.asm
+; The max number of evolutions per monster is MAX_EVOLUTIONS
+
+; Template proceeding;
+;NamehereEvosMoves:
+; Evolutions
+;	db EV_LEVEL, LEVELHERE, POKEMON
+;	db 0
+; Learnset
+;	db LEVEL, MOVENAME
+;	db 0
 
 EvosMovesPointerTable:
 	table_width 2, EvosMovesPointerTable

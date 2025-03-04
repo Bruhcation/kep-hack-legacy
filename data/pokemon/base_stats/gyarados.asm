@@ -17,7 +17,7 @@
 	     WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   RAGE,         \
 	     DRAGON_RAGE,  THUNDERBOLT,  THUNDER,      MIMIC,        DOUBLE_TEAM,  \
 	     REFLECT,                FIRE_BLAST,       REST,         \
-	     SUBSTITUTE,   FLY,			 SURF,         STRENGTH,     FLAMETHROWER
+	     SUBSTITUTE,   FLY,		 SURF,    STRENGTH,   FLAMETHROWER
  
 	db BANK(GyaradosPicFront)
 	assert BANK(GyaradosPicFront) == BANK(GyaradosPicBack)

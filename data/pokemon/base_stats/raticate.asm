@@ -13,10 +13,10 @@
 	db NO_MOVE, TAIL_WHIP, QUICK_ATTACK, NO_MOVE  
 	db GROWTH_MEDIUM_FAST  
 
- 	tmhm SWORDS_DANCE,	TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
+ 	tmhm SWORDS_DANCE,	TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE, \
 	     WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   RAGE,         \
 	     THUNDERBOLT,  THUNDER,      DIG,          MIMIC,        DOUBLE_TEAM,  \
-	               SWIFT,            REST,         SUBSTITUTE
+	               SWIFT,            REST,         SUBSTITUTE,  BUBBLEBEAM
  
 	db BANK(RaticatePicFront)
 	assert BANK(RaticatePicFront) == BANK(RaticatePicBack)
