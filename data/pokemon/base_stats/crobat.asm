@@ -15,7 +15,7 @@
 
  	tmhm RAZOR_WIND,   TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
 	     HYPER_BEAM,   RAGE,         MEGA_DRAIN,   MIMIC,        DOUBLE_TEAM,  \
-	     BIDE,         SWIFT,        SKY_ATTACK,   REST,         SUBSTITUTE,   \
+	               SWIFT,        SKY_ATTACK,   REST,         SUBSTITUTE,   \
 	     FLY
  
 	db BANK(CrobatPicFront)

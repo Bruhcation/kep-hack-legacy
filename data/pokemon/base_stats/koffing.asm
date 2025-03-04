@@ -13,8 +13,8 @@
 	db TACKLE, SMOG, NO_MOVE, NO_MOVE  
 	db GROWTH_MEDIUM_FAST  
 
- 	tmhm FLAMETHROWER, TOXIC,  RAGE,  THUNDERBOLT,  THUNDER,     MIMIC,        \
-	     DOUBLE_TEAM,  BIDE,         SELFDESTRUCT, FIRE_BLAST,   REST,         \
+ 	tmhm   TOXIC,  RAGE,  THUNDERBOLT,  THUNDER,     MIMIC,        \
+	     DOUBLE_TEAM,            SELFDESTRUCT, FIRE_BLAST,   REST,         \
 	     EXPLOSION,    SUBSTITUTE
  
 	db BANK(KoffingPicFront)

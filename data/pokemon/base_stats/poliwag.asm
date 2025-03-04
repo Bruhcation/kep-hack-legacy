@@ -10,12 +10,12 @@
 	INCBIN "gfx/pokemon/front/poliwag.pic", 0, 1  
 	dw PoliwagPicFront, PoliwagPicBack
 
-	db BUBBLE, BIDE, NO_MOVE, NO_MOVE  
+	db BUBBLE, NO_MOVE, NO_MOVE, NO_MOVE  
 	db GROWTH_MEDIUM_SLOW  
 
  	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
 	     WATER_GUN,    ICE_BEAM,     BLIZZARD,     RAGE,         PSYCHIC_M,    \
-	     MIMIC,        DOUBLE_TEAM,  BIDE,         SKULL_BASH,   REST,         \
+	     MIMIC,        DOUBLE_TEAM,            SKULL_BASH,   REST,         \
 	     PSYWAVE,      SUBSTITUTE,   SURF,   DREAM_EATER
  
 	db BANK(PoliwagPicFront)

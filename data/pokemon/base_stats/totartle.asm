@@ -10,14 +10,14 @@
 	INCBIN "gfx/pokemon/front/totartle.pic", 0, 1  
 	dw TotartlePicFront, TotartlePicBack
 
-	db TACKLE, TAIL_WHIP, BUBBLE, LEER  
+	db NO_MOVE, TAIL_WHIP, BUBBLE, NO_MOVE  
 	db GROWTH_MEDIUM_SLOW  
 
  	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
 	     HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         \
 	     MEGA_DRAIN,   SOLARBEAM,    EARTHQUAKE,   FISSURE,      DIG,          \
-	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         SKULL_BASH,   \
+	     MIMIC,        DOUBLE_TEAM,  REFLECT,                SKULL_BASH,   \
 	     REST,         SUBSTITUTE,   SURF,         STRENGTH   
  
 	db BANK(TotartlePicFront)

@@ -15,7 +15,7 @@
 
  	tmhm SWORDS_DANCE, TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  RAGE,         \
 	     MEGA_DRAIN,   SOLARBEAM,	 EARTHQUAKE,   FISSURE,      DIG,          \
-	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         SKULL_BASH,   \
+	     MIMIC,        DOUBLE_TEAM,  REFLECT,                SKULL_BASH,   \
 	     REST,         SUBSTITUTE,   CUT
  
 	db BANK(ToedscoolPicFront)

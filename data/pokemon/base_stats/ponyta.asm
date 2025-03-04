@@ -14,7 +14,7 @@
 	db GROWTH_MEDIUM_FAST  
 
  	tmhm FLAMETHROWER, TOXIC,  HORN_DRILL, BODY_SLAM, TAKE_DOWN, DOUBLE_EDGE,  \
-	     RAGE,         MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
+	     RAGE,         MIMIC,        DOUBLE_TEAM,  REFLECT,                \
 	     FIRE_BLAST,   SWIFT,        SKULL_BASH,   REST,         SUBSTITUTE
  
 	db BANK(PonytaPicFront)

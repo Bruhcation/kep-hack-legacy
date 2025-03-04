@@ -16,7 +16,7 @@
  	tmhm TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    \
 	     ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   RAGE,         DRAGON_RAGE,  \
 	     PSYCHIC_M,    TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-	     BIDE,         REST,         PSYWAVE,      SUBSTITUTE,   SURF,         \
+	               REST,         PSYWAVE,      SUBSTITUTE,   SURF,         \
 	     FLASH
  
 	db BANK(PendrakenPicFront)

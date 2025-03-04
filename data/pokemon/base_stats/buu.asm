@@ -16,7 +16,7 @@
  	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   SUBMISSION,   \
 	     COUNTER,      SEISMIC_TOSS, RAGE,         PSYCHIC_M,    TELEPORT,     \
-	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    \
+	     MIMIC,        DOUBLE_TEAM,  REFLECT,                METRONOME,    \
 	     SKULL_BASH,   REST,         PSYWAVE,      SUBSTITUTE,   STRENGTH
  
 	db BANK(BuuPicFront)

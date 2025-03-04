@@ -10,13 +10,13 @@
 	INCBIN "gfx/pokemon/front/poliwhirl.pic", 0, 1  
 	dw PoliwhirlPicFront, PoliwhirlPicBack
 
-	db BUBBLE, HYPNOSIS, WATER_GUN, BIDE  
+	db NO_MOVE, HYPNOSIS, WATER_GUN, NO_MOVE  
 	db GROWTH_MEDIUM_SLOW  
 
  	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
 	     SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         EARTHQUAKE,   \
-	     FISSURE,      PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  BIDE,         \
+	     FISSURE,      PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,            \
 	     METRONOME,    SKULL_BASH,   REST,         PSYWAVE,      SUBSTITUTE,   \
 	     SURF,         STRENGTH,   DREAM_EATER
  

@@ -14,7 +14,7 @@
 	db GROWTH_MEDIUM_FAST  
 
  	tmhm RAZOR_WIND,   TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
-	     RAGE,         MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        \
+	     RAGE,         MIMIC,        DOUBLE_TEAM,            SWIFT,        \
 	     SKY_ATTACK,   REST,         SUBSTITUTE,   FLY
  
 	db BANK(SpearowPicFront)

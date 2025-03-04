@@ -10,13 +10,13 @@
 	INCBIN "gfx/pokemon/front/raticate.pic", 0, 1  
 	dw RaticatePicFront, RaticatePicBack
 
-	db TACKLE, TAIL_WHIP, QUICK_ATTACK, NO_MOVE  
+	db NO_MOVE, TAIL_WHIP, QUICK_ATTACK, NO_MOVE  
 	db GROWTH_MEDIUM_FAST  
 
  	tmhm SWORDS_DANCE,	TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
 	     WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   RAGE,         \
 	     THUNDERBOLT,  THUNDER,      DIG,          MIMIC,        DOUBLE_TEAM,  \
-	     BIDE,         SWIFT,        SKULL_BASH,   REST,         SUBSTITUTE
+	               SWIFT,        SKULL_BASH,   REST,         SUBSTITUTE
  
 	db BANK(RaticatePicFront)
 	assert BANK(RaticatePicFront) == BANK(RaticatePicBack)

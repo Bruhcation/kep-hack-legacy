@@ -17,7 +17,7 @@
 	     BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   PAY_DAY,      \
 	     SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         MEGA_DRAIN,   \
 	     EARTHQUAKE,   FISSURE,      DIG,          MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         SWIFT,        SKULL_BASH,   REST,         \
+	     REFLECT,                SWIFT,        SKULL_BASH,   REST,         \
 	     SUBSTITUTE
  
 	db BANK(CarapthorPicFront)

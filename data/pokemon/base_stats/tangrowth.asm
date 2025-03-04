@@ -10,13 +10,13 @@
 	INCBIN "gfx/pokemon/front/tangrowth.pic", 0, 1  
 	dw TangrowthPicFront, TangrowthPicBack
 
-	db CONSTRICT, BIND, ABSORB, NO_MOVE  
+	db CONSTRICT, NO_MOVE, ABSORB, NO_MOVE  
 	db GROWTH_MEDIUM_FAST  
 
  	tmhm MEGA_PUNCH,   SWORDS_DANCE, TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
 	     RAGE,         MEGA_DRAIN,   SOLARBEAM,    EARTHQUAKE,   FISSURE,      \
-	     MIMIC,        DOUBLE_TEAM,  BIDE,         SKULL_BASH,   REST,         \
+	     MIMIC,        DOUBLE_TEAM,            SKULL_BASH,   REST,         \
 	     ROCK_SLIDE,   SUBSTITUTE,   CUT
  
 	db BANK(TangrowthPicFront)

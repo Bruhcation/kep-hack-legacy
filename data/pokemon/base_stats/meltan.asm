@@ -13,7 +13,7 @@
 	db THUNDERSHOCK, HARDEN, NO_MOVE, NO_MOVE  
 	db GROWTH_SLOW  
 
- 	tmhm TOXIC, 	   RAGE, 	     MIMIC, 	   DOUBLE_TEAM,  BIDE,		   \
+ 	tmhm TOXIC, 	   RAGE, 	     MIMIC, 	   DOUBLE_TEAM,   		   \
 		 REST,         THUNDER_WAVE, SUBSTITUTE 
  
 	db BANK(MeltanPicFront)

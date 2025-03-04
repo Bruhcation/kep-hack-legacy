@@ -16,7 +16,7 @@
  	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
 	     PAY_DAY,      SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         \
-	     DIG,          MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        \
+	     DIG,          MIMIC,        DOUBLE_TEAM,            SWIFT,        \
 	     SKULL_BASH,   REST, PSYCHIC_M, PSYWAVE,  SUBSTITUTE,  SURF, STRENGTH
  
 	db BANK(PsyduckPicFront)

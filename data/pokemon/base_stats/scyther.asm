@@ -14,7 +14,7 @@
 	db GROWTH_MEDIUM_FAST  
 
  	tmhm SWORDS_DANCE, TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   \
-	     RAGE,         MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        \
+	     RAGE,         MIMIC,        DOUBLE_TEAM,            SWIFT,        \
 	     SKULL_BASH,   REST,         SUBSTITUTE,   CUT
  
 	db BANK(ScytherPicFront)

@@ -17,7 +17,7 @@
 	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
 	     HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         \
 	     EARTHQUAKE,   FISSURE,      DIG,          MIMIC,        DOUBLE_TEAM,  \
-	     BIDE,    	FIRE_BLAST,   	SKULL_BASH,   REST, ROCK_SLIDE,  SUBSTITUTE,   \
+	          	FIRE_BLAST,   	SKULL_BASH,   REST, ROCK_SLIDE,  SUBSTITUTE,   \
 	     CUT, 		STRENGTH, 		SWORDS_DANCE
  
 	db BANK(GuardiaPicFront)

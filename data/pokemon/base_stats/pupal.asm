@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/pupal.pic", 0, 1  
 	dw PupalPicFront, PupalPicBack
 
-	db HARDEN, NO_MOVE, NO_MOVE, NO_MOVE  
+	db HARDEN, TACKLE, NO_MOVE, NO_MOVE  
 	db GROWTH_MEDIUM_FAST  
 
  	tmhm

@@ -14,7 +14,7 @@
 	db GROWTH_MEDIUM_FAST  
 
  	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     RAGE,         MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
+	     RAGE,         MIMIC,        DOUBLE_TEAM,  REFLECT,                \
 	     SKULL_BASH,   SKY_ATTACK,   REST,         TRI_ATTACK,   SUBSTITUTE,   \
 	     FLY
  

@@ -15,7 +15,7 @@
 
  	tmhm SWORDS_DANCE, TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     HYPER_BEAM,   RAGE,         MEGA_DRAIN,   SOLARBEAM,    MIMIC,        \
-	     DOUBLE_TEAM,  REFLECT,      BIDE,         REST,         SUBSTITUTE,   \
+	     DOUBLE_TEAM,  REFLECT,                REST,         SUBSTITUTE,   \
 	     CUT
  
 	db BANK(BellignanPicFront)

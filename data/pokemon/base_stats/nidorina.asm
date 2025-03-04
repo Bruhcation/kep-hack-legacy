@@ -16,7 +16,7 @@
  	tmhm TOXIC,        HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     RAGE,         \
 	     THUNDERBOLT,  THUNDER,      MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-	     BIDE,         SKULL_BASH,   REST,         SUBSTITUTE
+	               SKULL_BASH,   REST,         SUBSTITUTE
  
 	db BANK(NidorinaPicFront)
 	assert BANK(NidorinaPicFront) == BANK(NidorinaPicBack)

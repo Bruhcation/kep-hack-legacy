@@ -18,7 +18,7 @@
          DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    HYPER_BEAM,   SUBMISSION,   \
          COUNTER,      SEISMIC_TOSS, RAGE,         THUNDERBOLT,  THUNDER,      \
          EARTHQUAKE,   FISSURE,      DIG,          MIMIC,        DOUBLE_TEAM,  \
-         BIDE,         METRONOME,    SWIFT,        SKULL_BASH,   REST,         \
+                   METRONOME,    SWIFT,        SKULL_BASH,   REST,         \
          THUNDER_WAVE, ROCK_SLIDE,   SUBSTITUTE,   SURF,         STRENGTH
     ; end
 

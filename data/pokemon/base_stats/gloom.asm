@@ -15,7 +15,7 @@
 
  	tmhm SWORDS_DANCE, TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  RAGE,         \
 	     MEGA_DRAIN,   SOLARBEAM,    MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-	     BIDE,         REST,         SUBSTITUTE,   CUT
+	               REST,         SUBSTITUTE,   CUT
  
 	db BANK(GloomPicFront)
 	assert BANK(GloomPicFront) == BANK(GloomPicBack)

@@ -10,13 +10,13 @@
 	INCBIN "gfx/pokemon/front/weirduck.pic", 0, 1  
 	dw WeirduckPicFront, WeirduckPicBack
 
-	db SCRATCH, WATER_GUN, TAIL_WHIP, AMNESIA  
+	db SCRATCH, WATER_GUN, NO_MOVE, NO_MOVE  
 	db GROWTH_MEDIUM_FAST  
 
  	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
 	     PAY_DAY,      SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         \
-	     DIG,          MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        \
+	     DIG,          MIMIC,        DOUBLE_TEAM,            SWIFT,        \
 	     SKULL_BASH,   REST,         SUBSTITUTE,   SURF,         STRENGTH,     \
 		 PSYCHIC_M,    PSYWAVE
  

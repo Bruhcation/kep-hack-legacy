@@ -16,7 +16,7 @@
  	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
 	     WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   RAGE,	   \
 	     EARTHQUAKE,   FISSURE,      DIG,          MIMIC,        DOUBLE_TEAM,  \
-	     BIDE,         REST,         SUBSTITUTE,   CUT,          SURF
+	               REST,         SUBSTITUTE,   CUT,          SURF
  
 	db BANK(WugtrioPicFront)
 	assert BANK(WugtrioPicFront) == BANK(WugtrioPicBack)

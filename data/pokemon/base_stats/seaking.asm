@@ -10,12 +10,12 @@
 	INCBIN "gfx/pokemon/front/seaking.pic", 0, 1  
 	dw SeakingPicFront, SeakingPicBack
 
-	db PECK, TAIL_WHIP, WATER_GUN, SUPERSONIC  
+	db PECK, NO_MOVE, NO_MOVE, NO_MOVE  
 	db GROWTH_MEDIUM_FAST  
 
  	tmhm TOXIC,        HORN_DRILL,   TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
 	     WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   RAGE,         \
-	     MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        SKULL_BASH,   \
+	     MIMIC,        DOUBLE_TEAM,            SWIFT,        SKULL_BASH,   \
 	     REST,         SUBSTITUTE,   SURF,   SWORDS_DANCE
  
 	db BANK(SeakingPicFront)

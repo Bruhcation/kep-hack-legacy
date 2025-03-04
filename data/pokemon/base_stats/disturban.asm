@@ -16,7 +16,7 @@
  	tmhm TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    \
 	     ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   RAGE,         EARTHQUAKE,   \
 	     FISSURE,      DIG,          TELEPORT,     MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         SELFDESTRUCT, SWIFT,        REST,         \
+	     REFLECT,                SELFDESTRUCT, SWIFT,        REST,         \
 	     EXPLOSION,    TRI_ATTACK,   SUBSTITUTE,   SURF, 	     STRENGTH
  
 	db BANK(DisturbanPicFront)

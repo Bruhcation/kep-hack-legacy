@@ -14,7 +14,7 @@
 	db GROWTH_MEDIUM_FAST  
 
  	tmhm FLAMETHROWER, TOXIC, BODY_SLAM,   HYPER_BEAM,   RAGE,   MEGA_DRAIN,   \
-	     THUNDERBOLT,  THUNDER,      MIMIC,        DOUBLE_TEAM,  BIDE,         \
+	     THUNDERBOLT,  THUNDER,      MIMIC,        DOUBLE_TEAM,            \
 	     SELFDESTRUCT, FIRE_BLAST,   REST,         EXPLOSION,    SUBSTITUTE,   \
 	     DIG
  

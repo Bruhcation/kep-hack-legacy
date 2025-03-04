@@ -10,11 +10,11 @@
 	INCBIN "gfx/pokemon/front/weezingg.pic", 0, 1  
 	dw WeezingGPicFront, WeezingGPicBack
 
-	db TACKLE, SMOG, SLUDGE, FAIRY_WIND  
+	db NO_MOVE, NO_MOVE, SLUDGE, FAIRY_WIND  
 	db GROWTH_MEDIUM_FAST  
 
  	tmhm FLAMETHROWER, TOXIC,        HYPER_BEAM,   RAGE,         THUNDERBOLT,  THUNDER,      \
-	     MIMIC,        DOUBLE_TEAM,  BIDE,         SELFDESTRUCT, FIRE_BLAST,   \
+	     MIMIC,        DOUBLE_TEAM,            SELFDESTRUCT, FIRE_BLAST,   \
 	     REST,         EXPLOSION,    SUBSTITUTE
  
 	db BANK(WeezingGPicFront)

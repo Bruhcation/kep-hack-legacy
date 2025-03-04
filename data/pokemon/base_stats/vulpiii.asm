@@ -13,8 +13,8 @@
 	db EMBER, TAIL_WHIP, NO_MOVE, NO_MOVE  
 	db GROWTH_MEDIUM_FAST  
 
- 	tmhm TOXIC, FLAMETHROWER, BODY_SLAM, TAKE_DOWN, DOUBLE_EDGE,  RAGE,        \
-	     DIG,          MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
+ 	tmhm TOXIC,   BODY_SLAM, TAKE_DOWN, DOUBLE_EDGE,  RAGE,        \
+	     DIG,          MIMIC,        DOUBLE_TEAM,  REFLECT,                \
 	     FIRE_BLAST,   SWIFT,        SKULL_BASH,   REST,         SUBSTITUTE
  
 	db BANK(VulpiiiPicFront)

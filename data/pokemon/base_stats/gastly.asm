@@ -14,7 +14,7 @@
 	db GROWTH_MEDIUM_SLOW  
 
  	tmhm TOXIC,        RAGE,         MEGA_DRAIN,   THUNDERBOLT,  THUNDER,      \
-	     PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  BIDE,         SELFDESTRUCT, \
+	     PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,            SELFDESTRUCT, \
 	     DREAM_EATER,  REST,         PSYWAVE,      EXPLOSION,    SUBSTITUTE
  
 	db BANK(GastlyPicFront)

@@ -15,7 +15,7 @@
 
  	tmhm TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  RAGE,         MEGA_DRAIN,   \
 	     SOLARBEAM,    PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-	     BIDE,         REST,         PSYWAVE,      SUBSTITUTE,   FLASH
+	               REST,         PSYWAVE,      SUBSTITUTE,   FLASH
  
 	db BANK(VenonatPicFront)
 	assert BANK(VenonatPicFront) == BANK(VenonatPicBack)

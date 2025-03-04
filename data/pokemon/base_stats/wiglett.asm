@@ -15,7 +15,7 @@
 
  	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
 	     WATER_GUN,    ICE_BEAM,     BLIZZARD,     RAGE,         EARTHQUAKE,   \
-	     FISSURE,      DIG,          MIMIC,        DOUBLE_TEAM,  BIDE,         \
+	     FISSURE,      DIG,          MIMIC,        DOUBLE_TEAM,            \
 	     REST,         SUBSTITUTE,   CUT,          SURF
  
 	db BANK(WiglettPicFront)

@@ -15,7 +15,7 @@
 
  	tmhm RAZOR_WIND,   SWORDS_DANCE, TOXIC,        HORN_DRILL,   \
 	     BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  RAGE,         THUNDERBOLT,  \
-	     THUNDER,      MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
+	     THUNDER,      MIMIC,        DOUBLE_TEAM,  REFLECT,                \
 	     SWIFT,        SKULL_BASH,   REST,         SUBSTITUTE,   CUT,          \
 	     FLY
  

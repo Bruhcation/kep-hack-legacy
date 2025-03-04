@@ -10,14 +10,14 @@
 	INCBIN "gfx/pokemon/front/slowbro.pic", 0, 1  
 	dw SlowbroPicFront, SlowbroPicBack
 
-	db CONFUSION, DISABLE, HEADBUTT, NO_MOVE  
+	db CONFUSION, NO_MOVE, HEADBUTT, NO_MOVE  
 	db GROWTH_MEDIUM_FAST  
 
  	tmhm MEGA_PUNCH,  FLAMETHROWER, MEGA_KICK, TOXIC, BODY_SLAM, TAKE_DOWN,    \
 	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
 	     HYPER_BEAM,   PAY_DAY,      SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
 	     RAGE,         EARTHQUAKE,   FISSURE,      DIG,          PSYCHIC_M,    \
-	     TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
+	     TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,                \
 	     FIRE_BLAST,   SWIFT,        SKULL_BASH,   REST,         THUNDER_WAVE, \
 	     PSYWAVE,      TRI_ATTACK,   SUBSTITUTE,   SURF,         STRENGTH,     \
 	     FLASH

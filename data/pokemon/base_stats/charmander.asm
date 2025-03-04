@@ -13,10 +13,10 @@
 	db SCRATCH, GROWL, NO_MOVE, NO_MOVE  
 	db GROWTH_MEDIUM_SLOW  
 
- 	tmhm MEGA_PUNCH, SWORDS_DANCE, FLAMETHROWER, MEGA_KICK, TOXIC,  BODY_SLAM,      \
+ 	tmhm MEGA_PUNCH, SWORDS_DANCE,   MEGA_KICK, TOXIC,  BODY_SLAM,      \
 	     TAKE_DOWN,    DOUBLE_EDGE,  SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
 	     RAGE,         DRAGON_RAGE,  DIG,          MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         FIRE_BLAST,   SWIFT,        SKULL_BASH,   \
+	     REFLECT,                FIRE_BLAST,   SWIFT,        SKULL_BASH,   \
 	     REST,         SUBSTITUTE,   CUT,          STRENGTH
  
 	db BANK(CharmanderPicFront)

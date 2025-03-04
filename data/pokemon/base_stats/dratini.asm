@@ -13,10 +13,10 @@
 	db WRAP, LEER, TAKE_DOWN, NO_MOVE  
 	db GROWTH_SLOW  
 
- 	tmhm TOXIC, FLAMETHROWER, BODY_SLAM,  TAKE_DOWN,  DOUBLE_EDGE,  BUBBLEBEAM,   \
+ 	tmhm TOXIC,   BODY_SLAM,  TAKE_DOWN,  DOUBLE_EDGE,  BUBBLEBEAM,   \
 	     WATER_GUN,    ICE_BEAM,     BLIZZARD,     RAGE,         DRAGON_RAGE,  \
 	     THUNDERBOLT,  THUNDER,      MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-	     BIDE,         FIRE_BLAST,   SWIFT,        SKULL_BASH,   REST,         \
+	               FIRE_BLAST,   SWIFT,        SKULL_BASH,   REST,         \
 	     THUNDER_WAVE, SUBSTITUTE,   SURF
  
 	db BANK(DratiniPicFront)

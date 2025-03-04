@@ -15,7 +15,7 @@
 
  	tmhm FLAMETHROWER, TOXIC, BODY_SLAM, TAKE_DOWN, DOUBLE_EDGE,  RAGE,        \
 	     DRAGON_RAGE,  DIG,          MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-	     BIDE,         FIRE_BLAST,   SWIFT,        SKULL_BASH,   REST,         \
+	               FIRE_BLAST,   SWIFT,        SKULL_BASH,   REST,         \
 	     SUBSTITUTE
  
 	db BANK(GrowlithePicFront)

@@ -10,12 +10,12 @@
 	INCBIN "gfx/pokemon/front/zapdosg.pic", 0, 1  
 	dw ZapdosGPicFront, ZapdosGPicBack
 
-	db PECK, FOCUS_ENERGY, NO_MOVE, NO_MOVE  
+	db NO_MOVE, FOCUS_ENERGY, NO_MOVE, NO_MOVE  
 	db GROWTH_SLOW  
 
  	tmhm MEGA_KICK,    TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
 	     HYPER_BEAM,   COUNTER,      RAGE,         MIMIC,        DOUBLE_TEAM,  \
-	     BIDE,         SWIFT,        SKY_ATTACK,   REST,         SUBSTITUTE,   \
+	               SWIFT,        SKY_ATTACK,   REST,         SUBSTITUTE,   \
 		 FLY
  
 	db BANK(ZapdosGPicFront)

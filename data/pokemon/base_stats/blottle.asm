@@ -15,7 +15,7 @@
 
  	tmhm TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    \
 	     ICE_BEAM,     BLIZZARD,     RAGE,         MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         REST,         SUBSTITUTE,   SURF,         \
+	     REFLECT,                REST,         SUBSTITUTE,   SURF,         \
 	     FLASH
  
 	db BANK(BlottlePicFront)

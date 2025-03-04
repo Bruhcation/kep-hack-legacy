@@ -15,7 +15,7 @@
 
  	tmhm RAZOR_WIND,   TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
 	     HYPER_BEAM,   RAGE,         PSYCHIC_M,    TELEPORT,     MIMIC,        \
-	     DOUBLE_TEAM,  REFLECT,      BIDE,         SWIFT,        SKY_ATTACK,   \
+	     DOUBLE_TEAM,  REFLECT,                SWIFT,        SKY_ATTACK,   \
 	     REST,         PSYWAVE,      SUBSTITUTE,   FLY
  
 	db BANK(ArticunoGPicFront)

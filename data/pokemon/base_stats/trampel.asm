@@ -10,14 +10,14 @@
 	INCBIN "gfx/pokemon/front/trampel.pic", 0, 1  
 	dw TrampelPicFront, TrampelPicBack
 
-	db TACKLE, GROWL, HORN_ATTACK, NO_MOVE  
+	db NO_MOVE, GROWL, HORN_ATTACK, NO_MOVE  
 	db GROWTH_SLOW  
 
  	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        HORN_DRILL,   BODY_SLAM,    \
 	     TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     \
 	     BLIZZARD,     HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
 	     RAGE,         THUNDERBOLT,  THUNDER,      EARTHQUAKE,   FISSURE,      \
-	     MIMIC,        DOUBLE_TEAM,  BIDE,         FIRE_BLAST,   SWIFT,        \
+	     MIMIC,        DOUBLE_TEAM,            FIRE_BLAST,   SWIFT,        \
 	     SKULL_BASH,   REST,         ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
  
 	db BANK(TrampelPicFront)

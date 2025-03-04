@@ -15,7 +15,7 @@
 
  	tmhm TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    \
 	     ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   RAGE,         DRAGON_RAGE,  \
-	     MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        SKULL_BASH,   \
+	     MIMIC,        DOUBLE_TEAM,            SWIFT,        SKULL_BASH,   \
 	     REST,         SUBSTITUTE,   SURF
  
 	db BANK(KingdraPicFront)

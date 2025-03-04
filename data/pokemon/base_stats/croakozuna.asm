@@ -17,7 +17,7 @@
 	     BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    \
 	     HYPER_BEAM,   PAY_DAY,      SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
 	     RAGE,         DIG,          TELEPORT,     MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         METRONOME,    SWIFT,        REST,         \
+	     REFLECT,                METRONOME,    SWIFT,        REST,         \
 	     PSYWAVE,      SUBSTITUTE,   CUT,          SURF,         FLASH
  
 	db BANK(CroakozunaPicFront)

@@ -16,7 +16,7 @@
  	tmhm RAZOR_WIND,  FLAMETHROWER,  TOXIC,    HORN_DRILL,   BODY_SLAM,  TAKE_DOWN,    \
 	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
 	     HYPER_BEAM,   RAGE,         DRAGON_RAGE,  THUNDERBOLT,  THUNDER,      \
-	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         FIRE_BLAST,   \
+	     MIMIC,        DOUBLE_TEAM,  REFLECT,                FIRE_BLAST,   \
 	     SWIFT,        SKULL_BASH,   REST,         THUNDER_WAVE, SUBSTITUTE,   \
 	     SURF,         STRENGTH, 	 FLY,          SKY_ATTACK
  

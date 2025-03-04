@@ -15,7 +15,7 @@
 
  	tmhm SWORDS_DANCE, TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     RAGE,         MEGA_DRAIN,   SOLARBEAM,    MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         REST,         SUBSTITUTE,   CUT
+	     REFLECT,                REST,         SUBSTITUTE,   CUT
  
 	db BANK(BulbasaurPicFront)
 	assert BANK(BulbasaurPicFront) == BANK(BulbasaurPicBack)

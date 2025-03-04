@@ -10,12 +10,12 @@
 	INCBIN "gfx/pokemon/front/victreebel.pic", 0, 1  
 	dw VictreebelPicFront, VictreebelPicBack
 
-	db SLEEP_POWDER, STUN_SPORE, ACID, RAZOR_LEAF  
+	db SLEEP_POWDER, STUN_SPORE, NO_MOVE, RAZOR_LEAF  
 	db GROWTH_MEDIUM_SLOW  
 
  	tmhm SWORDS_DANCE, TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     HYPER_BEAM,   RAGE,         MEGA_DRAIN,   SOLARBEAM,    MIMIC,        \
-	     DOUBLE_TEAM,  REFLECT,      BIDE,         REST,         SUBSTITUTE,   \
+	     DOUBLE_TEAM,  REFLECT,                REST,         SUBSTITUTE,   \
 	     CUT
  
 	db BANK(VictreebelPicFront)

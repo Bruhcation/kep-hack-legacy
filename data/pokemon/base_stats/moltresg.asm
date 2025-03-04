@@ -14,7 +14,7 @@
 	db GROWTH_SLOW  
 
  	tmhm TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   \
-	     RAGE,         MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        \
+	     RAGE,         MIMIC,        DOUBLE_TEAM,            SWIFT,        \
 	     SKY_ATTACK,   REST,         SUBSTITUTE,   FLY
  
 	db BANK(MoltresGPicFront)

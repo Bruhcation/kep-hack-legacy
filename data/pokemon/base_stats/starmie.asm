@@ -10,13 +10,13 @@
 	INCBIN "gfx/pokemon/front/starmie.pic", 0, 1  
 	dw StarmiePicFront, StarmiePicBack
 
-	db TACKLE, WATER_GUN, HARDEN, NO_MOVE  
+	db NO_MOVE, WATER_GUN, HARDEN, NO_MOVE  
 	db GROWTH_SLOW  
 
  	tmhm TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    \
 	     ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   RAGE,         THUNDERBOLT,  \
 	     THUNDER,      PSYCHIC_M,    TELEPORT,     MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         SWIFT,        SKULL_BASH,   REST,         \
+	     REFLECT,                SWIFT,        SKULL_BASH,   REST,         \
 	     THUNDER_WAVE, PSYWAVE,      TRI_ATTACK,   SUBSTITUTE,   SURF,         \
 	     FLASH
  

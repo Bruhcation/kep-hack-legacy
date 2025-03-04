@@ -15,7 +15,7 @@
 
  	tmhm FLAMETHROWER, TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     HYPER_BEAM,   RAGE,         DRAGON_RAGE,  DIG,          TELEPORT,     \
-	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         FIRE_BLAST,   \
+	     MIMIC,        DOUBLE_TEAM,  REFLECT,                FIRE_BLAST,   \
 		 SWIFT,        SKULL_BASH,   REST,         SUBSTITUTE
  
 	db BANK(ArcaninePicFront)

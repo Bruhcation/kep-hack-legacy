@@ -10,12 +10,12 @@
 	INCBIN "gfx/pokemon/front/vileplume.pic", 0, 1  
 	dw VileplumePicFront, VileplumePicBack
 
-	db STUN_SPORE, SLEEP_POWDER, ACID, PETAL_DANCE  
+	db STUN_SPORE, SLEEP_POWDER, NO_MOVE, PETAL_DANCE  
 	db GROWTH_MEDIUM_SLOW  
 
  	tmhm SWORDS_DANCE, TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     HYPER_BEAM,   RAGE,         MEGA_DRAIN,   SOLARBEAM,    MIMIC,        \
-	     DOUBLE_TEAM,  REFLECT,      BIDE,         REST,         SUBSTITUTE,   \
+	     DOUBLE_TEAM,  REFLECT,                REST,         SUBSTITUTE,   \
 	     CUT,          PSYCHIC_M
  
 	db BANK(VileplumePicFront)

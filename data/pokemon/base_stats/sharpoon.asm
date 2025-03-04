@@ -10,13 +10,13 @@
 	INCBIN "gfx/pokemon/front/sharpoon.pic", 0, 1  
 	dw SharpoonPicFront, SharpoonPicBack
 
-	db BITE, LEER, WATER_GUN, NO_MOVE  
+	db BITE, NO_MOVE, WATER_GUN, NO_MOVE  
 	db GROWTH_SLOW  
 
  	tmhm SWORDS_DANCE, TOXIC,        HORN_DRILL,   TAKE_DOWN,    DOUBLE_EDGE,  \
 	     BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \
 	     RAGE,         EARTHQUAKE,   FISSURE,      MIMIC,        DOUBLE_TEAM,  \
-	     BIDE,         SKULL_BASH,   REST,         SUBSTITUTE,   SURF
+	               SKULL_BASH,   REST,         SUBSTITUTE,   SURF
  
 	db BANK(SharpoonPicFront)
 	assert BANK(SharpoonPicFront) == BANK(SharpoonPicBack)

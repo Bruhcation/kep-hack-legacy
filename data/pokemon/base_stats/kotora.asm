@@ -14,7 +14,7 @@
 	db GROWTH_SLOW  
 
  	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  RAGE,         \
-	     THUNDERBOLT,  THUNDER,      MIMIC,        DOUBLE_TEAM,  BIDE,         \
+	     THUNDERBOLT,  THUNDER,      MIMIC,        DOUBLE_TEAM,            \
 	     SWIFT,        SKULL_BASH,   REST,         THUNDER_WAVE, SUBSTITUTE,   \
 		 FLASH,        CUT
  
