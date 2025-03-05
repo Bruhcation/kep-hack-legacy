@@ -16,10 +16,10 @@ MistyData:
 	db $FF, 11, HORSEA, 12, GOLDEEN, 14, STARMIE, 0                                              ; 0 badges
 	db $FF, 19, HORSEA, 18, GOLDEEN, 19, PSYDUCK, 21, STARMIE, 0                                ; 1
 	db $FF, 22, HORSEA, 21, RIBBITO, 21, GOLDEEN, 23, WEIRDUCK, 25, STARMIE, 0                 ; 2
-	db $FF, 29, HORSEA, 28, RIBBITO, 28, GOLDEEN, 29, WEIRDUCK, 31, STARMIE, 0                 ; 3
-	db $FF, 38, SEADRA, 37, CROAKOZUNA, 37, SEAKING, 38, GOLDUCK, 40, STARMIE, 0                  ; 4
-	db $FF, 41, SEADRA, 40, CROAKOZUNA, 40, SEAKING, 41, GOLDUCK, 43, STARMIE, 0                  ; 5
-	db $FF, 45, KINGDRA, 44, CROAKOZUNA, 44, SEAKING, 45, GOLDUCK, 47, STARMIE, 0                 ; 6
+	db $FF, 33, SEADRA, 33, CROAKOZUNA, 33, SEAKING, 34, GOLDUCK, 35, STARMIE, 0                 ; 3
+	db $FF, 41, SEADRA, 40, CROAKOZUNA, 40, SEAKING, 41, GOLDUCK, 43, STARMIE, 0                  ; 4
+	db $FF, 48, SEADRA, 47, CROAKOZUNA, 47, SEAKING, 48, GOLDUCK, 50, STARMIE, 0                  ; 5
+	db $FF, 51, KINGDRA, 50, CROAKOZUNA, 50, SEAKING, 51, GOLDUCK, 53, STARMIE, 0                 ; 6
 	db $FF, 57, KINGDRA, 56, CROAKOZUNA, 56, SEAKING, 57, GOLDUCK, 57, VAPOREON, 60, STARMIE, 0   ; 7 (unused)
 	db $FF, 67, KINGDRA, 67, GOLDUCK, 66, TAUROS_PA, 66, VAPOREON, 67, TOTARTLE, 70, STARMIE, 0  ; 8 (postgame)
 
@@ -27,10 +27,10 @@ LtSurgeData:
 	db $FF, 11, VOLTORB, 12, PIKACHU, 14, GAOTORA, 0                                                ; 0 badges
 	db $FF, 19, VOLTORB, 18, PIKACHU, 19, GAOTORA, 21, ELECTABUZZ, 0                                ; 1
 	db $FF, 22, VOLTORB, 21, GAOTORA, 21, MAGNETITE, 23, ELECTABUZZ, 25, RAICHU, 0                  ; 2
-	db $FF, 29, VOLTORB, 28, GAOTORA, 28, MAGNETITE, 29, ELECTABUZZ, 31, RAICHU, 0                ; 3
-	db $FF, 38, ELECTRODE, 37, GOROTORA, 37, MAGNETON, 38, ELECTABUZZ, 40, GOROCHU, 0               ; 4
-	db $FF, 41, ELECTRODE, 40, GOROTORA, 40, MAGNETON, 41, ELECTABUZZ, 43, GOROCHU, 0               ; 5
-	db $FF, 45, ELECTRODE, 44, GOROTORA, 44, MAGNEZONE, 45, ELECTIVIRE, 47, GOROCHU, 0              ; 6
+	db $FF, 33, ELECTRODE, 32, GAOTORA, 32, MAGNETITE, 33, ELECTABUZZ, 35, RAICHU, 0                ; 3
+	db $FF, 41, ELECTRODE, 40, GOROTORA, 40, MAGNETON, 41, ELECTABUZZ, 43, GOROCHU, 0               ; 4
+	db $FF, 48, ELECTRODE, 47, GOROTORA, 47, MAGNETON, 48, ELECTIVIRE, 50, GOROCHU, 0               ; 5
+	db $FF, 51, ELECTRODE, 50, GOROTORA, 50, MAGNEZONE, 51, ELECTIVIRE, 53, GOROCHU, 0              ; 6
 	db $FF, 57, ELECTRODE, 56, GOROTORA, 56, MAGNEZONE, 57, ELECTIVIRE, 57, JOLTEON, 60, GOROCHU, 0 ; 7 (unused)
 	db $FF, 67, GOROTORA, 67, MAGNEZONE, 66, GOLEM_A, 67, ELECTIVIRE, 66, JOLTEON, 70, GOROCHU, 0  ; 8 (postgame)
 
@@ -38,10 +38,10 @@ ErikaData:
 	db $FF, 11, BELLSPROUT, 12, ODDISH, 14, TANGELA, 0                                                  ; 0 badges (unused)
 	db $FF, 19, BELLSPROUT, 18, TOEDSCOOL, 19, ODDISH, 21, TANGELA, 0                                   ; 1
 	db $FF, 22, BELLSPROUT, 21, PARAS, 21, TOEDSCOOL, 23, GLOOM, 25, TANGELA, 0                         ; 2
-	db $FF, 29, WEEPINBELL, 28, PARASECT, 28, CACTORMUS, 29, TANGELA, 31, BELLOSSOM, 0                  ; 3
-	db $FF, 38, VICTREEBEL, 37, PARASECT, 37, CACTORMUS, 38, TANGELA, 40, BELLOSSOM, 0                  ; 4
-	db $FF, 41, VICTREEBEL, 40, PARASECT, 40, CACTORMUS, 41, BELLOSSOM, 43, TANGROWTH, 0                ; 5
-	db $FF, 45, VICTREEBEL, 44, PARASECT, 44, CACTORMUS, 45, BELLOSSOM, 47, TANGROWTH, 0                ; 6
+	db $FF, 33, WEEPINBELL, 32, PARASECT, 32, CACTORMUS, 33, TANGELA, 35, BELLOSSOM, 0                  ; 3
+	db $FF, 41, VICTREEBEL, 40, PARASECT, 40, CACTORMUS, 41, TANGELA, 43, BELLOSSOM, 0                  ; 4
+	db $FF, 48, VICTREEBEL, 47, PARASECT, 47, CACTORMUS, 48, BELLOSSOM, 50, TANGROWTH, 0                ; 5
+	db $FF, 51, VICTREEBEL, 50, PARASECT, 50, CACTORMUS, 51, BELLOSSOM, 53, TANGROWTH, 0                ; 6
 	db $FF, 57, VICTREEBEL, 56, PARASECT, 56, CACTORMUS, 57, BELLOSSOM, 57, LEAFEON, 60, TANGROWTH, 0   ; 7 (unused)
 	db $FF, 67, BELLOSSOM, 67, TOEDSCRUEL, 66, ELECTRODE_H, 66, LEAFEON, 67, VENUSAUR, 70, TANGROWTH, 0 ; 8 (postgame)
 
@@ -49,10 +49,10 @@ KogaData:
 	db $FF, 11, VENONAT, 12, ZUBAT, 14, KOFFING, 0                                           ; 0 badges (unused)
 	db $FF, 19, VENONAT, 18, GRIMER, 19, KOFFING, 21, GOLBAT, 0                              ; 1
 	db $FF, 22, VENONAT, 21, TENTACOOL, 21, GRIMER, 23, KOFFING, 25, GOLBAT, 0               ; 2
-	db $FF, 29, VENOMOTH, 28, TENTACOOL, 28, GRIMER, 29, KOFFING, 31, GOLBAT, 0              ; 3
-	db $FF, 38, VENOMOTH, 37, TENTACRUEL, 37, MUK, 38, WEEZING, 40, CROBAT, 0                ; 4
-	db $FF, 41, VENOMOTH, 40, TENTACRUEL, 40, MUK, 41, WEEZING, 43, CROBAT, 0                ; 5
-	db $FF, 45, VENOMOTH, 44, TENTACRUEL, 44, MUK, 45, WEEZING, 47, CROBAT, 0                ; 6
+	db $FF, 33, VENOMOTH, 32, TENTACOOL, 32, GRIMER, 33, KOFFING, 35, GOLBAT, 0              ; 3
+	db $FF, 41, VENOMOTH, 40, TENTACRUEL, 40, MUK, 41, WEEZING, 43, CROBAT, 0                ; 4
+	db $FF, 48, VENOMOTH, 47, TENTACRUEL, 47, MUK, 48, WEEZING, 50, CROBAT, 0                ; 5
+	db $FF, 51, VENOMOTH, 50, TENTACRUEL, 50, MUK, 51, WEEZING, 53, CROBAT, 0                ; 6
 	db $FF, 57, VENOMOTH, 56, BELLIGNAN, 56, TENTACRUEL, 57, MUK, 57, WEEZING, 60, CROBAT, 0 ; 7 (unused)
 	db $FF, 67, VENOMOTH, 66, BELLIGNAN, 66, SLOWBRO_G, 67, MUK, 67, WEEZING, 70, CROBAT, 0  ; 8 (postgame)
 
@@ -60,10 +60,10 @@ SabrinaData:
 	db $FF, 11, SLOWPOKE, 12, DROWZEE, 14, KADABRA, 0                                            ; 0 badges (unused)
 	db $FF, 19, SLOWPOKE, 18, DROWZEE, 19, KADABRA, 21, MR_MIME, 0                               ; 1
 	db $FF, 22, SLOWPOKE, 21, DROWZEE, 21, EXEGGCUTE, 23, KADABRA, 25, MR_MIME, 0                ; 2
-	db $FF, 29, SLOWPOKE, 28, MR_MIME, 28, EXEGGCUTE, 29, HYPNO, 31, ALAKAZAM, 0                 ; 3
-	db $FF, 38, ESPEON, 37, MR_MIME, 37, SLOWKING, 38, HYPNO, 40, ALAKAZAM, 0                    ; 4
-	db $FF, 41, ESPEON, 40, MR_MIME, 40, SLOWKING, 41, HYPNO, 43, ALAKAZAM, 0                    ; 5
-	db $FF, 45, ESPEON, 44, MR_MIME, 44, SLOWKING, 45, HYPNO, 47, ALAKAZAM, 0                    ; 6
+	db $FF, 33, SLOWPOKE, 32, MR_MIME, 32, EXEGGCUTE, 33, HYPNO, 35, ALAKAZAM, 0                 ; 3
+	db $FF, 41, ESPEON, 40, MR_MIME, 40, SLOWKING, 41, HYPNO, 43, ALAKAZAM, 0                    ; 4
+	db $FF, 48, ESPEON, 47, MR_MIME, 47, SLOWKING, 48, HYPNO, 50, ALAKAZAM, 0                    ; 5
+	db $FF, 51, ESPEON, 50, MR_MIME, 50, SLOWKING, 51, HYPNO, 53, ALAKAZAM, 0                    ; 6
 	db $FF, 57, ESPEON, 56, MR_MIME, 56, SLOWKING, 57, JYNX, 57, HYPNO, 60, ALAKAZAM, 0          ; 7 (unused)
 	db $FF, 67, JYNX, 67, SLOWKING, 66, RAPIDASH_G, 67, HYPNO, 66, ESPEON, 70, ALAKAZAM, 0       ; 8 (postgame)
 
@@ -94,17 +94,17 @@ ChiefData:
 ; Lapras and Gengar are used here since Lapras is given by a Silph worker, and Gengar represents the Silph Scope.
 
 LoreleiData:
-	db $FF, 53, DEWGONG, 54, CLOYSTER, 53, BUU, 55, JYNX, 55, GLACEON, 57, LAPRAS, 0
+	db $FF, 54, DEWGONG, 55, CLOYSTER, 55, BUU, 56, JYNX, 56, GLACEON, 58, LAPRAS, 0
 ; post-game rematch team (currently unused)
 	db $FF, 73, DEWGONG, 74, CLOYSTER, 73, NINETALES_A, 74, JYNX, 74, GLACEON, 76, LAPRAS, 0
 
 BrunoData:
-	db $FF, 54, JABETTA, 55, STEELIX, 54, GORILLAIMO, 56, HITMONCHAN, 56, HITMONLEE, 58, MACHAMP, 0
+	db $FF, 55, JABETTA, 56, STEELIX, 56, GORILLAIMO, 57, HITMONCHAN, 57, HITMONLEE, 59, MACHAMP, 0
 ; post-game rematch team (currently unused)
 	db $FF, 75, JABETTA, 76, STEELIX, 75, SIRFETCHD, 76, GORILLAIMO, 76, HITMONTOP, 78, MACHAMP, 0
 
 AgathaData:
-	db $FF, 55, ANNIHILAPE, 56, CROBAT, 55, GENGAR, 57, ARBOK, 57, UMBREON, 59, GENGAR, 0		; Agatha has double Gengars in every single battle in the main-series, it's fine here...
+	db $FF, 56, ANNIHILAPE, 57, CROBAT, 56, GENGAR, 58, ARBOK, 58, UMBREON, 60, GENGAR, 0		; Agatha has double Gengars in every single battle in the main-series, it's fine here...
 ; post-game rematch team (currently unused)
 	db $FF, 77, ANNIHILAPE, 78, CROBAT, 77, MAROWAK_A, 78, ARBOK, 78, UMBREON, 80, GENGAR, 0
 
