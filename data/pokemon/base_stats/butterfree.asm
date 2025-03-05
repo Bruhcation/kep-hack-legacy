@@ -1,22 +1,24 @@
-	db DEX_BUTTERFREE  
+	db DEX_BUTTERFREE ; pokedex id
 
 	db  60,  50,  50,  70,  85
- 
+	;   hp  atk  def  spd  spc
 
-	db BUG, FLYING  
-	db 45  
-	db 160  
+	db BUG, FLYING ; type
+	db 45 ; catch rate
+	db 160 ; base exp
 
-	INCBIN "gfx/pokemon/front/butterfree.pic", 0, 1  
+	INCBIN "gfx/pokemon/front/butterfree.pic", 0, 1 ; sprite dimensions
 	dw ButterfreePicFront, ButterfreePicBack
 
-	db CONFUSION, TACKLE, STRING_SHOT, HARDEN  
-	db GROWTH_MEDIUM_FAST  
+	db CONFUSION, TACKLE, STRING_SHOT, HARDEN ; level 1 learnset
+	db GROWTH_MEDIUM_FAST ; growth rate
 
- 	tmhm RAZOR_WIND,   TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
+	; tm/hm learnset
+	tmhm RAZOR_WIND,   TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
 	     HYPER_BEAM,   RAGE,         MEGA_DRAIN,   SOLARBEAM,    PSYCHIC_M,    \
 	     TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,                \
 	     SWIFT,        REST,         PSYWAVE,      SUBSTITUTE,   FLASH
- 
+	; end
+
 	db BANK(ButterfreePicFront)
 	assert BANK(ButterfreePicFront) == BANK(ButterfreePicBack)

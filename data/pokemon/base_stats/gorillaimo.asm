@@ -1,17 +1,17 @@
-    db DEX_GORILLAIMO  
+    db DEX_GORILLAIMO ; pokedex id
 
     db 130, 100,  75,  65,  40
     ;   hp  atk  def  spd  spc
 
-    db NORMAL, FIGHTING  
-    db 45  
-    db 204  
+    db NORMAL, FIGHTING ; type
+    db 45 ; catch rate
+    db 204 ; base exp
 
-    INCBIN "gfx/pokemon/front/gorillaimo.pic", 0, 1  
+    INCBIN "gfx/pokemon/front/gorillaimo.pic", 0, 1 ; sprite dimensions
     dw GorillaimoPicFront, GorillaimoPicBack
 
-    db COMET_PUNCH, GROWL, UPPERCUT, NO_MOVE  
-    db GROWTH_SLOW  
+    db COMET_PUNCH, GROWL, UPPERCUT, NO_MOVE ; level 1 learnset
+    db GROWTH_SLOW ; growth rate
 
     ; tm/hm learnset
     tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \

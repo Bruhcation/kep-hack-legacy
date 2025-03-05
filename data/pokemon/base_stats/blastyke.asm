@@ -1,23 +1,25 @@
-	db DEX_BLASTYKE  
+	db DEX_BLASTYKE ; pokedex id
 
 	db  49,  43,  60,  48,  45
- 
+	;   hp  atk  def  spd  spc
 
-	db WATER, WATER  
-	db 45  
-	db 66  
+	db WATER, WATER ; type
+	db 45 ; catch rate
+	db 66 ; base exp
 
-	INCBIN "gfx/pokemon/front/blastyke.pic", 0, 1  
+	INCBIN "gfx/pokemon/front/blastyke.pic", 0, 1 ; sprite dimensions
 	dw BlastykePicFront, BlastykePicBack
 
-	db TACKLE, TAIL_WHIP, NO_MOVE, NO_MOVE  
-	db GROWTH_MEDIUM_SLOW  
+	db TACKLE, TAIL_WHIP, NO_MOVE, NO_MOVE ; level 1 learnset
+	db GROWTH_MEDIUM_SLOW ; growth rate
 
- 	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
+	; tm/hm learnset
+	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
 	     SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         DIG,          \
 	     MIMIC,        DOUBLE_TEAM,  REFLECT,                SKULL_BASH,   \
 	     REST,         SUBSTITUTE,   SURF,         STRENGTH
- 
+	; end
+
 	db BANK(BlastykePicFront)
 	assert BANK(BlastykePicFront) == BANK(BlastykePicBack)

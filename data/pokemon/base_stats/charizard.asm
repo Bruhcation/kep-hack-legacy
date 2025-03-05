@@ -1,24 +1,26 @@
-	db DEX_CHARIZARD  
+	db DEX_CHARIZARD ; pokedex id
 
 	db  78,  84,  78, 100,  95
- 
+	;   hp  atk  def  spd  spc
 
-	db FIRE, FLYING  
-	db 45  
-	db 209  
+	db FIRE, FLYING ; type
+	db 45 ; catch rate
+	db 209 ; base exp
 
-	INCBIN "gfx/pokemon/front/charizard.pic", 0, 1  
+	INCBIN "gfx/pokemon/front/charizard.pic", 0, 1 ; sprite dimensions
 	dw CharizardPicFront, CharizardPicBack
 
-	db SCRATCH, GROWL, EMBER, LEER  
-	db GROWTH_MEDIUM_SLOW  
+	db SCRATCH, GROWL, EMBER, LEER ; level 1 learnset
+	db GROWTH_MEDIUM_SLOW ; growth rate
 
- 	tmhm MEGA_PUNCH, SWORDS_DANCE, FLAMETHROWER, MEGA_KICK, TOXIC,  BODY_SLAM,  \
+	; tm/hm learnset
+	tmhm MEGA_PUNCH, SWORDS_DANCE, FLAMETHROWER, MEGA_KICK, TOXIC,  BODY_SLAM,   \
 	     TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   SUBMISSION,   COUNTER,      \
 	     SEISMIC_TOSS, RAGE,         DRAGON_RAGE,  EARTHQUAKE,   FISSURE,      \
 	     DIG,          MIMIC,        DOUBLE_TEAM,  REFLECT,                \
 	     FIRE_BLAST,   SWIFT,        SKULL_BASH,   REST,         SUBSTITUTE,   \
 	     CUT,          FLY,          STRENGTH
- 
+	; end
+
 	db BANK(CharizardPicFront)
 	assert BANK(CharizardPicFront) == BANK(CharizardPicBack)

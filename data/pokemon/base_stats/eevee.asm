@@ -1,21 +1,23 @@
-	db DEX_EEVEE  
+	db DEX_EEVEE ; pokedex id
 
-	db  70,  65,  65,  60,  65
- 
+	db  60,  60,  65,  60,  65
+	;   hp  atk  def  spd  spc
 
-	db NORMAL, NORMAL  
-	db 45  
-	db 92  
+	db NORMAL, NORMAL ; type
+	db 45 ; catch rate
+	db 92 ; base exp
 
-	INCBIN "gfx/pokemon/front/eevee.pic", 0, 1  
+	INCBIN "gfx/pokemon/front/eevee.pic", 0, 1 ; sprite dimensions
 	dw EeveePicFront, EeveePicBack
 
-	db TACKLE, TAIL_WHIP, NO_MOVE, NO_MOVE  
-	db GROWTH_MEDIUM_SLOW  
+	db TACKLE, TAIL_WHIP, NO_MOVE, NO_MOVE ; level 1 learnset
+	db GROWTH_MEDIUM_SLOW ; growth rate
 
- 	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  RAGE,         \
+	; tm/hm learnset
+	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  RAGE,         \
 	     DIG,          MIMIC,   DOUBLE_TEAM,  REFLECT,      BIDE,              \
-	     SWIFT,            REST,         SUBSTITUTE
- 
+	     SWIFT,        SKULL_BASH,   REST,         SUBSTITUTE
+	; end
+
 	db BANK(EeveePicFront)
 	assert BANK(EeveePicFront) == BANK(EeveePicBack)

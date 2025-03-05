@@ -1,22 +1,24 @@
-	db DEX_TRICULES  
+	db DEX_TRICULES ; pokedex id
 
 	db  65, 125, 140,  45,  55
- 
+	;   hp  atk  def  spd  spc
 
-	db BUG, STEEL  
-	db 25  
-	db 209  
+	db BUG, STEEL ; type
+	db 25 ; catch rate
+	db 209 ; base exp
 
-	INCBIN "gfx/pokemon/front/tricules.pic", 0, 1  
+	INCBIN "gfx/pokemon/front/tricules.pic", 0, 1 ; sprite dimensions
 	dw TriculesPicFront, TriculesPicBack
 
-	db VICEGRIP, HARDEN, NO_MOVE, NO_MOVE  
-	db GROWTH_SLOW  
+	db VICEGRIP, HARDEN, NO_MOVE, NO_MOVE ; level 1 learnset
+	db GROWTH_SLOW ; growth rate
 
- 	tmhm SWORDS_DANCE, TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	; tm/hm learnset
+	tmhm SWORDS_DANCE, TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     HYPER_BEAM,   SUBMISSION,   SEISMIC_TOSS, RAGE,         EARTHQUAKE,   \
 	     FISSURE,      MIMIC,        DOUBLE_TEAM,            SWIFT,        \
 	     REST,         SUBSTITUTE,   CUT,          STRENGTH,     ROCK_SLIDE
- 
+	; end
+
 	db BANK(TriculesPicFront)
 	assert BANK(TriculesPicFront) == BANK(TriculesPicBack)

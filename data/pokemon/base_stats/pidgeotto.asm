@@ -1,21 +1,23 @@
-	db DEX_PIDGEOTTO  
+	db DEX_PIDGEOTTO ; pokedex id
 
 	db  63,  60,  55,  71,  50
- 
+	;   hp  atk  def  spd  spc
 
-	db NORMAL, FLYING  
-	db 120  
-	db 113  
+	db NORMAL, FLYING ; type
+	db 120 ; catch rate
+	db 113 ; base exp
 
-	INCBIN "gfx/pokemon/front/pidgeotto.pic", 0, 1  
+	INCBIN "gfx/pokemon/front/pidgeotto.pic", 0, 1 ; sprite dimensions
 	dw PidgeottoPicFront, PidgeottoPicBack
 
-	db GUST, SAND_ATTACK, NO_MOVE, NO_MOVE  
-	db GROWTH_MEDIUM_SLOW  
+	db GUST, SAND_ATTACK, NO_MOVE, NO_MOVE ; level 1 learnset
+	db GROWTH_MEDIUM_SLOW ; growth rate
 
- 	tmhm RAZOR_WIND,   TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
-	     RAGE,         MIMIC,        DOUBLE_TEAM,  REFLECT,                \
+	; tm/hm learnset
+	tmhm RAZOR_WIND,   TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
+	     RAGE,         MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
 	     SWIFT,        SKY_ATTACK,   REST,         SUBSTITUTE,   FLY
- 
+	; end
+
 	db BANK(PidgeottoPicFront)
 	assert BANK(PidgeottoPicFront) == BANK(PidgeottoPicBack)

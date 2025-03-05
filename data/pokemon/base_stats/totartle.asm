@@ -1,24 +1,26 @@
-	db DEX_TOTARTLE  
+	db DEX_TOTARTLE ; pokedex id
 
 	db  79,  83,  85,  78, 100
- 
+	;   hp  atk  def  spd  spc
 
-	db WATER, GRASS  
-	db 45  
-	db 209  
+	db WATER, GRASS ; type
+	db 45 ; catch rate
+	db 209 ; base exp
 
-	INCBIN "gfx/pokemon/front/totartle.pic", 0, 1  
+	INCBIN "gfx/pokemon/front/totartle.pic", 0, 1 ; sprite dimensions
 	dw TotartlePicFront, TotartlePicBack
 
-	db NO_MOVE, TAIL_WHIP, BUBBLE, NO_MOVE  
-	db GROWTH_MEDIUM_SLOW  
+	db TACKLE, TAIL_WHIP, BUBBLE, LEER ; level 1 learnset
+	db GROWTH_MEDIUM_SLOW ; growth rate
 
- 	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
+	; tm/hm learnset
+	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
 	     HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         \
 	     MEGA_DRAIN,   SOLARBEAM,    EARTHQUAKE,   FISSURE,      DIG,          \
 	     MIMIC,        DOUBLE_TEAM,  REFLECT,                    \
 	     REST,         SUBSTITUTE,   SURF,         STRENGTH   
- 
+	; end
+
 	db BANK(TotartlePicFront)
 	assert BANK(TotartlePicFront) == BANK(TotartlePicBack)

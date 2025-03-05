@@ -1,21 +1,23 @@
-	db DEX_WEEPINBELL  
+	db DEX_WEEPINBELL ; pokedex id
 
 	db  65,  90,  50,  55,  85
- 
+	;   hp  atk  def  spd  spc
 
-	db GRASS, POISON  
-	db 120  
-	db 151  
+	db GRASS, POISON ; type
+	db 120 ; catch rate
+	db 151 ; base exp
 
-	INCBIN "gfx/pokemon/front/weepinbell.pic", 0, 1  
+	INCBIN "gfx/pokemon/front/weepinbell.pic", 0, 1 ; sprite dimensions
 	dw WeepinbellPicFront, WeepinbellPicBack
 
-	db VINE_WHIP, GROWTH, NO_MOVE, NO_MOVE  
-	db GROWTH_MEDIUM_SLOW  
+	db VINE_WHIP, GROWTH, WRAP, NO_MOVE ; level 1 learnset
+	db GROWTH_MEDIUM_SLOW ; growth rate
 
- 	tmhm SWORDS_DANCE, TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  RAGE,         \
+	; tm/hm learnset
+	tmhm SWORDS_DANCE, TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  RAGE,         \
 	     MEGA_DRAIN,   SOLARBEAM,    MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-	               REST,         SUBSTITUTE,   CUT
- 
+	     BIDE,         REST,         SUBSTITUTE,   CUT
+	; end
+
 	db BANK(WeepinbellPicFront)
 	assert BANK(WeepinbellPicFront) == BANK(WeepinbellPicBack)

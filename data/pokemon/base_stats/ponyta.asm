@@ -1,21 +1,23 @@
-	db DEX_PONYTA  
+	db DEX_PONYTA ; pokedex id
 
 	db  50,  85,  55, 100,  65
- 
+	;   hp  atk  def  spd  spc
 
-	db FIRE, FIRE  
-	db 190  
-	db 152  
+	db FIRE, FIRE ; type
+	db 190 ; catch rate
+	db 152 ; base exp
 
-	INCBIN "gfx/pokemon/front/ponyta.pic", 0, 1  
+	INCBIN "gfx/pokemon/front/ponyta.pic", 0, 1 ; sprite dimensions
 	dw PonytaPicFront, PonytaPicBack
 
-	db EMBER, TAIL_WHIP, NO_MOVE, NO_MOVE  
-	db GROWTH_MEDIUM_FAST  
+	db EMBER, TAIL_WHIP, NO_MOVE, NO_MOVE ; level 1 learnset
+	db GROWTH_MEDIUM_FAST ; growth rate
 
- 	tmhm FLAMETHROWER, TOXIC,  HORN_DRILL, BODY_SLAM, TAKE_DOWN, DOUBLE_EDGE,  \
-	     RAGE,         MIMIC,        DOUBLE_TEAM,  REFLECT,                \
-	     FIRE_BLAST,   SWIFT,            REST,         SUBSTITUTE
- 
+	; tm/hm learnset
+	tmhm FLAMETHROWER, TOXIC,  HORN_DRILL, BODY_SLAM, TAKE_DOWN, DOUBLE_EDGE,  \
+	     RAGE,         MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
+	     FIRE_BLAST,   SWIFT,        SKULL_BASH,   REST,         SUBSTITUTE
+	; end
+
 	db BANK(PonytaPicFront)
 	assert BANK(PonytaPicFront) == BANK(PonytaPicBack)

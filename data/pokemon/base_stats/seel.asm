@@ -1,22 +1,24 @@
-	db DEX_SEEL  
+	db DEX_SEEL ; pokedex id
 
 	db  65,  45,  55,  45,  70
- 
+	;   hp  atk  def  spd  spc
 
-	db WATER, WATER  
-	db 190  
-	db 100  
+	db WATER, WATER ; type
+	db 190 ; catch rate
+	db 100 ; base exp
 
-	INCBIN "gfx/pokemon/front/seel.pic", 0, 1  
+	INCBIN "gfx/pokemon/front/seel.pic", 0, 1 ; sprite dimensions
 	dw SeelPicFront, SeelPicBack
 
-	db HEADBUTT, NO_MOVE, NO_MOVE, NO_MOVE  
-	db GROWTH_MEDIUM_FAST  
+	db HEADBUTT, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
+	db GROWTH_MEDIUM_FAST ; growth rate
 
- 	tmhm TOXIC,        HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	; tm/hm learnset
+	tmhm TOXIC,        HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     PAY_DAY,      \
 	     RAGE,         MIMIC,        DOUBLE_TEAM,                \
 	     REST,         SUBSTITUTE,   SURF,         STRENGTH
- 
+	; end
+
 	db BANK(SeelPicFront)
 	assert BANK(SeelPicFront) == BANK(SeelPicBack)

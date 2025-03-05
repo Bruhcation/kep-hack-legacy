@@ -1,22 +1,24 @@
-	db DEX_RATICATE_A  
+	db DEX_RATICATE_A ; pokedex id
 
-	db  65,  81,  70,  77,  70 
- 
+	db  65,  81,  70,  77,  70 ; lol not anymore maybe
+	;   hp  atk  def  spd  spc
 
-	db DARK, NORMAL  
-	db 90  
-	db 116  
+	db DARK, NORMAL ; type
+	db 90 ; catch rate
+	db 116 ; base exp
 
-	INCBIN "gfx/pokemon/front/raticatea.pic", 0, 1  
+	INCBIN "gfx/pokemon/front/raticatea.pic", 0, 1 ; sprite dimensions
 	dw RaticateAPicFront, RaticateAPicBack
 
-	db NO_MOVE, TAIL_WHIP, QUICK_ATTACK, NO_MOVE  
-	db GROWTH_MEDIUM_FAST  
+	db TACKLE, TAIL_WHIP, QUICK_ATTACK, NO_MOVE ; level 1 learnset
+	db GROWTH_MEDIUM_FAST ; growth rate
 
- 	tmhm SWORDS_DANCE,	TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
+	; tm/hm learnset
+	tmhm SWORDS_DANCE,	TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
 	     WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   RAGE,         \
 	     THUNDERBOLT,  THUNDER,      DIG,          MIMIC,        DOUBLE_TEAM,  \
-	               SWIFT,            REST,         SUBSTITUTE
- 
+	     BIDE,         SWIFT,        SKULL_BASH,   REST,         SUBSTITUTE
+	; end
+
 	db BANK(RaticateAPicFront)
 	assert BANK(RaticateAPicFront) == BANK(RaticateAPicBack)

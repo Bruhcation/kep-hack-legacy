@@ -1,21 +1,23 @@
-	db DEX_UMBREON  
+	db DEX_UMBREON ; pokedex id
 
 	db  95,  65, 110,  65, 130
- 
+	;   hp  atk  def  spd  spc
 
-	db DARK, DARK  
-	db 45  
-	db 196  
+	db DARK, DARK ; type
+	db 45 ; catch rate
+	db 196 ; base exp
 
-	INCBIN "gfx/pokemon/front/umbreon.pic", 0, 1  
+	INCBIN "gfx/pokemon/front/umbreon.pic", 0, 1 ; sprite dimensions
 	dw UmbreonPicFront, UmbreonPicBack
 
-	db NO_MOVE, SAND_ATTACK, NO_MOVE, BRUTAL_SWING  
-	db GROWTH_MEDIUM_SLOW  
+	db TACKLE, SAND_ATTACK, QUICK_ATTACK, BRUTAL_SWING ; level 1 learnset
+	db GROWTH_MEDIUM_SLOW ; growth rate
 
- 	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   \
-	     RAGE,         MIMIC,        DOUBLE_TEAM,  REFLECT,                \
-	     SWIFT,            REST,         SUBSTITUTE,   PSYCHIC_M
- 
+	; tm/hm learnset
+	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   \
+	     RAGE,         MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
+	     SWIFT,        SKULL_BASH,   REST,         SUBSTITUTE,   PSYCHIC_M
+	; end
+
 	db BANK(UmbreonPicFront)
 	assert BANK(UmbreonPicFront) == BANK(UmbreonPicBack)

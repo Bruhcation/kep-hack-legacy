@@ -1,24 +1,26 @@
-	db DEX_MAROWAK_A  
+	db DEX_MAROWAK_A ; pokedex id
 
 	db  60,  80, 110,  45,  90
- 
+	;   hp  atk  def  spd  spc
 
-	db FIRE, GHOST  
-	db 75  
-	db 124  
+	db FIRE, GHOST ; type
+	db 75 ; catch rate
+	db 124 ; base exp
 
-	INCBIN "gfx/pokemon/front/marowaka.pic", 0, 1  
+	INCBIN "gfx/pokemon/front/marowaka.pic", 0, 1 ; sprite dimensions
 	dw MarowakAPicFront, MarowakAPicBack
 
-	db BONE_CLUB, GROWL, FIRE_SPIN, FOCUS_ENERGY  
-	db GROWTH_MEDIUM_FAST  
+	db BONE_CLUB, GROWL, FIRE_SPIN, FOCUS_ENERGY ; level 1 learnset
+	db GROWTH_MEDIUM_FAST ; growth rate
 
- 	tmhm MEGA_PUNCH, FLAMETHROWER, MEGA_KICK, TOXIC,  BODY_SLAM, TAKE_DOWN,    \
+	; tm/hm learnset
+	tmhm MEGA_PUNCH, FLAMETHROWER, MEGA_KICK, TOXIC,  BODY_SLAM, TAKE_DOWN,    \
 	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
 	     HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         \
 	     EARTHQUAKE,   FISSURE,      DIG,          MIMIC,        DOUBLE_TEAM,  \
 	          	FIRE_BLAST,   	    REST, ROCK_SLIDE,  SUBSTITUTE,   \
 	     CUT, 		STRENGTH, 		SWORDS_DANCE
- 
+	; end
+
 	db BANK(MarowakAPicFront)
 	assert BANK(MarowakAPicFront) == BANK(MarowakAPicBack)

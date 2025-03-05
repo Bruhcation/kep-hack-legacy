@@ -1,26 +1,28 @@
-	db DEX_SLOWBRO  
+	db DEX_SLOWBRO ; pokedex id
 
 	db  95,  75, 110,  30,  80
- 
+	;   hp  atk  def  spd  spc
 
-	db WATER, PSYCHIC_TYPE  
-	db 75  
-	db 164  
+	db WATER, PSYCHIC_TYPE ; type
+	db 75 ; catch rate
+	db 164 ; base exp
 
-	INCBIN "gfx/pokemon/front/slowbro.pic", 0, 1  
+	INCBIN "gfx/pokemon/front/slowbro.pic", 0, 1 ; sprite dimensions
 	dw SlowbroPicFront, SlowbroPicBack
 
-	db CONFUSION, NO_MOVE, HEADBUTT, NO_MOVE  
-	db GROWTH_MEDIUM_FAST  
+	db CONFUSION, DISABLE, HEADBUTT, NO_MOVE ; level 1 learnset
+	db GROWTH_MEDIUM_FAST ; growth rate
 
- 	tmhm MEGA_PUNCH,  FLAMETHROWER, MEGA_KICK, TOXIC, BODY_SLAM, TAKE_DOWN,    \
+	; tm/hm learnset
+	tmhm MEGA_PUNCH,  FLAMETHROWER, MEGA_KICK, TOXIC, BODY_SLAM, TAKE_DOWN,    \
 	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
 	     HYPER_BEAM,   PAY_DAY,      SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
 	     RAGE,         EARTHQUAKE,   FISSURE,      DIG,          PSYCHIC_M,    \
 	     TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,                \
 	     FIRE_BLAST,   SWIFT,            REST,         THUNDER_WAVE, FLASH,  \
 	     PSYWAVE,      TRI_ATTACK,   SUBSTITUTE,   SURF,         STRENGTH,     \
-	     
- 
+	     FLASH
+	; end
+
 	db BANK(SlowbroPicFront)
 	assert BANK(SlowbroPicFront) == BANK(SlowbroPicBack)

@@ -1,23 +1,25 @@
-	db DEX_TAUROS_PB  
+	db DEX_TAUROS_PB ; pokedex id
 
 	db  75, 110,  105, 100,  70
- 
+	;   hp  atk  def  spd  spc
 
-	db FIGHTING, FIRE  
-	db 45  
-	db 211  
+	db FIGHTING, FIRE ; type
+	db 45 ; catch rate
+	db 211 ; base exp
 
-	INCBIN "gfx/pokemon/front/taurospblaze.pic", 0, 1  
+	INCBIN "gfx/pokemon/front/taurospblaze.pic", 0, 1 ; sprite dimensions
 	dw TaurosPBPicFront, TaurosPBPicBack
 
-	db DOUBLE_KICK, TAIL_WHIP, NO_MOVE, NO_MOVE  
-	db GROWTH_SLOW  
+	db DOUBLE_KICK, TAIL_WHIP, NO_MOVE, NO_MOVE ; level 1 learnset
+	db GROWTH_SLOW ; growth rate
 
- 	tmhm TOXIC,        HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	; tm/hm learnset
+	tmhm TOXIC,        HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   SUBMISSION,   COUNTER,      \
 	     RAGE,         THUNDERBOLT,  THUNDER,      EARTHQUAKE,   FISSURE,      \
 	     MIMIC,        DOUBLE_TEAM,            FIRE_BLAST,       \
 	     REST,         SUBSTITUTE,   STRENGTH
- 
+	; end
+
 	db BANK(TaurosPBPicFront)
 	assert BANK(TaurosPBPicFront) == BANK(TaurosPBPicBack)

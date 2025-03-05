@@ -1,19 +1,21 @@
-	db DEX_METAPOD  
+	db DEX_METAPOD ; pokedex id
 
 	db  50,  20,  55,  30,  25
- 
+	;   hp  atk  def  spd  spc
 
-	db BUG, BUG  
-	db 120  
-	db 72  
+	db BUG, BUG ; type
+	db 120 ; catch rate
+	db 72 ; base exp
 
-	INCBIN "gfx/pokemon/front/metapod.pic", 0, 1  
+	INCBIN "gfx/pokemon/front/metapod.pic", 0, 1 ; sprite dimensions
 	dw MetapodPicFront, MetapodPicBack
 
-	db HARDEN, TACKLE, STRING_SHOT, NO_MOVE  
-	db GROWTH_MEDIUM_FAST  
+	db HARDEN, TACKLE, STRING_SHOT, NO_MOVE ; level 1 learnset
+	db GROWTH_MEDIUM_FAST ; growth rate
 
- 	tmhm
- 
+	; tm/hm learnset
+	tmhm
+	; end
+
 	db BANK(MetapodPicFront)
 	assert BANK(MetapodPicFront) == BANK(MetapodPicBack)

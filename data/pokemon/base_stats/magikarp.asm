@@ -1,19 +1,21 @@
-	db DEX_MAGIKARP  
+	db DEX_MAGIKARP ; pokedex id
 
 	db  20,  10,  55,  80,  20
- 
+	;   hp  atk  def  spd  spc
 
-	db WATER, WATER  
-	db 255  
-	db 20  
+	db WATER, WATER ; type
+	db 255 ; catch rate
+	db 20 ; base exp
 
-	INCBIN "gfx/pokemon/front/magikarp.pic", 0, 1  
+	INCBIN "gfx/pokemon/front/magikarp.pic", 0, 1 ; sprite dimensions
 	dw MagikarpPicFront, MagikarpPicBack
 
-	db SPLASH, NO_MOVE, NO_MOVE, NO_MOVE  
-	db GROWTH_SLOW  
+	db SPLASH, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
+	db GROWTH_SLOW ; growth rate
 
- 	tmhm DRAGON_RAGE
- 
+	; tm/hm learnset
+	tmhm DRAGON_RAGE
+	; end
+
 	db BANK(MagikarpPicFront)
 	assert BANK(MagikarpPicFront) == BANK(MagikarpPicBack)

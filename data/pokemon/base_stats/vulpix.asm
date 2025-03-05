@@ -1,21 +1,23 @@
-	db DEX_VULPIX  
+	db DEX_VULPIX ; pokedex id
 
 	db  45,  41,  45,  70,  75
- 
+	;   hp  atk  def  spd  spc
 
-	db FIRE, FIRE  
-	db 190  
-	db 63  
+	db FIRE, FIRE ; type
+	db 190 ; catch rate
+	db 63 ; base exp
 
-	INCBIN "gfx/pokemon/front/vulpix.pic", 0, 1  
+	INCBIN "gfx/pokemon/front/vulpix.pic", 0, 1 ; sprite dimensions
 	dw VulpixPicFront, VulpixPicBack
 
-	db EMBER, TAIL_WHIP, NO_MOVE, NO_MOVE  
-	db GROWTH_MEDIUM_FAST  
+	db EMBER, TAIL_WHIP, NO_MOVE, NO_MOVE ; level 1 learnset
+	db GROWTH_MEDIUM_FAST ; growth rate
 
- 	tmhm TOXIC, FLAMETHROWER, BODY_SLAM, TAKE_DOWN, DOUBLE_EDGE,  RAGE,   \
-	     DIG,          MIMIC,        DOUBLE_TEAM,  REFLECT,                \
-	     FIRE_BLAST,   SWIFT,            REST,         SUBSTITUTE
- 
+	; tm/hm learnset
+	tmhm TOXIC, FLAMETHROWER, BODY_SLAM, TAKE_DOWN, DOUBLE_EDGE,  RAGE,        \
+	     DIG,          MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
+	     FIRE_BLAST,   SWIFT,        SKULL_BASH,   REST,         SUBSTITUTE
+	; end
+
 	db BANK(VulpixPicFront)
 	assert BANK(VulpixPicFront) == BANK(VulpixPicBack)

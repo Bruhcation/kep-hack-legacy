@@ -1,22 +1,24 @@
-	db DEX_EXEGGCUTE  
+	db DEX_EXEGGCUTE ; pokedex id
 
 	db  60,  40,  80,  40,  60
- 
+	;   hp  atk  def  spd  spc
 
-	db GRASS, PSYCHIC_TYPE  
-	db 90  
-	db 98  
+	db GRASS, PSYCHIC_TYPE ; type
+	db 90 ; catch rate
+	db 98 ; base exp
 
-	INCBIN "gfx/pokemon/front/exeggcute.pic", 0, 1  
+	INCBIN "gfx/pokemon/front/exeggcute.pic", 0, 1 ; sprite dimensions
 	dw ExeggcutePicFront, ExeggcutePicBack
 
-	db BARRAGE, HYPNOSIS, NO_MOVE, NO_MOVE  
-	db GROWTH_SLOW  
+	db BARRAGE, HYPNOSIS, NO_MOVE, NO_MOVE ; level 1 learnset
+	db GROWTH_SLOW ; growth rate
 
- 	tmhm TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  RAGE,         PSYCHIC_M,    \
-	     TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,                \
+	; tm/hm learnset
+	tmhm TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  RAGE,         PSYCHIC_M,    \
+	     TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
 	     SELFDESTRUCT, EGG_BOMB,     REST,         PSYWAVE,      EXPLOSION,    \
 	     SUBSTITUTE,   SOFTBOILED,	 MEGA_DRAIN,   DREAM_EATER
- 
+	; end
+
 	db BANK(ExeggcutePicFront)
 	assert BANK(ExeggcutePicFront) == BANK(ExeggcutePicBack)

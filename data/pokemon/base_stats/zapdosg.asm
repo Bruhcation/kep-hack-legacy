@@ -1,22 +1,24 @@
-	db DEX_ZAPDOS_G  
+	db DEX_ZAPDOS_G ; pokedex id
 
 	db  90, 125,  90, 100,  85
- 
+	;   hp  atk  def  spd  spc
 
-	db FIGHTING, FLYING  
-	db 3  
-	db 216  
+	db FIGHTING, FLYING ; type
+	db 3 ; catch rate
+	db 216 ; base exp
 
-	INCBIN "gfx/pokemon/front/zapdosg.pic", 0, 1  
+	INCBIN "gfx/pokemon/front/zapdosg.pic", 0, 1 ; sprite dimensions
 	dw ZapdosGPicFront, ZapdosGPicBack
 
-	db NO_MOVE, FOCUS_ENERGY, NO_MOVE, NO_MOVE  
-	db GROWTH_SLOW  
+	db PECK, FOCUS_ENERGY, NO_MOVE, NO_MOVE ; level 1 learnset
+	db GROWTH_SLOW ; growth rate
 
- 	tmhm MEGA_KICK,    TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
+	; tm/hm learnset
+	tmhm MEGA_KICK,    TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
 	     HYPER_BEAM,   COUNTER,      RAGE,         MIMIC,        DOUBLE_TEAM,  \
 	               SWIFT,        SKY_ATTACK,   REST,         SUBSTITUTE,   \
 		 FLY
- 
+	; end
+
 	db BANK(ZapdosGPicFront)
 	assert BANK(ZapdosGPicFront) == BANK(ZapdosGPicBack)

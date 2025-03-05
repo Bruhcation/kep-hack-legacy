@@ -1,19 +1,20 @@
-	db DEX_CHANSEY  
+	db DEX_CHANSEY ; pokedex id
 
 	db 250,   5,   5,  50, 105
- 
+	;   hp  atk  def  spd  spc
 
-	db NORMAL, NORMAL  
-	db 30  
-	db 255  
+	db NORMAL, NORMAL ; type
+	db 30 ; catch rate
+	db 255 ; base exp
 
-	INCBIN "gfx/pokemon/front/chansey.pic", 0, 1  
+	INCBIN "gfx/pokemon/front/chansey.pic", 0, 1 ; sprite dimensions
 	dw ChanseyPicFront, ChanseyPicBack
 
-	db POUND, TAIL_WHIP, NO_MOVE, NO_MOVE  
-	db GROWTH_FAST  
+	db POUND, TAIL_WHIP, NO_MOVE, NO_MOVE ; level 1 learnset
+	db GROWTH_FAST ; growth rate
 
- 	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
+	; tm/hm learnset
+	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
 	     HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         \
 	     SOLARBEAM,    THUNDERBOLT,  THUNDER,      PSYCHIC_M,    TELEPORT,     \
@@ -21,6 +22,7 @@
 	     EGG_BOMB,     FIRE_BLAST,       SOFTBOILED,   REST,         \
 	     THUNDER_WAVE, PSYWAVE,      TRI_ATTACK,   SUBSTITUTE,   STRENGTH,     \
 	     FLASH
- 
+	; end
+
 	db BANK(ChanseyPicFront)
 	assert BANK(ChanseyPicFront) == BANK(ChanseyPicBack)

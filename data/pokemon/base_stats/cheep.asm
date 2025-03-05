@@ -1,22 +1,24 @@
-	db DEX_CHEEP  
+	db DEX_CHEEP ; pokedex id
 
 	db  55,  65,  50,  60,  50
- 
+	;   hp  atk  def  spd  spc
 
-	db WATER, WATER  
-	db 190  
-	db 84  
+	db WATER, WATER ; type
+	db 190 ; catch rate
+	db 84 ; base exp
 
-	INCBIN "gfx/pokemon/front/cheep.pic", 0, 1  
+	INCBIN "gfx/pokemon/front/cheep.pic", 0, 1 ; sprite dimensions
 	dw CheepPicFront, CheepPicBack
 
-	db BUBBLE, PECK, NO_MOVE, NO_MOVE  
-	db GROWTH_SLOW  
+	db BUBBLE, PECK, NO_MOVE, NO_MOVE ; level 1 learnset
+	db GROWTH_SLOW ; growth rate
 
- 	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
+	; tm/hm learnset
+	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
 	     COUNTER,      SEISMIC_TOSS, RAGE,         MIMIC,        DOUBLE_TEAM,  \
-	               SKY_ATTACK,   REST,         SUBSTITUTE,   SURF
- 
+	     BIDE,         SKY_ATTACK,   REST,         SUBSTITUTE,   SURF
+	; end
+
 	db BANK(CheepPicFront)
 	assert BANK(CheepPicFront) == BANK(CheepPicBack)

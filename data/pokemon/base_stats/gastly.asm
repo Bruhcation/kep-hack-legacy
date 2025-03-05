@@ -1,21 +1,23 @@
-	db DEX_GASTLY  
+	db DEX_GASTLY ; pokedex id
 
 	db  30,  35,  30,  80, 100
- 
+	;   hp  atk  def  spd  spc
 
-	db GHOST, POISON  
-	db 190  
-	db 95  
+	db GHOST, POISON ; type
+	db 190 ; catch rate
+	db 95 ; base exp
 
-	INCBIN "gfx/pokemon/front/gastly.pic", 0, 1  
+	INCBIN "gfx/pokemon/front/gastly.pic", 0, 1 ; sprite dimensions
 	dw GastlyPicFront, GastlyPicBack
 
-	db LICK, CONFUSE_RAY, NIGHT_SHADE, NO_MOVE  
-	db GROWTH_MEDIUM_SLOW  
+	db LICK, CONFUSE_RAY, NIGHT_SHADE, NO_MOVE ; level 1 learnset
+	db GROWTH_MEDIUM_SLOW ; growth rate
 
- 	tmhm TOXIC,        RAGE,         MEGA_DRAIN,   THUNDERBOLT,  THUNDER,      \
-	     PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,            SELFDESTRUCT, \
+	; tm/hm learnset
+	tmhm TOXIC,        RAGE,         MEGA_DRAIN,   THUNDERBOLT,  THUNDER,      \
+	     PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  BIDE,         SELFDESTRUCT, \
 	     DREAM_EATER,  REST,         PSYWAVE,      EXPLOSION,    SUBSTITUTE
- 
+	; end
+
 	db BANK(GastlyPicFront)
 	assert BANK(GastlyPicFront) == BANK(GastlyPicBack)

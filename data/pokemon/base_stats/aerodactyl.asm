@@ -1,22 +1,24 @@
-	db DEX_AERODACTYL  
+	db DEX_AERODACTYL ; pokedex id
 
 	db  80, 105,  65, 130,  60
- 
+	;   hp  atk  def  spd  spc
 
-	db ROCK, FLYING  
-	db 45  
-	db 202  
+	db ROCK, FLYING ; type
+	db 45 ; catch rate
+	db 202 ; base exp
 
-	INCBIN "gfx/pokemon/front/aerodactyl.pic", 0, 1  
+	INCBIN "gfx/pokemon/front/aerodactyl.pic", 0, 1 ; sprite dimensions
 	dw AerodactylPicFront, AerodactylPicBack
 
-	db WING_ATTACK, AGILITY, NO_MOVE, NO_MOVE  
-	db GROWTH_SLOW  
+	db WING_ATTACK, AGILITY, NO_MOVE, NO_MOVE ; level 1 learnset
+	db GROWTH_SLOW ; growth rate
 
- 	tmhm RAZOR_WIND,   FLAMETHROWER,   TOXIC,      TAKE_DOWN,    DOUBLE_EDGE,  \
+	; tm/hm learnset
+	tmhm RAZOR_WIND,   FLAMETHROWER,   TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
 	     HYPER_BEAM,   RAGE,         DRAGON_RAGE,  EARTHQUAKE, MIMIC,          \
 	     DOUBLE_TEAM, REFLECT,      BIDE,         FIRE_BLAST,   SWIFT,         \
 		 SKY_ATTACK,  REST,         SUBSTITUTE,   FLY,  ROCK_SLIDE
- 
+	; end
+
 	db BANK(AerodactylPicFront)
 	assert BANK(AerodactylPicFront) == BANK(AerodactylPicBack)
