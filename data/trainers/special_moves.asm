@@ -928,7 +928,7 @@ SpecialTrainerMoves:
 	db 0
 
 	db AGATHA, 1
-	db 1, 1, MEGA_PUNCH
+	db 1, 1, KARATE_CHOP
 	db 1, 2, ROCK_SLIDE
 	db 2, 1, MEGA_DRAIN
 	db 2, 3, CONFUSE_RAY
@@ -1457,11 +1457,11 @@ SpecialTrainerMoves:
 	db 0
 
 	db AGATHA, 2	; Agatha rematch
-	db 1, 1, MEGA_PUNCH
+	db 1, 1, KARATE_CHOP
 	db 1, 4, ROCK_SLIDE
 	db 2, 1, MEGA_DRAIN
 	db 2, 3, CONFUSE_RAY
-	db 2, 4, FLY
+	db 2, 4, SKY_ATTACK
 	db 3, 1, SWORDS_DANCE
 	db 3, 2, FIRE_BLAST
 	db 3, 3, EARTHQUAKE
