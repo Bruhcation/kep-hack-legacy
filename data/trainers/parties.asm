@@ -203,7 +203,7 @@ JrTrainerFData:
 ; Route 13
 	db 28, POLIWHIRL, CLEFAIRY, WEEPINBELL, POLIWHIRL, MEOWTH, 0
 	db 29, POLIWHIRL, SEAKING, 0
-	db 28, TANGELA, PERSIAN, FARFETCHD 0
+	db 28, TANGELA, PERSIAN, FARFETCHD, 0
 	db 29, POLIWHIRL, SEADRA, 0
 ; Route 20
 	db 41, SEAKING, SEAKING, 0
@@ -489,14 +489,14 @@ RockerData:
 ; Psychic, Poison, and a little bit of Voltorb.
 JugglerData:
 ; Silph Co. 5F
-	db 36, KADABRA, MR_MIME, ELECTRODE 0
+	db 36, KADABRA, MR_MIME, ELECTRODE, 0
 ; Victory Road 2F
 	db 52, ESPEON, UMBREON, HYPNO, MR_MIME, 0
 ; Fuchsia Gym
 	db 34, BEEDRILL, NIDOKING, GOLBAT, HAUNTER, 0
 	db 37, TENTACRUEL, MUK, 0
 ; Victory Road 2F
-	db 52, ELECTRODE, HYPNO, MR_MIME, ALAKAZAM 0 ; buffed roster
+	db 52, ELECTRODE, HYPNO, MR_MIME, ALAKAZAM, 0 ; buffed roster
 ; Silph Gauntlet 5F (Safari Zone)
 	db 65, TENTACRUEL, MR_MIME, ALAKAZAM, ELECTRODE, BELLIGNAN, SLOWKING_G, 0
 ; Fuchsia Gym
